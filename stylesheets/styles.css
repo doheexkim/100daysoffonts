@@ -1,13 +1,13 @@
-body {
-	font-family: "adobe-caslon-pro", Georgia, "Times New Roman", Times, serif;
-	color: #421e2c;
-	text-align: center;
+
+.container-fluid {
+	padding: 0;
 }
 
-.the-women {
-	margin-top: 40px;
-}
 
-.bra {
-  display: none;
+.intro {
+	padding: 60px 0 60px 0;
+}
+.content {
+	background-color: yellow;
+	padding: 100px 0 100px 0;
 }
