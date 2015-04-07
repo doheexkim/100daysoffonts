@@ -1,13 +1,107 @@
 
 .container-fluid {
 	padding: 0;
+
 }
 
+/*--------Navigation style starts here---------*/
 
-.intro {
-	padding: 60px 0 60px 0;
+.nav {
+	padding-top: 15px;
 }
+
+.navbar {
+	background-color: white;
+}
+
+.nav li {
+	font-family: Lato, sans-serif;
+	font-size: .75em;
+	color: slategrey;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.nav .center {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+
+.nav .text-left {
+	padding-left: 65px;
+}
+
+.nav a{
+	color: slategrey;
+}
+
+.nav a:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+.nav .text-right {
+	padding-right: 65px;
+}
+
 .content {
 	background-color: yellow;
-	padding: 100px 0 100px 0;
+	padding: 15rem 0 12rem 0;
 }
+
+.day {
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 5px;
+	border: 2px solid black;
+	width: 30px;
+	padding: 3px 0 3px 3px;
+	display: inline-block;
+
+
+}
+
+/*--------Day One starts here---------*/
+
+#one .firstfont {
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 5px;
+	font-size: 7em;
+	font-weight: 700;
+	line-height: 1.25em;
+	color: white;
+	margin-top: 50px;
+
+} 
+
+#one .secondfont {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	width: 75%;
+	margin: auto;
+	line-height: 1.85em;
+	margin-top: 25px;
+	color: black;
+} 
+
+#one .colophon {
+	font-family: Montserrat, sans-serif;
+	font-size: .75em;
+	line-height: 2em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#one a {
+	color: orangered;
+}
+
+#one a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+
