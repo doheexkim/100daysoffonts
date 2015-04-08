@@ -4,6 +4,11 @@
 
 }
 
+.row {
+	width: 100%;
+}
+
+
 /*--------Navigation style starts here---------*/
 
 .nav {
@@ -46,11 +51,6 @@
 	padding-right: 65px;
 }
 
-.content {
-	background-color: yellow;
-	padding: 15rem 0 12rem 0;
-}
-
 .day {
 	font-family: Montserrat, sans-serif;
 	letter-spacing: 5px;
@@ -62,7 +62,12 @@
 
 }
 
-/*--------Day One starts here---------*/
+/*--------Day 1 starts here---------*/
+
+#one .content {
+	background-color: yellow;
+	padding: 15rem 0 12rem 0;
+}
 
 #one .firstfont {
 	font-family: Montserrat, sans-serif;
@@ -105,12 +110,58 @@
 	color: slategrey;
 }
 
-.footer {
-	position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  background-color: white;
-  margin: 0;
+
+/*--------Day 2 starts here---------*/
+
+#two .content {
+	background-color: #EDEEE8;
+	padding: 15rem 0 12rem 0;
 }
+
+#two .row {
+	width: 80%;
+	margin: auto;
+	margin-top: 75px;
+	padding-right: 10px;
+}
+
+#two .firstfont {
+	font-family: 'Yeseva One', serif;
+	font-size: 5em;
+	line-height: 1.15em;
+	color: black;
+	overflow: hidden;
+	padding-bottom: 15px;
+
+} 
+
+#two .secondfont {
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 1.75em;
+	color: black;
+	padding-top: 15px;
+
+} 
+
+#two .colophon {
+	font-family: Montserrat, sans-serif;
+	font-size: .75em;
+	line-height: 1.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#two a {
+	color: orangered;
+}
+
+#two a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+
 
