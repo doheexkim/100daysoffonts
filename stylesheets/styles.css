@@ -6,6 +6,7 @@
 
 .row {
 	width: 100%;
+	margin: 0;
 }
 
 
@@ -177,6 +178,10 @@
 	border: 2px solid snow;
 }
 
+#three .row {
+	width: 90%;
+	margin: 75px auto auto auto;
+}
 
 #three .firstfont  {
                 
@@ -209,11 +214,6 @@
 	color: #e6ff5d;
 }
 
-#three .row{
-	width: 360px;
-	margin: auto;
-	margin-top: 75px;
-}
 
 #three .colophon {
 	font-family: Montserrat, sans-serif;
