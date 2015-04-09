@@ -164,4 +164,77 @@
 }
 
 
+/*--------Day 3 starts here---------*/
+
+#three .content {
+	
+	background-color: hotpink;
+	padding: 15rem 0 12rem 0;
+}
+
+#three .day {
+	color: snow;
+	border: 2px solid snow;
+}
+
+
+#three .firstfont  {
+                
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.25em;
+	letter-spacing: 8px;
+	line-height: 1.25em;
+	color: snow;
+	overflow: hidden;
+	margin-bottom: 30px;
+
+} 
+
+#three hr {
+	width: 8%;
+	border: 1px solid snow;
+}
+
+#three .secondfont {
+	margin-top: 30px;
+	font-family: 'Bad Script', cursive;
+	letter-spacing: 1px;
+	font-size: 1.25em;
+	line-height: 1.75em;
+	color: snow;
+} 
+
+#cat {
+	text-decoration: line-through;
+	color: #e6ff5d;
+}
+
+#three .row{
+	width: 360px;
+	margin: auto;
+	margin-top: 75px;
+	overflow-x: hidden;
+}
+
+#three .colophon {
+	font-family: Montserrat, sans-serif;
+	color: snow;
+	font-size: .75em;
+	line-height: 1.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#three a {
+	color: orangered;
+}
+
+#three a:hover {
+	text-decoration: none;
+	color: #e6ff5d;
+}
+
+
+
 
