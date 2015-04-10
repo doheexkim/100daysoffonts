@@ -10,6 +10,7 @@
 }
 
 
+
 /*--------Navigation style starts here---------*/
 
 .nav {
@@ -96,7 +97,7 @@
 #one .colophon {
 	font-family: Montserrat, sans-serif;
 	font-size: .75em;
-	line-height: 2em;
+	line-height: 2.5em;
 	margin: 10rem 0 0 0;
 	padding: 0 5rem 0 5rem;
 	letter-spacing: 3px;
@@ -149,7 +150,7 @@
 #two .colophon {
 	font-family: Montserrat, sans-serif;
 	font-size: .75em;
-	line-height: 1.5em;
+	line-height: 2.5em;
 	margin: 10rem 0 0 0;
 	padding: 0 5rem 0 5rem;
 	letter-spacing: 3px;
@@ -163,6 +164,9 @@
 	text-decoration: none;
 	color: slategrey;
 }
+
+
+
 
 
 /*--------Day 3 starts here---------*/
@@ -219,7 +223,7 @@
 	font-family: Montserrat, sans-serif;
 	color: snow;
 	font-size: .75em;
-	line-height: 1.5em;
+	line-height: 2.5em;
 	margin: 8rem 0 0 0;
 	padding: 0 5rem 0 5rem;
 	letter-spacing: 3px;
@@ -232,6 +236,125 @@
 #three a:hover {
 	text-decoration: none;
 	color: #e6ff5d;
+}
+
+
+
+
+
+/*--------Day 4 starts here---------*/
+
+#four .content {
+	
+	background-color: whitesmoke;
+	padding: 15rem 0 12rem 0;
+}
+
+.test {
+	margin-top: 5em;
+}
+
+#four .firstfont {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#four .firstfont h2 {
+	font-family: 'Londrina Outline', sans-serif;
+	font-size: 4.75em;
+	letter-spacing: 10px;
+	line-height: 1.1em;
+	margin: 0;
+	color: blue;
+}
+
+#four .secondfont {
+	font-family: Alegreya, cursive;
+	letter-spacing: 1px;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	color: slategray;
+	padding-top: 50px;
+	width: 95%;
+	margin: auto;
+}
+
+
+
+/*--------Tablet Media Query-------*/
+
+@media only screen and (min-width : 768px) {
+
+#four .firstfont h2{
+  font-size: 10em;
+    }
+}
+
+
+/*--------Desktop Media Query-------*/
+
+@media only screen and (min-width : 992px)  {
+
+#four .row {
+	margin-bottom: 15em;
+}
+
+#four .firstfont {
+	position: absolute;
+	margin: 0 auto; 
+	left: 0;
+	right: 0;
+	width: 70%;
+	display: inline-block;
+}
+
+#four .firstfont h2{           
+	z-index: 1;
+} 
+
+  #four .firstfont h2:nth-child(1) {
+    left: 0px; }
+  #four .firstfont h2:nth-child(2) {
+    text-align: center;
+		top: 160px; }
+  #four .firstfont h2:nth-child(3) {
+    text-align: right;
+		top: 318px;}
+
+
+#four .secondfont {
+	float: left;
+	position: relative;
+  width: 70%;
+  padding-top: 20px;
+  padding-left: 40px;
+  z-index: 2;
+  margin-bottom: 15em;
+} 
+
+
+}
+
+/*------End Media Query-----*/
+
+#four .colophon {
+	font-family: Montserrat, sans-serif;
+	color: black;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#four a {
+	color: orangered;
+}
+
+#four a:hover {
+	text-decoration: none;
+	color: slategrey;
 }
 
 
