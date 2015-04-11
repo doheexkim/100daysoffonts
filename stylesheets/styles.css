@@ -358,5 +358,123 @@
 }
 
 
+/*--------Day 5 starts here---------*/
+
+#five .content {
+	
+	background-color: #1B1B25;
+	padding: 15rem 0 12rem 0;
+}
+
+#five .day {
+	color: snow;
+	border: 2px solid snow;
+}
+
+#five .firstfont  {
+               
+	padding: 50px;
+	width: 300px;
+	margin: auto;
+	border: 5px solid gainsboro;
+} 
+
+#five .firstfont h2{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 7px;
+	color: gainsboro;
+	font-weight: 700;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 45%, #DCDCDC 45%, #DCDCDC 55%, transparent 55%, transparent 100%);
+}
+
+#five .firstfont h2:last-child{
+margin-bottom: 20px;
+
+}
+
+#five .filler {
+	background-color: #1B1B25;
+}
+
+#andto {
+	padding-left: 12px;
+}
+
+#alla {
+	padding-right: 7px;
+}
+
+#good {
+	padding-left: 12px;
+	padding-right: 4px;
+}
+
+#night {
+	padding-right: 4px;
+}
+
+/*---------Paragraph Styling-------*/
+
+#five .secondfont {
+	font-family: Lora, serif;
+	letter-spacing: 4px;
+	font-size: .85em;
+	line-height: 2em;
+	width: 300px;
+	margin: 50px auto 75px auto;
+	color: gainsboro;
+} 
+
+
+#moon {
+	font-size: 2em;
+	font-style: normal;
+	float: left;
+	margin-right: 32px;
+	padding-top: 3px;
+	padding-bottom: 75px;
+}
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 480px) {
+#five .firstfont  {
+	padding: 50px;
+	width: 440px;
+}
+
+#five .firstfont h2{
+	font-size: 3.25em;
+	line-height: 1.2em;
+}
+
+#five .secondfont {
+	width: 440px;
+} 
+
+}
+/*------End responsive------*/
+
+
+
+#five .colophon {
+	font-family: Montserrat, sans-serif;
+	color: snow;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 3rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#five a {
+	color: yellow;
+}
+
+#five a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+
 
 
