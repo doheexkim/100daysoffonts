@@ -84,7 +84,7 @@
 } 
 
 #one .secondfont {
-	font-family: 'Playfair Display SC', serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 1.5em;
 	font-weight: 400;
 	width: 75%;
@@ -501,7 +501,7 @@ margin-bottom: 20px;
 
 #six .firstfont  {
                 
-	font-family: 'Playfair Display SC', serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 1.8em;
 	letter-spacing: 10px;
 	line-height: 1.5em;
@@ -537,7 +537,7 @@ margin-bottom: 20px;
 
 #six .firstfont  {
                 
-	font-family: 'Playfair Display SC', serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 3em;
 	letter-spacing: 10px;
 	line-height: 1.5em;
