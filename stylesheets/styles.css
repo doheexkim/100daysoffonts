@@ -270,7 +270,7 @@
 }
 
 #four .secondfont {
-	font-family: Alegreya, cursive;
+	font-family: Alegreya, serif;
 	letter-spacing: 1px;
 	font-size: 1.15em;
 	line-height: 1.75em;
@@ -501,7 +501,7 @@ margin-bottom: 20px;
 
 #six .firstfont  {
                 
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 1.8em;
 	letter-spacing: 10px;
 	line-height: 1.5em;
@@ -518,7 +518,7 @@ margin-bottom: 20px;
 
 #six .secondfont {
 	margin-top: -15px;
-	font-family: 'Cutive Mono', cursive;
+	font-family: 'Cutive Mono', sans-serif;
 	letter-spacing: .5px;
 	font-size: 1.1em;
 	line-height: 1.75em;
@@ -537,7 +537,7 @@ margin-bottom: 20px;
 
 #six .firstfont  {
                 
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 3em;
 	letter-spacing: 10px;
 	line-height: 1.5em;
@@ -593,7 +593,6 @@ margin-bottom: 20px;
 
 /*------End responsive------*/
 
-
 #six .colophon {
 	font-family: Montserrat, sans-serif;
 	color: slategrey;
@@ -611,7 +610,142 @@ margin-bottom: 20px;
 
 #six a:hover {
 	text-decoration: none;
-	color: #e6ff5d;
+	color: slategrey;
 }
 
+/*-------End Day 6------*/
+
+
+/*--------Day 7 starts here---------*/
+
+#seven .content {
+	background-color: rosybrown;
+	background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+	padding: 15rem 0 12rem 0;
+}
+
+
+#seven .row {
+	width: 95%;
+	margin: 75px auto auto auto;
+
+}
+
+#seven .firstfont  {
+                
+	font-family: 'Merriweather', serif;
+	font-size: 10em;
+	font-style: italic;
+	letter-spacing: 10px;
+	line-height: 1.5em;
+	color: snow;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+
+} 
+
+#seven .time  {
+                
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	letter-spacing: 10px;
+	line-height: 1.5em;
+	color: snow;
+	padding-bottom: 15px;
+	margin: 225px auto auto auto;
+	padding-top: 30px;
+	border-top: 5px solid snow;
+	width: 150px;
+} 
+
+
+#seven .secondfont {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: .5px;
+	font-size: 1.25em;
+	line-height: 2em;
+	color: snow;
+	padding: 25px 15px;
+	margin-top: 20px;
+
+} 
+
+#herewego {
+	font-family: Merriweather, serif;
+	font-style: italic;
+}
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 480px) {
+
+#seven .firstfont  {
+	padding-left: 150px;
+	font-size: 12em;
+
+} 
+
+#seven .time  {
+                
+	margin: 275px auto auto auto;
+	padding-top: 30px;
+} 
+
+}
+
+
+@media only screen and (min-width : 992px)  {
+
+#seven .firstfont  {
+	padding-left: 100px;
+	font-size: 12em;
+
+} 
+
+
+#seven .secondfont {
+font-size: 1.5em;
+text-align: left;
+border-left: 6px solid snow;
+padding: 0px 75px 300px 75px;
+margin-top: 300px;
+margin-bottom: 50px;
+}
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+#seven .time  {
+	margin: 100px auto auto auto;
+
+} 	
+
+}
+
+/*------End responsive------*/
+
+#seven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: snow;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 1rem 0 1rem;
+	letter-spacing: 3px;
+	display: inline-block;
+}
+
+#seven a {
+	color: #151515;
+}
+
+#seven a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
 
