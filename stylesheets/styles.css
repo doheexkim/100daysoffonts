@@ -749,3 +749,154 @@ margin-bottom: 50px;
 	color: slategrey;
 }
 
+
+/*--------Day 8 starts here---------*/
+
+#eight .content {
+background-color: #ECE6E0;
+padding: 15rem 0 12rem 0;
+}
+
+#eight .card {
+	background-color: rgba(255, 255, 255, .5);
+	width: 90%;
+	margin: auto;
+	border: 2px solid #1B1E61;
+	margin-top: 100px;
+	color: #1B1E61;
+	position: relative;
+}
+
+#eight .cardtexture {
+	background-image: url('../images/stardust.png');
+	opacity: .5;
+	top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+#eight .row {
+	width: 95%;
+	margin: 20px auto 20px auto;
+}
+
+
+#eight .postage {
+	font-family: Montserrat, sans-serif;
+	color: orangered;
+	letter-spacing: 7px;
+	font-size:.65em;
+	line-height: 2em;
+	border: 1px dashed orangered;
+	display: inline-block;
+	float: right;
+	padding: 20px 2px 20px 10px;
+	margin: 25px 25px auto auto;
+} 
+
+
+#eight .firstfont  {
+                
+	font-family: 'Crimson Text', serif;
+	font-size: 2em;
+	font-style: italic;
+	letter-spacing: 12px;
+	line-height: 1.5em;
+	color: #1B1E61;
+	clear: both;
+	margin: auto;
+	padding-top: 50px;
+	
+} 
+
+
+#eight .letter-text {
+	font-family: 'La Belle Aurore', sans-serif;
+	letter-spacing: .5px;
+	font-size: 1.15em;
+	line-height: 2em;
+	color: #1B1E61;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	margin: auto;
+	text-align: center;
+
+
+
+}
+
+#eight .letter-address {
+	font-family: 'La Belle Aurore', sans-serif;
+	letter-spacing: .5px;
+	font-size: 1.65em;
+	line-height: 2em;
+	color: #1B1E61;
+	padding-top: 20px;
+
+}
+
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 768px) {
+
+
+#eight .card {
+	width: 800px;
+	margin: auto;
+	border: 2px solid #1B1E61;
+	margin-top: 100px;
+	color: #1B1E61;
+
+}
+
+#eight .firstfont {
+	padding-top: 0;
+}
+
+#eight .letter-text {
+	border-right: 1px dashed #1B1E61;
+	padding-right: 35px;
+	text-align: left;
+}
+
+#eight .row {
+	width: 95%;
+	margin: 65px auto 75px auto;
+}
+
+#eight .letter-address {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+
+
+}
+
+
+/*------End responsive------*/
+
+#eight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 1rem 0 1rem;
+	letter-spacing: 3px;
+	display: inline-block;
+}
+
+#eight a {
+	color: orangered;
+}
+
+#eight a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
