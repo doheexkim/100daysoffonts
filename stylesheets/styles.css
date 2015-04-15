@@ -900,3 +900,129 @@ padding: 15rem 0 12rem 0;
 	color: slategrey;
 }
 
+
+
+/*--------Day 9 starts here---------*/
+
+#nine .content {
+	
+	background-color: #fafafa;
+	padding: 15rem 0 12rem 0;
+}
+
+
+#nine .row {
+	width: 90%;
+	margin: 75px auto auto auto;
+}
+
+#nine .poem {
+	margin-top: 75px;
+}
+
+#nine .corndogs {
+	position: relative;
+}
+
+#nine .firstfont  {
+       
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 6.75em;
+	letter-spacing: 15px;
+	line-height: 1.25em;
+	overflow: hidden;
+	margin-bottom: 30px;
+
+}
+
+#nine .ontop {
+	color: yellow;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	margin: 0 auto;
+
+}
+
+#nine .onbottom {
+	position: absolute;
+	left: 6px;
+	right: 0;
+	top:4px;
+	margin: 0 auto;
+	z-index: 0;
+	background-image: url(../images/black-stripe2.png);
+	-webkit-background-clip: text;
+	background-clip: text;
+
+	color: rgba(0, 0, 0, 0);
+
+}
+
+
+#nine .stretch {
+	letter-spacing: 15px;
+}
+
+
+#nine .secondfont {
+	width: 250px;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	letter-spacing: 1px;
+	font-size: 1em;
+	line-height: 148px;
+	color: #151515;
+	margin: -85px auto auto auto;
+} 
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 480px) {
+
+#nine .poem {
+	margin-top: 100px;
+}	
+
+#nine .firstfont  {
+	font-size: 10em;
+}
+
+#nine .onbottom {
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top: 6px;
+}
+
+#nine .secondfont {
+	padding-top: 100px;
+	width: 350px;
+	font-size: 1.25em;
+	line-height: 200px;
+	margin: auto;
+} 
+}
+
+/*------End Responsive styling--------*/
+
+#nine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#nine a {
+	color: orangered;
+}
+
+#nine a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
