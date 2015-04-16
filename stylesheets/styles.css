@@ -1026,3 +1026,96 @@ padding: 15rem 0 12rem 0;
 	text-decoration: none;
 	color: slategrey;
 }
+
+
+/*--------Day 10 starts here---------*/
+
+#ten .content {
+	
+	background-color: #424147;
+	background-image: url(../images/stardust.png);
+	padding: 15rem 0 12rem 0;
+}
+
+#ten .day {
+	color: snow;
+	border: 2px solid snow;
+}
+
+#ten p {	
+	color: #f2f2f2;
+	background:#ff4a4a;
+	font-size: 50px;
+	line-height: 49px;
+	margin: 0 5px 24px;
+	float:left;
+	padding: 10px;
+	margin: 0 5px 24px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#ten .willzap p {
+	background:#f2f2f2;
+	color:#ff4a4a;
+}
+
+#ten .entypo-flash {
+	font-family: 'entypo', sans-serif;
+	color: yellow;
+	font-size: 52px;
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+#ten .row {
+	width: 90%;
+	margin: 75px auto auto auto;
+}
+
+#ten .zap{
+	width: 100%;
+	margin: auto;
+}
+
+
+/*------Responsive styling--------*/
+
+@media only screen and (min-width : 480px) {
+
+#ten p {
+	font-size: 75px;
+	line-height: 74px;
+}
+
+#ten .zap {
+	width: 600px;
+}
+
+#ten .entypo-flash {
+	font-size: 75px;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#ten .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#ten a {
+	color: orangered;
+}
+
+#ten a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
