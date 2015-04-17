@@ -1119,3 +1119,119 @@ padding: 15rem 0 12rem 0;
 	text-decoration: none;
 	color: slategrey;
 }
+
+
+
+/*--------Day 11 starts here---------*/
+
+#eleven .content {
+	
+	background-color: floralwhite;
+	padding: 15rem 0 12rem 0;
+}
+
+#eleven .main {
+	width: 95%;
+	margin: 75px auto auto auto;
+	background-color: floralwhite;
+}
+
+#eleven hr {
+	width: 75px;
+	border-color: #151515;
+	border-width: 3px;
+	margin-left: 0;
+}
+
+#eleven .florist {
+	width: 100%;
+}
+
+.floweretch {
+	margin-bottom: 50px;
+}
+
+
+#eleven .firstfont {
+	font-family: 'Cardo', serif;
+	color:#151515;
+	font-style: italic;
+	font-size: 3.75em;
+	margin-bottom: 40px;
+}
+
+#eleven .secondfont {
+	font-family: 'Josefin Sans', serif;
+	color:#151515;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-top: 40px;
+}
+
+#eleven .thislife {
+	background-color: floralwhite;
+}
+
+#eleven .subtext {
+	margin-top: 100px;
+	font-size: 1em;
+}
+
+/*------Responsive styling--------*/
+
+@media only screen and (min-width : 768px) {
+
+#eleven .main {
+	width: 90%;
+	background-image: url(../images/florist.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+}	
+
+#eleven .florist {
+	width: 400px;
+}
+
+#eleven .firstfont {
+	font-size: 3.75em;
+	padding-top: 75px;
+}
+
+#eleven .subtext {
+	font-size: 1em;
+	margin-top: 20px;
+	padding-top: 0;
+	padding-bottom: 75px;
+}
+
+}
+
+@media only screen and (min-width : 1200px) {
+#eleven .main{
+	width: 65%;
+}
+}
+
+
+
+/*------End Responsive styling--------*/
+
+#eleven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#eleven a {
+	color: orangered;
+}
+
+#eleven a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
