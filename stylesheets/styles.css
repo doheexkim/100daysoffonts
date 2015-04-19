@@ -1359,3 +1359,149 @@ padding: 15rem 0 12rem 0;
 	color: slategrey;
 }
 
+
+
+
+/*--------Day 13 starts here---------*/
+
+#thirteen .content {
+	
+	background-color: #F2F1EF;
+	padding: 15rem 0 12rem 0;
+}
+
+#thirteen .menu {
+	width: 90%;
+	margin: 100px auto auto auto;
+	position: relative;
+	border: 1px dashed #151515;
+	padding: 75px 15px 15px 15px;
+
+}
+
+#thirteen .firstfont {
+	font-family: 'Playfair Display SC', serif;
+	font-style: italic;
+	font-weight: bold;
+	color:#151515;
+	font-size: 1.15em;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 1.5em;
+}
+
+#thirteen .secondfont {
+	font-family: 'Open Sans Condensed', serif;
+	font-weight: 300;
+	color:#151515;
+	letter-spacing: 2px;
+	font-size: 1.15em;
+	line-height: 2em;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#thirteen .menutitle {
+	margin-bottom: 100px;
+	margin-top: 15px;
+
+}
+
+#thirteen .courselabel {
+	font-size: 1.5em;
+	letter-spacing: 10px;
+	color: #151515;
+	margin-top: 75px;
+}
+
+#thirteen .etcinfo {
+	font-size: .85em;
+	letter-spacing: 3px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#thirteen .city {
+	font-size: .75em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#thirteen .course {
+	margin-bottom: 20px;
+}
+
+
+#thirteen hr{
+	border-color: red;
+	width: 100%
+
+}
+
+#thirteen .desserts {
+	margin-bottom: 100px;
+}
+
+
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 480px){
+
+}
+
+
+@media only screen and (min-width : 768px) {
+
+#thirteen .menu {
+	width: 65%;
+	margin: 100px auto auto auto;
+	position: relative;
+	border: 1px dashed #151515;
+	padding: 75px 50px 50px 50px;
+
+}
+
+#thirteen .courselabel {
+	font-size: 1.5em;
+	letter-spacing: 10px;
+	color: #151515;
+	margin-top: -5px;
+}
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+#thirteen .menu {
+	width: 55%;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#thirteen .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirteen a {
+	color: orangered;
+}
+
+#thirteen a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
