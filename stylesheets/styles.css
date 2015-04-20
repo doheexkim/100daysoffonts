@@ -1451,10 +1451,6 @@ padding: 15rem 0 12rem 0;
 
 
 /*------Responsive styling--------*/
-@media only screen and (min-width : 480px){
-
-}
-
 
 @media only screen and (min-width : 768px) {
 
@@ -1473,7 +1469,6 @@ padding: 15rem 0 12rem 0;
 	color: #151515;
 	margin-top: -5px;
 }
-
 }
 
 
@@ -1505,3 +1500,123 @@ padding: 15rem 0 12rem 0;
 	color: slategrey;
 }
 
+
+
+
+/*--------Day 14 starts here---------*/
+
+#fourteen .content {
+	
+	background-color: #F9F6E7;
+	padding: 15rem 0 12rem 0;
+}
+
+#fourteen .row {
+	width: 90%;
+	margin: 75px auto auto auto;
+	padding: 50px 10px;
+
+}
+
+#fourteen .doublequote {
+	margin-top: 75px;
+	font-family: 'Crimson Text', serif;
+	color: #151515;
+	font-size:20em;
+	line-height: 0em;
+	position: relative;
+	text-align: left;
+	z-index: 0;
+}
+
+#fourteen .firstfont {
+	margin-top: -70px;
+	font-family: Montserrat, sans-serif;
+	color: #E2ED39;
+	line-height: 1em;
+	font-weight: bold;
+	font-size: 3.75em;
+	letter-spacing: 20px;
+	position: relative;
+	z-index: 1;
+	padding-left: 10px;
+}
+
+
+#fourteen .secondfont {
+	font-family: 'Over the Rainbow', cursive;
+	margin-top: 30px;
+	color: #151515;
+	text-align: left;
+	font-size: 2.5em;
+	line-height: 1em;
+	position: relative;
+	padding-left: 10px;
+}
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 480px){
+
+
+}
+
+
+@media only screen and (min-width : 768px) {
+#fourteen .row {
+	width: 600px;
+	margin: 50px auto auto auto;
+	padding: 50px 0px 50px 0px;
+
+}
+
+#fourteen .doublequote {
+margin-top: 150px;
+font-size:30em;
+line-height: 0em;
+}
+
+#fourteen .firstfont {
+margin-top: -100px;
+line-height: 1em;
+font-size: 7.25em;
+padding-left: 75px;
+}
+
+
+#fourteen .secondfont {
+	font-family: 'Over the Rainbow', cursive;
+	margin-top: 50px;
+	color: #151515;
+	text-align: left;
+	font-size: 5em;
+	line-height: 1em;
+	position: relative;
+	padding-left: 80px;
+}
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*------End Responsive styling--------*/
+
+#fourteen .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#fourteen a {
+	color: orangered;
+}
+
+#fourteen a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
