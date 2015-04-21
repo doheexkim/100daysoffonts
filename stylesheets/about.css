@@ -1,0 +1,118 @@
+
+.container-fluid {
+	padding: 0;
+
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+
+
+/*--------Navigation style starts here---------*/
+
+.nav {
+	padding-top: 15px;
+}
+
+.navbar {
+	background-color: white;
+}
+
+.nav li {
+	font-family: Montserrat, sans-serif;
+	font-size: .75em;
+	color: slategrey;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.nav .center {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+
+.nav .text-left {
+	padding-left: 65px;
+}
+
+.nav a{
+	color: slategrey;
+}
+
+.nav a:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+.nav .text-right {
+	padding-right: 65px;
+}
+
+
+
+.about {
+	padding-top: 10rem;
+	background-color: #fafafa;
+	padding-bottom: 15rem;
+}
+
+.abouttext {
+	width: 90%;
+	margin: auto;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #151515;
+}
+
+.abouttext .cheat {
+	font-size: .75em;
+	margin-top: 15px;
+}
+
+.abouttext div{
+	margin-top: 50px;
+}
+
+.getintouch {
+	color: blue;
+}
+
+.getintouch a{
+	color: blue;
+}
+
+
+.abouttext .socialmedia {
+	font-family: Montserrat, sans-serif;
+	font-size: .5em;
+	letter-spacing: 5px;
+	margin-top: 75px;
+}
+
+#name {
+	color: blue;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  padding-right: 10px;
+}
+
+
+/*------Responsive styling--------*/
+@media only screen and (min-width : 480px) {
+	.abouttext {
+		width: 500px;
+	}
+}
