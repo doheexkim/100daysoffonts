@@ -1555,12 +1555,6 @@ padding: 15rem 0 12rem 0;
 }
 
 /*------Responsive styling--------*/
-@media only screen and (min-width : 480px){
-
-
-}
-
-
 @media only screen and (min-width : 768px) {
 #fourteen .row {
 	width: 600px;
@@ -1617,6 +1611,169 @@ padding-left: 75px;
 }
 
 #fourteen a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+
+
+
+/*--------Day 15 starts here---------*/
+
+#fifteen .content {
+	
+	background-color: #B5AFA9;
+	padding: 15rem 0 12rem 0;
+}
+
+#fifteen .day {
+	border-color: snow;
+	color: snow;
+}
+
+#fifteen .row {
+	width: 95%;
+	margin: 100px auto auto auto;
+	padding-top: 0px;
+
+}
+
+#fifteen .firstfont {
+	font-family: Cabin, sans-serif;
+	color: #292F56;
+	line-height: 1em;
+	font-weight: 700;
+	font-size: 5em;
+}
+
+#fifteen .monday {
+	margin-bottom: 500px;
+	width: 90%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fifteen .letterm {
+	position: absolute;
+	left: 20%;
+	top: 50px;
+	color: #FF366E;
+}
+
+#fifteen .lettero {
+	position: absolute;
+	left: 55%;
+	top: 125px;
+	color: gainsboro;
+}
+
+#fifteen .lettern {
+	position: absolute;
+	left: 30%;
+	top: 300px;
+}
+
+#fifteen .letterd {
+	position: absolute;
+	left: 5%;
+	top: 375px;
+	color: gainsboro;
+
+}
+
+#fifteen .lettera {
+	position: absolute;
+	left: 45%;
+	top: 550px;
+	color: #FF366E;
+}
+
+#fifteen .lettery {
+	position: absolute;
+	left: 80%;
+	top: 425px;
+}
+
+#fifteen .mondaytext {
+	position: absolute;
+	width: 50%;
+	border-top: 3px solid #FF366E;
+	left: 30%;
+	top: 180px;
+}
+
+#fifteen .secondfont {
+	font-family: 'Old Standard TT', serif;
+	color: snow;
+	text-align: left;
+	font-size: 1.25em;
+	line-height: 1.75em;
+}
+
+/*------Responsive styling--------*/
+
+@media only screen and (min-width : 768px) {
+	#fifteen .row {
+	width: 600px;
+	margin: 100px auto auto auto;
+	border: 1px solid gainsboro;
+	padding-top: 0px;
+
+}
+
+#fifteen .firstfont {
+	font-family: Cabin, sans-serif;
+	line-height: 1em;
+	font-weight: 700;
+	font-size: 5em;
+}
+
+#fifteen .monday {
+	margin-bottom: 500px;
+	width: 500px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fifteen .mondaytext {
+	position: absolute;
+	width: 200px;
+	border-top: 3px solid #FF366E;
+	left: 60%;
+	top: 180px;
+}
+
+#fifteen .secondfont {
+	font-family: 'Old Standard TT', serif;
+	color: snow;
+	text-align: left;
+	font-size: 1.25em;
+	line-height: 1.75em;
+}
+
+}
+
+
+
+/*------End Responsive styling--------*/
+
+#fifteen .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 25rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#fifteen a {
+	color: gainsboro;
+}
+
+#fifteen a:hover {
 	text-decoration: none;
 	color: slategrey;
 }
