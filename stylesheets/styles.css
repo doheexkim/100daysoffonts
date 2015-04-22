@@ -1777,3 +1777,209 @@ padding-left: 75px;
 	text-decoration: none;
 	color: slategrey;
 }
+
+
+/*--------Day 16------*/
+
+
+#sixteen .content {
+	
+	background-color: #fce8f1;
+	padding: 15rem 0 12rem 0;
+}
+
+#sixteen .row {
+	width: 90%;
+	margin: auto;
+}
+
+
+#sixteen .papersubtitle {
+	font-family: Montserrat, sans-serif;
+	font-size: .75em;
+	line-height: 2em;
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+
+#sixteen hr {
+	margin-top: 50px;
+	margin-bottom: 15px;
+	width: 100%;
+	border: 1px solid #151515;
+}
+
+#sixteen .paperinfo {
+	font-family: Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 0;
+}
+
+#sixteen .firstfont {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	color:#151515;
+	font-size: 4em;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	margin-top: 75px;
+	position: relative;
+}
+
+#sixteen .mainsection {
+	margin-top: 40px;
+}
+
+
+#sixteen h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 2em;
+	line-height: 1.75em;
+}
+
+#sixteen p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	line-height: 2em;
+	margin-top: 25px;
+}
+
+#sixteen h3{
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 1.75em;
+}
+
+.media hr {
+	width: 75%;
+}
+
+#sixteen .mediabody {
+	font-family: 'Libre Baskerville', serif;
+	font-size: .8em;
+}
+
+.fontawesome-umbrella {
+	margin-right: 20px;
+	font-size: 2em;
+	float: left;
+	padding-top: 0;
+}
+
+#sixteen .weather {
+	font-family: 'Libre Baskerville', serif;
+	font-size: .8em;
+	margin-top: 20px;
+	line-height: 2em;
+
+}
+
+#sixteen .weatherlabel {
+	font-family: Montserrat, sans-serif;
+	font-size: 1em;
+	letter-spacing: 5px;
+}
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+#sixteen .row {
+width: 70%;
+margin: auto;
+}
+
+#sixteen .firstfont {
+	font-size: 5em;
+}
+
+#sixteen .mainstory {
+	border-right: 2px solid #151515;
+	padding-right: 40px;
+	padding-bottom: 60px;
+
+
+}
+
+#sixteen h2 {
+	letter-spacing: 3px;
+	font-size: 3em;
+	line-height: 1.75em;
+}
+
+#sixteen p {
+	font-size: 1em;
+	line-height: 2em;
+	margin-top: 25px;
+}
+
+#sixteen h3{
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 1.75em;
+}
+
+#sixteen .media {
+	padding-left: 40px;
+}
+
+.media hr {
+	width: 75%;
+}
+
+#sixteen .mediabody {
+	font-size: .8em;
+}
+
+.fontawesome-umbrella {
+	margin-right: 20px;
+	font-size: 2em;
+	float: left;
+	padding-top: 0;
+}
+
+#sixteen .weather {
+	font-size: .8em;
+	margin-top: 20px;
+	line-height: 2em;
+
+}
+
+#sixteen .weatherlabel {
+	font-size: 1em;
+	letter-spacing: 5px;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#sixteen .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixteen a {
+	color: orangered;
+}
+
+#sixteen a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+
+
+
+
+
+
