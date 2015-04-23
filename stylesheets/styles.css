@@ -1,6 +1,7 @@
 
 .container-fluid {
 	padding: 0;
+	overflow: hidden;
 
 }
 
@@ -1978,6 +1979,92 @@ margin: auto;
 }
 
 
+
+
+/*--------Day 17------*/
+
+
+#seventeen .content {
+	
+	background-color: #2c2c2c;
+	padding: 15rem 0 12rem 0;
+}
+
+#seventeen .day {
+	border-color: snow;
+	color: snow;
+}
+
+#seventeen .row {
+	width: 80%;
+	margin: 100px auto auto auto;
+}
+
+#seventeen .column2 {
+	margin-top: 30px;
+}
+
+
+#seventeen .firstfont {
+	font-family: Oswald, sans-serif;
+	font-size: 5em;
+	line-height: 2em;
+	color: rgba(255, 255, 255, .075);
+	letter-spacing: 10px;
+}
+
+#seventeen .secondfont {
+	font-family: 'Cutive Mono', serif;
+	color: snow;
+	font-size: 1.5em;
+	line-height: 2em;
+	position: absolute;
+	top: 125px;
+	left: 50px;
+	width: 75%;
+}
+
+#seventeen .ending {
+	font-family: 'Cutive Mono', serif;
+	color: snow;
+	font-size: 1em;
+	line-height: 2em;
+	margin: 100px auto auto auto;
+	width: 80%;
+
+
+}
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+#seventeen .column2 {
+	margin-top: 200px;
+}
+
+
+}
+
+/*------End Responsive styling--------*/
+
+#seventeen .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventeen a {
+	color: orangered;
+}
+
+#seventeen a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
 
 
 
