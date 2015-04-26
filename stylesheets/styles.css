@@ -56,7 +56,7 @@
 
 .day {
 	font-family: Montserrat, sans-serif;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	border: 2px solid black;
 	width: 30px;
 	padding: 3px 0 3px 3px;
@@ -2331,4 +2331,140 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	text-decoration: none;
 	color: slategrey;
 }
+
+
+
+/*--------Day 20------*/
+
+
+#twenty .content {
+	background-color: #E9E2DC;
+	padding: 15rem 0 12rem 0;
+	border-left: 15px solid #a8dfe9;
+	border-right: 15px solid #a8dfe9;
+}
+
+
+#twenty .row {
+	width: 95%;
+	margin: auto;
+}
+
+
+#twenty .firstfont {
+	width: 500px;
+	margin: auto;
+	font-family: 'Cardo', serif;
+	font-size: 4.25em;
+	font-style: italic;
+	line-height: 2em;
+	color: rgba(255, 255, 255, .75);
+	letter-spacing: -5px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+
+}
+
+#twenty .travel {
+	position: absolute;
+	width: 280px;
+	top: 300px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#twenty .secondfont {
+	font-family: Montserrat, sans-serif;
+	color: #252525;
+	font-size: 1.25em;
+	line-height: 2em;
+	letter-spacing: 20px;
+	font-weight: bold;
+}
+
+#twenty .thirdfont {
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	line-height: 2em;
+	margin-top: 50px;
+	border-top: 2px solid #151515;
+	padding-top: 25px;
+}
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+#twenty .row {
+	width: 80%;
+}
+
+
+#twenty .firstfont {
+	width: 800px;
+	margin: auto;
+	font-size: 7em;
+	font-style: italic;
+	line-height: 3em;
+	color: rgba(255, 255, 255, .75);
+	letter-spacing: -5px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  margin-top: -300px;
+  margin-bottom: -300px;
+}
+
+#twenty .travel {
+	position: absolute;
+	width: 500px;
+	top: 375px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#twenty .secondfont {
+	font-family: Montserrat, sans-serif;
+	color: #252525;
+	font-size: 1.25em;
+	line-height: 2em;
+	letter-spacing: 20px;
+	font-weight: bold;
+}
+
+#twenty .thirdfont {
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	line-height: 2em;
+	margin-left: 315px;
+	margin-top: 50px;
+	border-top: 2px solid #151515;
+	padding-top: 25px;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#twenty .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 2rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twenty a {
+	color: orangered;
+}
+
+#twenty a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
 
