@@ -8,6 +8,7 @@
 .row {
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 
 
@@ -2348,6 +2349,7 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 #twenty .row {
 	width: 95%;
 	margin: auto;
+	position: relative;
 }
 
 
@@ -2369,10 +2371,10 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 #twenty .travel {
 	position: absolute;
 	width: 280px;
-	top: 300px;
+	top: 0;
 	left: 0;
 	right: 0;
-	margin: 0 auto;
+	margin: 100px auto;
 }
 
 #twenty .secondfont {
@@ -2419,7 +2421,7 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 #twenty .travel {
 	position: absolute;
 	width: 500px;
-	top: 375px;
+	top: 175px;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
@@ -2467,4 +2469,138 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	color: slategrey;
 }
 
+/*--------Day 21------*/
+
+
+#twentyone .content {
+	background-color: #F6F6F8;
+	padding: 15rem 0 12rem 0;
+}
+
+#twentyone img{
+	height: 50px;
+}
+
+#twentyone .noodles {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: .75em;
+	color: #151515;
+	letter-spacing: 7px;
+	margin-top: 25px;
+	line-height: 3em;
+
+}
+
+#twentyone .row {
+	width: 95%;
+	margin: 100px auto;
+}
+
+#twentyone .selection {
+	position: relative;
+	width: 300px;
+	margin: 75px auto;
+}
+
+
+#twentyone .firstfont {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 6em;
+	color: #F5D941;
+	letter-spacing: 15px;
+}
+
+#twentyone .secondfont {
+	font-family: Lora, serif;
+	font-size: 2em;
+	color: #151515;
+}
+
+#twentyone .thirdfont {
+	font-family: Lora, serif;
+	font-style: italic;
+	font-size: .9em;
+	color: #151515;
+}
+
+#twentyone .store {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+
+#twentyone .selection {
+	position: relative;
+	width: 500px;
+	margin: 75px auto;
+}
+
+#twentyone .first {
+	margin-left: 20%;
+}
+#twentyone .second {
+	margin-left: 45%;
+}
+#twentyone .third {
+	margin-left: 15%;
+}
+#twentyone .fourth {
+	margin-left: 40%;
+}
+
+#twentyone .firstfont {
+	font-size: 10em;
+	letter-spacing: 15px;
+}
+
+#twentyone .secondfont {
+	font-size: 2.5em;
+}
+
+#twentyone .thirdfont {
+	font-size: .9em;
+	margin-top: -25px;
+}
+
+#twentyone .store {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#twentyone .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentyone a {
+	color: orangered;
+}
+
+#twentyone a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
 
