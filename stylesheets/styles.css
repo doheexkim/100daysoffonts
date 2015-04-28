@@ -2604,3 +2604,85 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	color: slategrey;
 }
 
+
+
+/*--------Day 22------*/
+
+
+#twentytwo .content {
+	background-color: #ECD3C8;
+	background-image: url('../images/starbackgroundlite.png');
+	padding: 15rem 0 12rem 0;
+}
+
+#twentytwo .row {
+	width: 95%;
+	margin: 100px auto;
+}
+
+#twentytwo .diary {
+	width: 90%;
+	margin: auto;
+}
+
+#twentytwo .firstfont {
+	font-family: 'League Script', cursive;
+	padding-top: 50px;
+	font-size: 8em;
+	line-height: .75em;
+}
+
+#twentytwo .secondfont {
+	font-family: 'Josefin slab', serif;
+	padding-top: 50px;
+	font-size: 1.5em;
+	line-height: 1.75em;
+}
+
+
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+#twentytwo .diary {
+	width: 50%;
+	margin: auto;
+}
+
+#twentytwo .firstfont {
+	padding-top: 50px;
+	font-size: 14em;
+	line-height: .75em;
+}
+
+#twentytwo .secondfont {
+	padding-top: 50px;
+	font-size: 2em;
+	line-height: 1.75em;
+}
+
+
+
+}
+
+/*------End Responsive styling--------*/
+
+#twentytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentytwo a {
+	color: orangered;
+}
+
+#twentytwo a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
