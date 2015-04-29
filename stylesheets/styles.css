@@ -2661,8 +2661,6 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	line-height: 1.75em;
 }
 
-
-
 }
 
 /*------End Responsive styling--------*/
@@ -2684,5 +2682,93 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 #twentytwo a:hover {
 	text-decoration: none;
 	color: snow;
+}
+
+
+/*--------Day 23------*/
+
+
+#twentythree .content {
+	background-color: #F8F9FB;
+	padding: 15rem 0 12rem 0;
+}
+
+#twentythree .row {
+	width: 88%;
+	margin: 50px auto;
+}
+
+
+#twentythree .firstfont {
+	font-family: 'Yeseva One', serif;
+	color: #202021;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+#twentythree .commentary {
+	border-top: 5px solid #202021;
+	margin-top: 25px;
+}
+
+#twentythree .secondfont {
+	font-family: 'Josefin sans', serif;
+	color: #202021;
+	padding-top: 25px;
+	font-size: 1.15em;
+	line-height: 2em;
+}
+
+
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+#twentythree .row {
+	width: 75%;
+	margin: 100px auto;
+}
+
+#twentythree .firstfont {
+	font-size: 2.5em;
+	line-height: 2em;
+}
+
+#twentythree .luna {
+	width: 60%;
+	float: left;
+	margin: auto;
+}
+
+#twentythree .commentary {
+	border-top: 5px solid #202021;
+	width: 30%;
+	float: left;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#twentythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentythree a {
+	color: #efbdc9;
+}
+
+#twentythree a:hover {
+	text-decoration: none;
+	color: slategrey;
 }
 
