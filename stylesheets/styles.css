@@ -2772,3 +2772,108 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	color: slategrey;
 }
 
+/*--------Day 23------*/
+
+
+#twentyfour .content {
+	background-color: #8cdac5;
+	padding: 15rem 0 12rem 0;
+}
+
+#twentyfour .day {
+	color: #151564;
+	border-color: #151564;
+}
+
+#twentyfour .row {
+	width: 90%;
+	margin: 50px auto;
+}
+
+
+#twentyfour .firstfont {
+	font-family: 'Sacramento', serif;
+	color: snow;
+	font-size: 7.5em;
+	line-height: 2em;
+}
+
+#twentyfour .phase {
+margin-top: -100px;
+}
+
+#twentyfour .secondfont {
+	font-family: 'montserrat', serif;
+	color: #151564;
+	padding-top: 25px;
+	font-size: 1em;
+	line-height: 2.25em;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+#twentyfour .firstfont {
+	font-size: 13em;
+	line-height: 2em;
+}
+
+#twentyfour .phase {
+	position: absolute;
+	width: 75%;
+	top: 300px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+#twentyfour .secondfont {
+	padding-top: 25px;
+	font-size: 1.25em;
+	line-height: 2.5em;
+	letter-spacing: 10px;
+	font-weight: bold;
+}
+}
+
+@media only screen and (min-width : 992px) {
+	#twentyfour .firstfont {
+		font-size: 15em;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+#twentyfour .phase{
+	width: 60%;
+}
+	
+}
+
+/*------End Responsive styling--------*/
+
+#twentyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentyfour a {
+	color: orangered;
+}
+
+#twentyfour a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+
