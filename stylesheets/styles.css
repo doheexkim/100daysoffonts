@@ -2772,7 +2772,7 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	color: slategrey;
 }
 
-/*--------Day 23------*/
+/*--------Day 24------*/
 
 
 #twentyfour .content {
@@ -2796,6 +2796,10 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 	color: snow;
 	font-size: 7.5em;
 	line-height: 2em;
+}
+
+#twentyfour .california {
+	position: relative;
 }
 
 #twentyfour .phase {
@@ -2825,7 +2829,7 @@ margin-top: -100px;
 #twentyfour .phase {
 	position: absolute;
 	width: 75%;
-	top: 300px;
+	top: 60px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
@@ -2876,4 +2880,156 @@ margin-top: -100px;
 	color: snow;
 }
 
+
+/*--------Day 25------*/
+
+
+#twentyfive .content {
+	background-color: #fafafa;
+	padding: 15rem 0 12rem 0;
+}
+
+#twentyfive .top {
+	position: relative;
+	padding-bottom: 100px;
+}
+
+
+#twentyfive .feelings {
+	width: 275px;
+	background-color: #EE90A3;
+	margin: 150px auto auto auto;
+	height: 550px;
+	padding-top: 55px;
+	padding-left: 10px;
+	position: relative;
+	z-index: 1;
+
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+
+#twentyfive .firstfont {
+	width: 90%;
+	font-family: 'Patrick Hand SC', sans-serif;
+	letter-spacing: 15px;
+	font-size: 1.5em;
+	line-height: 3em;
+	color: #151515;
+	margin: auto;
+}
+
+#twentyfive .secondfont {
+	color: #B9F4EF;
+	font-family: Oswald, sans-serif;
+	font-size: 4.6em;
+	letter-spacing: 50px;
+}
+
+#twentyfive .brb {
+	z-index: 2;
+	top: 80px;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+	#twentyfive .feelings {
+	width: 275px;
+	margin: 150px auto auto 30%;
+	background-color: #EE90A3;
+	height: 550px;
+	padding-top: 55px;
+	padding-left: 10px;
+	position: relative;
+	z-index: 1;
+
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+
+#twentyfive .firstfont {
+	letter-spacing: 15px;
+	font-size: 1.9em;
+	line-height: 2em;
+	color: #151515;
+	margin: auto;
+}
+
+#twentyfive .secondfont {
+	color: #B9F4EF;
+	font-family: Oswald, sans-serif;
+	font-size: 13em;
+	letter-spacing: 85px;
+}
+
+#twentyfive .brb {
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	left: 10%;
+}
+
+}
+
+@media only screen and (min-width : 992px) {
+}
+
+@media only screen and (min-width : 1200px) {
+
+#twentyfive .feelings {
+	margin: 150px auto auto 30%;
+
+	}
+
+#twentyfive .secondfont {
+	color: #B9F4EF;
+	font-family: Oswald, sans-serif;
+	font-size: 20em;
+	letter-spacing: 85px;
+}
+
+#twentyfive .brb {
+	position: absolute;
+	z-index: 0;
+	top: 80px;
+	left: 20%;
+	right: auto;
+}
+
+	
+}
+
+/*------End Responsive styling--------*/
+
+#twentyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentyfive a {
+	color: #151515;
+}
+
+#twentyfive a:hover {
+	text-decoration: none;
+	color: orangered;
+}
 
