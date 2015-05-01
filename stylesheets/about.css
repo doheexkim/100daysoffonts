@@ -84,7 +84,7 @@ body {
 }
 
 .getintouch {
-	color: blue;
+	color: #151515;
 }
 
 .getintouch a{
@@ -99,7 +99,7 @@ body {
 	margin-top: 75px;
 }
 
-#name {
+#name a{
 	color: blue;
 }
 
@@ -107,8 +107,13 @@ body {
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
   padding-right: 10px;
+  padding-left: 10px;
+  color: blue;
 }
 
+.fontawesome {
+	margin: auto 10px auto 10px;
+}
 
 /*------Responsive styling--------*/
 @media only screen and (min-width : 480px) {
