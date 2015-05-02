@@ -2984,8 +2984,6 @@ margin-top: -100px;
 
 }
 
-@media only screen and (min-width : 992px) {
-}
 
 @media only screen and (min-width : 1200px) {
 
@@ -3008,7 +3006,6 @@ margin-top: -100px;
 	left: 20%;
 	right: auto;
 }
-
 	
 }
 
@@ -3032,4 +3029,113 @@ margin-top: -100px;
 	text-decoration: none;
 	color: orangered;
 }
+
+/*--------Day 26------*/
+
+
+#twentysix .content {
+	background-color: #efbdc9;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/black-twill.png);
+
+}
+
+#twentysix .chicken {
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#twentysix .heart {
+	font-size: 20em;
+	color: orangered;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -100px;
+	z-index: 0;
+}
+
+#twentysix .firstfont {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	letter-spacing: 10px;
+	color: snow;
+	position: relative;
+	z-index: 1;
+}
+
+#twentysix .secondfont {
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 3em;
+	color: snow;
+	position: relative;
+	z-index: 2;
+}
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+	#twentysix .row {
+	margin-top: 100px
+}
+
+#twentysix .chicken {
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+	#twentysix .heart {
+	font-size: 30em;
+	color: orangered;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -100px;
+	z-index: 0;
+}
+
+#twentysix .secondfont {
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 4em;
+	color: snow;
+	position: relative;
+	z-index: 2;
+}
+}
+
+
+/*------End Responsive styling--------*/
+
+#twentysix .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentysix .colophonback {
+	background-color: snow;
+	padding: 3px 3px 3px 3px;
+}
+#twentysix a {
+	color: orangered;
+}
+
+#twentysix a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
 
