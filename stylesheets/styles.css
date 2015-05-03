@@ -3139,3 +3139,125 @@ margin-top: -100px;
 }
 
 
+/*--------Day 27------*/
+
+
+#twentyseven .content {
+	background-color: #CACFB8;
+	padding: 15rem 0 12rem 0;
+
+}
+
+#twentyseven .row {
+	margin-top: 100px;
+}
+
+#twentyseven .day {
+	color: orangered;
+	border-color: orangered;
+}
+
+#twentyseven .firstfont {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 10em;
+	letter-spacing: 30px;
+	color: snow;
+	position: relative;
+	z-index: 2;
+}
+
+#twentyseven .tfwcopy {
+	color:orangered;
+	position: absolute;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top:10px;
+	margin: 0 auto;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 10em;
+	letter-spacing: 30px;
+}
+
+#twentyseven .secondfont {
+	font-family: 'Prata', serif;
+	font-size: 2em;
+	line-height: 1.75em;
+	color: #151515;
+}
+
+#twentyseven .cake {
+	padding: 15%;
+}
+
+/*--Media Query--*/
+
+@media only screen and (min-width : 480px) {
+#twentyseven .content {
+	padding: 15rem 0 12rem 0;
+	height: 100%;
+    background: linear-gradient(90deg, #F2EBDF 50%, #CACFB8 50%);
+}
+
+#twentyseven .firstfont {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20em;
+	letter-spacing: 30px;
+	color: snow;
+	position: relative;
+	z-index: 2;
+}
+
+#twentyseven .tfwcopy {
+	color:orangered;
+	position: absolute;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top:10px;
+	margin: 0 auto;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20em;
+	letter-spacing: 30px;
+}
+
+#twentyseven .secondfont {
+	font-family: 'Prata', serif;
+	font-size: 3em;
+	line-height: 1.75em;
+	color: #151515;
+}
+
+#twentyseven .cake {
+	padding: 60px 75px 50px 75px;
+}
+
+	
+	}
+
+
+@media only screen and (min-width : 768px) {
+}
+
+
+/*------End Responsive styling--------*/
+
+#twentyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentyseven a {
+	color: orangered;
+}
+
+#twentyseven a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
