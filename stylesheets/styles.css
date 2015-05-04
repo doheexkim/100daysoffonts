@@ -3231,14 +3231,7 @@ margin-top: -100px;
 #twentyseven .cake {
 	padding: 60px 75px 50px 75px;
 }
-
-	
 	}
-
-
-@media only screen and (min-width : 768px) {
-}
-
 
 /*------End Responsive styling--------*/
 
@@ -3257,6 +3250,75 @@ margin-top: -100px;
 }
 
 #twentyseven a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+/*--------Day 28------*/
+
+
+#twentyeight .content {
+	background-color: #D8EDDE;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 15rem 0 12rem 0;
+
+}
+
+#twentyeight .row {
+	margin-top: 100px;
+}
+
+#twentyeight .motivate {
+	width: 320px;
+	background-color: snow;
+	padding: 50px 30px;
+	margin: auto;
+}
+
+#twentyeight .firstfont {
+	font-family: 'Covered by your grace', cursive;
+	font-size: 3.25em;
+	line-height: 1em;
+	letter-spacing: 3px;
+	color: navy;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	z-index: 2;
+}
+
+#twentyeight .secondfont {
+	margin-top: 15px;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.15em;
+	line-height: 1.85em;
+	color: navy;
+	margin-bottom: 15px;
+}
+
+/*--Media Query--*/
+
+@media only screen and (min-width : 480px) {
+	}
+
+/*------End Responsive styling--------*/
+
+#twentyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentyeight a {
+	color: orangered;
+}
+
+#twentyeight a:hover {
 	text-decoration: none;
 	color: snow;
 }
