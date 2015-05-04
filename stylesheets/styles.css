@@ -44,6 +44,7 @@
 
 .nav a{
 	color: slategrey;
+	padding-right: 25px;
 }
 
 .nav a:hover {
@@ -52,7 +53,7 @@
 }
 
 .nav .text-right {
-	padding-right: 65px;
+	padding-right: 40px;
 }
 
 .day {
