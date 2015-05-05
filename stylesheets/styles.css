@@ -3324,3 +3324,75 @@ margin-top: -100px;
 	color: snow;
 }
 
+/*--------Day 29------*/
+
+
+#twentynine .content {
+	background-color: #D8EDDE;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 15rem 0 12rem 0;
+
+}
+
+#twentynine .row {
+	margin-top: 100px;
+}
+
+.inch:nth-letter(odd){
+  color: blue;
+}
+
+/*.inch {
+	color: blue;
+}*/
+
+#twentynine .firstfont {
+	font-family: 'Covered by your grace', cursive;
+	font-size: 3.25em;
+	line-height: 1em;
+	letter-spacing: 3px;
+	color: navy;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	z-index: 2;
+}
+
+#twentynine .secondfont {
+	margin-top: 15px;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.15em;
+	line-height: 1.85em;
+	color: navy;
+	margin-bottom: 15px;
+}
+
+/*--Media Query--*/
+
+@media only screen and (min-width : 480px) {
+	}
+
+/*------End Responsive styling--------*/
+
+#twentynine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#twentynine a {
+	color: orangered;
+}
+
+#twentynine a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+
+
