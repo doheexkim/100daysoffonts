@@ -3328,9 +3328,7 @@ margin-top: -100px;
 
 
 #twentynine .content {
-	background-color: #D8EDDE;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-color: #49745E;
 	padding: 15rem 0 12rem 0;
 
 }
@@ -3339,38 +3337,85 @@ margin-top: -100px;
 	margin-top: 100px;
 }
 
-.inch:nth-letter(odd){
-  color: blue;
+#twentynine .gardensong {
+	width: 95%;
+	margin: auto;
 }
-
-/*.inch {
-	color: blue;
-}*/
 
 #twentynine .firstfont {
-	font-family: 'Covered by your grace', cursive;
-	font-size: 3.25em;
-	line-height: 1em;
-	letter-spacing: 3px;
-	color: navy;
-	position: relative;
-	margin-top: 15px;
-	margin-bottom: 25px;
-	z-index: 2;
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	color: white;
 }
 
-#twentynine .secondfont {
-	margin-top: 15px;
-	font-family: 'EB Garamond', serif;
-	font-size: 1.15em;
-	line-height: 1.85em;
-	color: navy;
-	margin-bottom: 15px;
+.inch-list > *:nth-child(3n+1) {
+  vertical-align: 10px;
 }
+
+.inch-list > *:nth-child(3n+2) {
+  vertical-align: 15px;
+}
+
+.row-list > *:nth-child(4n+1) {
+  vertical-align: 10px;
+}
+
+.row-list > *:nth-child(2n+2) {
+  vertical-align: 15px;
+}
+
+#twentynine .row-list {
+	margin-top: 50px;
+}
+
+#twentynine .inch-list {
+	margin-bottom: 40px;
+}
+
+#twentynine .grow {
+	color: #A0AB6B;
+	background-image: url(../images/natural-paper.png);
+	font-family: 'Lora', serif;
+	font-size: .5em;
+	letter-spacing: 5px;
+	font-style: italic;
+	border: 1px solid #A0AB6B;
+	width: 100%;
+	margin: auto;
+	padding: 25px 0;
+	background-color: #F8F8F5;
+}
+
 
 /*--Media Query--*/
 
 @media only screen and (min-width : 480px) {
+#twentynine .gardensong {
+	width: 480px;
+	margin: auto;
+}
+
+#twentynine .firstfont {
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	color: white;
+}
+
+#twentynine .grow {
+	color: #A0AB6B;
+	background-image: url(../images/natural-paper.png);
+	font-family: 'Lora', serif;
+	font-size: .75em;
+	letter-spacing: 5px;
+	font-style: italic;
+	border: 1px solid #A0AB6B;
+	width: 85%;
+	margin: auto;
+	padding: 25px 0;
+	background-color: #F8F8F5;
+}
 	}
 
 /*------End Responsive styling--------*/
@@ -3386,13 +3431,12 @@ margin-top: -100px;
 }
 
 #twentynine a {
-	color: orangered;
+	color: #A0AB6B;
 }
 
 #twentynine a:hover {
 	text-decoration: none;
 	color: snow;
 }
-
 
 
