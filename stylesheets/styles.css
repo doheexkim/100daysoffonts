@@ -3487,6 +3487,29 @@ margin-top: -100px;
 
 @media only screen and (min-width : 768px) {
 	#thirty .row {
+	width: 700px;
+	margin: 100px auto auto auto;
+}
+
+#thirty .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-size: 4.5em;
+}
+
+
+#thirty .firstfont p {
+	margin-bottom: 50px;
+}
+
+#thirty .commentary {
+	margin-top: 225px;
+}
+
+
+}
+
+@media only screen and (min-width : 992px) {
+	#thirty .row {
 	width: 800px;
 	margin: 100px auto auto auto;
 }
