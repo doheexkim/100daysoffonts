@@ -59,10 +59,11 @@
 .day {
 	font-family: Montserrat, sans-serif;
 	letter-spacing: 2px;
-	border: 2px solid black;
+	border: 2px solid #151515;
 	width: 30px;
 	padding: 3px 0 3px 3px;
 	display: inline-block;
+	color: #151515;
 
 
 }
@@ -3298,12 +3299,6 @@ margin-top: -100px;
 	margin-bottom: 15px;
 }
 
-/*--Media Query--*/
-
-@media only screen and (min-width : 480px) {
-	}
-
-/*------End Responsive styling--------*/
 
 #twentyeight .colophon {
 	font-family: Montserrat, sans-serif;
@@ -3437,6 +3432,101 @@ margin-top: -100px;
 #twentynine a:hover {
 	text-decoration: none;
 	color: snow;
+}
+
+
+
+/*--------Day 30------*/
+
+
+#thirty .content {
+	background-color: #FAFCF7;
+	padding: 15rem 0 12rem 0;
+
+}
+
+#thirty .row {
+	width: 90%;
+	margin: 50px auto auto auto;
+}
+
+#thirty .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-size: 4em;
+	color: #333;
+}
+
+#thirty .firstfont span{
+	border-bottom: 3px solid orangered;
+	padding-bottom: 15px;
+}
+
+#thirty .firstfont p {
+	margin-bottom: 50px;
+}
+
+#thirty .commentary {
+	margin-top: 100px;
+}
+
+#thirty .commentaryfoot {
+	font-size: .75em;
+	line-height: 1.75em;
+}
+
+#thirty .secondfont {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.25em;
+	line-height: 2em;
+	color: #151515;
+}
+
+
+
+/*--Media Query--*/
+
+@media only screen and (min-width : 768px) {
+	#thirty .row {
+	width: 800px;
+	margin: 100px auto auto auto;
+}
+
+#thirty .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-size: 5em;
+}
+
+
+#thirty .firstfont p {
+	margin-bottom: 50px;
+}
+
+#thirty .commentary {
+	margin-top: 225px;
+}
+
+
+}
+
+/*------End Responsive styling--------*/
+
+#thirty .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirty a {
+	color: orangered;
+}
+
+#thirty a:hover {
+	text-decoration: none;
+	color: slategrey;
 }
 
 
