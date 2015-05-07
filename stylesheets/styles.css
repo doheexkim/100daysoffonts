@@ -3481,7 +3481,56 @@ margin-top: -100px;
 	color: #151515;
 }
 
+.beingartist > *:nth-child(1) {
+   -ms-transform: rotate(-10deg); /* IE 9 */
+   -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+   transform: rotate(-10deg);
+   display: inline-block;
+}
 
+.beingartist > *:nth-child(2) {
+   -ms-transform: rotate(-6deg); /* IE 9 */
+   -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+   transform: rotate(-6deg);
+   display: inline-block;
+   vertical-align: 5px;
+}
+
+.beingartist > *:nth-child(3) {
+   -ms-transform: rotate(-4deg); /* IE 9 */
+   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+   transform: rotate(-4deg);
+   display: inline-block;
+   vertical-align: 7px;
+}
+
+.beingartist > *:nth-child(4) {
+   -ms-transform: rotate(-4deg); /* IE 9 */
+   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+   transform: rotate(-4deg);
+   display: inline-block;
+   vertical-align: 9px;
+}
+
+.beingartist > *:nth-child(5) {
+   display: inline-block;
+   vertical-align: 9px;
+}
+
+.beingartist > *:nth-child(7) {
+   -ms-transform: rotate(8deg); /* IE 9 */
+   -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+   transform: rotate(8deg);
+   display: inline-block;
+   vertical-align: 5px;
+}
+
+.beingartist > *:nth-child(8) {
+   -ms-transform: rotate(10deg); /* IE 9 */
+   -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+   transform: rotate(10deg);
+   display: inline-block;
+}
 
 /*--Media Query--*/
 
@@ -3552,4 +3601,125 @@ margin-top: -100px;
 	color: slategrey;
 }
 
+/*--------Day 31------*/
+
+
+#thirtyone .content {
+	background-color: #EEBB22;
+	padding: 15rem 0 12rem 0;
+
+}
+
+#thirtyone .artistwrap {
+	width: 270px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fcf4de;
+	background-image: url('../images/natural-paper.png');
+}
+
+#thirtyone .artist {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #151515;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+#thirtyone .curlyquote {
+	font-family: 'Old Standard TT', serif;
+	font-size: 5em;
+	color: #151515;
+	color: orangered;
+}
+
+
+#thirtyone .firstfont {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	letter-spacing: 10px;
+	color: #151515;
+	font-weight: bold;
+}
+
+#thirtyone .annette {
+	font-family: 'Josefin Slab', serif;
+	font-size: .7em;
+	letter-spacing: 5px;
+	color: #151515;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	width: 90%;
+	margin: auto;
+	font-weight: bold;
+}
+
+#thirtyone .secondfont {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3.75em;
+	line-height: 2em;
+	letter-spacing: 15px;
+	color: #151515;
+	padding-left: 15px;
+	
+}
+
+#thirtyone .thirdfont {
+	font-family: 'League Script', cursive;
+	font-size: 1.75em;
+	color: #151515;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, black 50%, black 52%, transparent 52%, transparent 100%);
+}
+
+#thirtyone .fourthfont {
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.15em;
+	color: #151515;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 2em;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+#means {
+	background-color: #fcf4de;
+	padding: 0 10px;
+}
+
+/*--Media Query--*/
+
+@media only screen and (min-width : 768px) {
+}
+
+@media only screen and (min-width : 992px) {
+
+}
+
+/*------End Responsive styling--------*/
+
+#thirtyone .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtyone a {
+	color: orangered;
+}
+
+#thirtyone a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
 
