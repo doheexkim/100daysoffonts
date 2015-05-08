@@ -3719,7 +3719,7 @@ margin-top: -100px;
 #thirtytwo .content {
 	background-color: #F4F1E6;
 	padding: 15rem 0 12rem 0;
-	background-image: url(../images/stardust.png);
+	background-image: url(../images/natural-paper.png);
 }
 
 #thirtytwo .bbq {
@@ -3732,7 +3732,7 @@ margin-top: -100px;
 
 #thirtytwo .firstfont {
 	font-family: 'Lora', serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	line-height: 1.75em;
 	color: #151515;
 	font-weight: bold;
@@ -3745,7 +3745,6 @@ margin-top: -100px;
 	font-family: 'Abril Fatface', serif;
 	font-size: 10em;
 	color: #F07B52;
-	padding-left: 15px;
 	padding-top: 100px;
 	-webkit-transform: skewY(-7deg);
     -o-transform:skewY(-7deg);
