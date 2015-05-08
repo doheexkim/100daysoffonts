@@ -3693,16 +3693,6 @@ margin-top: -100px;
 	padding: 0 10px;
 }
 
-/*--Media Query--*/
-
-@media only screen and (min-width : 768px) {
-}
-
-@media only screen and (min-width : 992px) {
-
-}
-
-/*------End Responsive styling--------*/
 
 #thirtyone .colophon {
 	font-family: Montserrat, sans-serif;
@@ -3722,4 +3712,148 @@ margin-top: -100px;
 	text-decoration: none;
 	color: slategrey;
 }
+
+/*--------Day 32------*/
+
+
+#thirtytwo .content {
+	background-color: #F4F1E6;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/stardust.png);
+}
+
+#thirtytwo .bbq {
+	margin-top: 100px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#thirtytwo .firstfont {
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	line-height: 1.75em;
+	color: #151515;
+	font-weight: bold;
+	padding: 0 10px;
+
+}
+
+
+#thirtytwo .secondfont {
+	font-family: 'Abril Fatface', serif;
+	font-size: 10em;
+	color: #F07B52;
+	padding-left: 15px;
+	padding-top: 100px;
+	-webkit-transform: skewY(-7deg);
+    -o-transform:skewY(-7deg);
+    -moz-transform: skewY(-7deg);
+    -ms-transform: skewY(-7deg);
+    transform: skewY(-7deg);
+	
+}
+
+#thirtytwo .delicious {
+	width: 160px;
+	height: 160px;
+	border-radius:80px;
+    text-align:center;
+    border: 2px dashed #151515;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#thirtytwo .thirdfont {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .75em;
+	line-height: 1.15em;
+	padding-top: 60px;
+	color: #151515;
+	font-weight: bold;
+	letter-spacing: 10px;
+	padding-left: 8px;
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+}
+
+/*---------Media Query-------*/
+@media only screen and (min-width : 768px) {
+#thirtytwo .bbq {
+	margin-top: 75px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#thirtytwo .firstfont {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+	line-height: 1.75em;
+	color: #151515;
+	font-weight: bold;
+	margin-top: -35px;
+	padding: 0 15px;
+
+}
+
+
+#thirtytwo .secondfont {
+	font-family: 'Abril Fatface', serif;
+	font-size: 18em;
+	color: #F07B52;
+	padding-left: 15px;
+	padding-top: 65px;
+	
+}
+
+#thirtytwo .delicious {
+	width: 160px;
+	height: 160px;
+	border-radius:80px;
+    text-align:center;
+    border: 2px dashed #151515;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#thirtytwo .thirdfont {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .75em;
+	line-height: 1.15em;
+	padding-top: 60px;
+	color: #151515;
+	font-weight: bold;
+	letter-spacing: 10px;
+	padding-left: 8px;
+
+}
+}
+
+
+#thirtytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtytwo a {
+	color: orangered;
+}
+
+#thirtytwo a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
 
