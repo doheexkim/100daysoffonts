@@ -3905,6 +3905,7 @@ margin-top: -100px;
 	background-color: #CCE4E5;
 	padding: 15rem 0 12rem 0;
 	background-image: url(../images/natural-paper.png);
+	background-repeat: repeat;
 }
 
 #thirtythree .row {
