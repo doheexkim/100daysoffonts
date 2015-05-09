@@ -3855,4 +3855,123 @@ margin-top: -100px;
 	color: slategrey;
 }
 
+/*--------Day 33------*/
+
+
+#thirtythree .content {
+	background-color: #f5a886;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/palmtree_card.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+#thirtythree .row {
+	padding-top: 200px;
+}
+
+
+#thirtythree .staycation {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 95%;
+	margin: auto;
+}
+
+#thirtythree .firstfont {
+	font-family: 'Satisfy', cursive;
+	font-size: 5em;
+	line-height: 1em;
+	color: white;
+	padding: 0 10px;
+
+}
+
+
+#thirtythree .secondfont {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	color: white;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+
+/*---------Media Query-------*/
+@media only screen and (min-width : 768px) {
+
+#thirtythree .content {
+	background-color: #CCE4E5;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/natural-paper.png);
+}
+
+#thirtythree .row {
+	padding-top: 100px;
+}
+
+#thirtythree .card {
+	width: 600px;
+	background-color: #f5a886;
+	margin: auto;
+	border: 12px solid white;
+	background-image: url(../images/palmtree_card.jpg);
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 8px rgba(15, 15, 15, .15);
+	-ms-transform: rotate(-6deg); /* IE 9 */
+    -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+    transform: rotate(-6deg);
+}
+
+#thirtythree .staycation {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 95%;
+	margin: auto;
+}
+
+#thirtythree .firstfont {
+	font-family: 'Satisfy', cursive;
+	font-size: 9.6em;
+	line-height: 1em;
+	color: white;
+	padding: 0 10px;
+
+}
+
+
+#thirtythree .secondfont {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	color: white;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+}
+
+
+#thirtythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtythree a {
+	color: orangered;
+}
+
+#thirtythree a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+
 
