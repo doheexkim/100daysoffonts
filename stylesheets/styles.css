@@ -3974,5 +3974,217 @@ margin-top: -100px;
 	color: slategrey;
 }
 
+/*--------Day 33------*/
+
+
+#thirtyfour .content {
+	background-color: #F2F2F4;
+	padding: 15rem 0 12rem 0;
+}
+
+#thirtyfour .row {
+	margin-top: 100px;
+}
+
+	#thirtyfour .inspiration {
+	position: relative;
+	width: 320px;
+	margin: auto auto 200px auto;
+}
+
+
+#thirtyfour .firstfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 7.5em;
+	line-height: 1.25em;
+	color: #FFDFD7;
+	padding: 0 10px;
+	letter-spacing: 5px;
+}
+
+#thirtyfour .steinbeck {
+	width: 250px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#thirtyfour .chuck {
+	width: 250px;
+	position: absolute;
+	top: 200px;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#thirtyfour .belief {
+	width: 250px;
+	position: absolute;
+	top: 400px;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#thirtyfour .secondfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #151515;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+#thirtyfour .thirdfont {
+	font-family: 'Old Standard TT', serif;
+	font-size: .75em;
+	line-height: 1.75em;
+	color: #151515;
+}
+
+/*---------Media Query-------*/
+@media only screen and (min-width : 480px) {
+	#thirtyfour .inspiration {
+	position: relative;
+	width: 450px;
+	margin: auto;
+}
+
+
+#thirtyfour .firstfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 10em;
+	line-height: 1.25em;
+	color: #FFDFD7;
+	padding: 0 10px;
+	letter-spacing: 5px;
+}
+
+#thirtyfour .steinbeck {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	right: 50px;
+	left: 150px;
+}
+
+#thirtyfour .chuck {
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	left: 25px;
+	right: 175px;
+}
+
+#thirtyfour .belief {
+	width: 200px;
+	position: absolute;
+	top: 400px;
+	right: 75px;
+	left: 125px;
+}
+
+#thirtyfour .secondfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #151515;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+#thirtyfour .thirdfont {
+	font-family: 'Old Standard TT', serif;
+	font-size: .75em;
+	line-height: 1.75em;
+	color: #151515;
+}	
+
+}
+
+@media only screen and (min-width : 768px) {
+	#thirtyfour .inspiration {
+	position: relative;
+	width: 750px;
+	margin: auto;
+}
+
+
+#thirtyfour .firstfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 18em;
+	line-height: 1.25em;
+	color: #FFDFD7;
+	padding: 0 10px;
+	letter-spacing: 5px;
+}
+
+#thirtyfour .steinbeck {
+	width: 200px;
+	position: absolute;
+	top: 190px;
+	right: 50px;
+	left: 500px;
+}
+
+#thirtyfour .chuck {
+	width: 225px;
+	position: absolute;
+	top: 450px;
+	left: 150px;
+	right: 400px;
+}
+
+#thirtyfour .belief {
+	width: 200px;
+	position: absolute;
+	top: 750px;
+	right: 150px;
+	left: 400px;
+}
+
+#thirtyfour .secondfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	color: #151515;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+#thirtyfour .thirdfont {
+	font-family: 'Old Standard TT', serif;
+	font-size: .75em;
+	line-height: 1.75em;
+	color: #151515;
+}
+
+}
+
+
+#thirtyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtyfour a {
+	color: slategrey;
+}
+
+#thirtyfour a:hover {
+	text-decoration: none;
+	color: #FFDFD7;
+}
 
 
