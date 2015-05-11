@@ -3974,7 +3974,7 @@ margin-top: -100px;
 	color: slategrey;
 }
 
-/*--------Day 33------*/
+/*--------Day 34------*/
 
 
 #thirtyfour .content {
@@ -4185,6 +4185,172 @@ margin-top: -100px;
 #thirtyfour a:hover {
 	text-decoration: none;
 	color: #FFDFD7;
+}
+
+/*--------Day 35------*/
+
+
+
+#thirtyfive .content {
+	/*background-color: #343740;*/
+	padding: 15rem 0 12rem 0;
+	background:#343740 url(../images/stars.png) repeat top center;
+  	z-index:0;
+}
+
+#thirtyfive .day {
+	color: slategrey;
+	border-color: slategrey;
+}
+
+#thirtyfive .row {
+	margin-top: 100px;
+	position: relative;
+}
+
+
+
+#thirtyfive .firstfont {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.25em;
+	line-height: 3em;
+	color: snow;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+#thirtyfive .secondfont {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: rgba(255, 255, 255, .25);
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+#thirtyfive .balance {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.darkness > *:nth-child(1) {
+   margin-right: 15%;
+}
+
+.darkness > *:nth-child(2) {
+   margin-right: 10%;
+   	font-family: 'Playfair Display SC', serif;
+	font-style: italic;
+	font-size: .75em;
+}
+
+.darkness > *:nth-child(3) {
+   margin-left: 15%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-weight: bold;
+
+}
+
+.darkness > *:nth-child(4) {
+   margin-left: 10%;
+}
+
+.darkness > *:nth-child(5) {
+   margin-right: 20%;
+      margin-top: 50px;
+   margin-bottom: 50px;
+   font-weight: bold;
+
+}
+
+.darkness > *:nth-child(6) {
+   margin-left: 20%;
+      margin-top: 25px;
+   margin-bottom: 25px;
+   font-family: 'Playfair Display SC', serif;
+	font-style: italic;
+	font-size: .75em;
+}
+
+.darkness > *:nth-child(7) {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-weight: bold;
+}
+
+
+
+/*---------Media Query-------*/
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+
+}
+
+
+#thirtyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtyfive a {
+	color: slategrey;
+}
+
+#thirtyfive a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+/*Background design modified from Script Tutorials. See copyright below*/
+
+/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/night-sky-with-twinkling-stars/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+#thirtyfive .twinkling{
+  background:transparent url(../images/twinkling.png) repeat top center;
+  z-index:1;
+
+ -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
 }
 
 
