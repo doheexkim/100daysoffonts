@@ -4353,4 +4353,199 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
   animation:move-twink-back 200s linear infinite;
 }
 
+/*--------Day 36------*/
+
+#thirtysix .content {
+	background-color: #DCD7D3;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/rough-cloth-light.png);
+
+}
+
+#thirtysix .row {
+	margin-top: 50px;
+}
+
+#thirtysix .scares {
+	width: 320px;
+	margin: auto;
+	position: relative;
+	height: 650px;
+}
+
+#thirtysix .borderbox {
+	width: 300px;
+	height: 600px;
+	border: 10px solid white;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scares > *:nth-child(1) {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18em;
+	position: absolute;
+	top: 80px;
+	left: 30px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+}
+
+.scares > *:nth-child(2) {
+	color: white;
+	font-family: 'playfair display', serif;
+	font-size: 10em;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+}
+
+.scares > *:nth-child(3) {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 8em;
+	position: absolute;
+	top: 190px;
+	left: 215px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+}
+
+.scares > *:nth-child(4) {
+	color: white;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	font-size: 12em;
+	position: absolute;
+	left: 110px;
+	top: 260px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+
+}
+
+#thirtysix .scaresyou {
+	color: white;
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: .8em;
+	line-height: 3em;
+	letter-spacing: 5px;
+	position: absolute;
+	right: 80px;
+	top: 480px;
+	border-top: 5px solid white;
+	padding-top: 10px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 5px rgba(15,15,15,0.1);
+
+}
+
+/*---------Media Query-------*/
+@media only screen and (min-width : 768px) {
+	#thirtysix .scares {
+	width: 500px;
+	margin: auto;
+	position: relative;
+	height: 650px;
+}
+
+#thirtysix .borderbox {
+	width: 450px;
+	height: 600px;
+	border: 10px solid white;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scares > *:nth-child(1) {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 25em;
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+}
+
+.scares > *:nth-child(2) {
+	color: white;
+	font-family: 'playfair display', serif;
+	font-size: 16em;
+	position: absolute;
+	top: 0;
+	left: 285px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+}
+
+.scares > *:nth-child(3) {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12em;
+	position: absolute;
+	top: 235px;
+	left: 320px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+}
+
+.scares > *:nth-child(4) {
+	color: white;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	font-size: 18em;
+	position: absolute;
+	left: 130px;
+	top: 325px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 4px rgba(15,15,15,0.1);
+
+}
+
+#thirtysix .scaresyou {
+	color: white;
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: .8em;
+	line-height: 3em;
+	letter-spacing: 5px;
+	position: absolute;
+	right: 60px;
+	top: 490px;
+	border-top: 5px solid white;
+	padding-top: 10px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2), -2px -2px 5px rgba(15,15,15,0.1);
+
+}
+}
+
+
+#thirtysix .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtysix a {
+	color: slategrey;
+}
+
+#thirtysix a:hover {
+	text-decoration: none;
+	color: orangered;
+}
+
+
 
