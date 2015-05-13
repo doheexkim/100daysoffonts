@@ -4527,7 +4527,6 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 }
 
-
 #thirtysix .colophon {
 	font-family: Montserrat, sans-serif;
 	color: #151515;
@@ -4547,5 +4546,147 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 	color: orangered;
 }
 
+/*--------Day 37------*/
+#thirtyseven .content {
+	background-color: #fafafa;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/natural-paper-blue.png);
+}
 
+#thirtyseven .day {
+	border-color: orangered;
+	color: orangered;
+}
+#thirtyseven .orphanblack {
+	margin-top: 100px;
+	position: relative;
+}
+
+#thirtyseven .firstfont {
+	font-family: 'archivo black', sans-serif; 
+	color: #FA5E47; 
+	font-size: 5em; 
+	letter-spacing: 20px;
+	margin: 20px auto;
+}
+
+#thirtyseven .or {
+	-ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  margin-top: -50px;
+  padding-right: 50px;
+}
+
+#thirtyseven .notpay {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  padding-left: 50px;
+
+}
+
+#thirtyseven .secondfont {
+	font-family: 'Anonymous Pro', monospace;
+	text-align: left;
+	font-weight: bold;
+	color: blue;
+	font-size: 1.05em;
+	line-height: 1.75em;
+	margin-top: 40px;
+	letter-spacing: 1px;
+	width: 100px;
+}
+
+#thirtyseven .finished {
+	position: absolute;
+	top: 40px;
+	left: 10%;
+}
+
+#thirtyseven .considering {
+	position: absolute;
+	top: 200px;
+	left: 65%;
+}
+
+#thirtyseven .creditcard {
+	color: blue;
+	width: 30px;
+	height: 30px;
+	border: 2px solid blue;
+	border-radius: 15px;
+	padding-top: 2px;
+	position: absolute;
+	top: 275px;
+	left: 20%;
+}
+
+#thirtyseven .teamhelena {
+	position: absolute;
+	top: 445px;
+	left: 40%;
+}
+
+/*-----Media Query------*/
+@media only screen and (min-width : 768px) {
+#thirtyseven .firstfont {
+	font-size: 6em; 
+	letter-spacing: 20px;
+	margin: 25px auto;
+}
+
+#thirtyseven .or {
+	-ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  margin-top: -50px;
+  padding-right: 50px;
+}
+
+#thirtyseven .finished {
+	position: absolute;
+	top: 40px;
+	left: 25%;
+}
+
+#thirtyseven .considering {
+	position: absolute;
+	top: 200px;
+	left: 65%;
+}
+
+#thirtyseven .creditcard {
+	position: absolute;
+	top: 275px;
+	left: 40%;
+}
+
+#thirtyseven .teamhelena {
+	position: absolute;
+	top: 445px;
+	left: 40%;
+}
+	}
+
+/*-----End Media Query------*/
+
+#thirtyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtyseven a {
+	color: orangered;
+}
+
+#thirtyseven a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
 
