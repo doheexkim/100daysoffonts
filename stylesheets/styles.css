@@ -4690,3 +4690,105 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 	color: slategrey;
 }
 
+
+/*--------Day 38------*/
+#thirtyeight .content {
+	background-color: #4465AD;
+	padding: 15rem 0 12rem 0;
+}
+
+#thirtyeight .day {
+	border-color: white;
+	color: white;
+}
+
+#thirtyeight .row {
+	width: 90%;
+	margin: 50px auto auto auto;
+}
+
+#thirtyeight .firstfont {
+	font-family: 'Cardo', serif; 
+	color: white; 
+	font-size: 3em; 
+	margin: -50px auto auto auto;
+}
+
+#thirtyeight .quotefont {
+	font-family: 'Cardo', serif; 
+	color: white; 
+	font-size: 7em; 
+	margin: auto;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 32%, #fff 33%, #fff 35%, transparent 36%, transparent 100%);
+}
+
+#thirtyeight .secondfont {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-weight: 300;
+	color: white;
+	font-size: .85em;
+	line-height: 1.75em;
+	letter-spacing: 1px;
+	width: 180px;
+	float: right;
+	margin-top: -50px;
+}
+
+
+/*-----Media Query------*/
+@media only screen and (min-width : 768px) {
+#thirtyeight .row {
+	width: 750px;
+	margin: 100px auto auto auto;
+}
+
+#thirtyeight .firstfont {
+	font-family: 'Cardo', serif; 
+	color: white; 
+	font-size: 5em; 
+	margin: -75px auto auto auto;
+}
+
+#thirtyeight .quotefont {
+	font-family: 'Cardo', serif; 
+	color: white; 
+	font-size: 10em; 
+	margin: auto;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 32%, #fff 33%, #fff 35%, transparent 36%, transparent 100%);
+}
+
+#thirtyeight .secondfont {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-weight: 300;
+	color: gainsboro;
+	font-size: 1.05em;
+	line-height: 1.75em;
+	letter-spacing: 1px;
+	width: 200px;
+	margin: 340px auto auto auto;
+}
+	}
+
+/*-----End Media Query------*/
+
+#thirtyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: white;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#thirtyeight a {
+	color: orangered;
+}
+
+#thirtyeight a:hover {
+	text-decoration: none;
+	color: white;
+}
+
