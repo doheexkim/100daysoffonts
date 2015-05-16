@@ -4980,3 +4980,243 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 
 
+/*--------Day 40------*/
+#forty .content {
+	background-color: #FBE0E2;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/inspiration-geometry-red.png);
+}
+
+#forty .row {
+	width: 85%;
+	margin: 75px auto auto auto;
+	position: relative;
+}
+
+#forty .day {
+	color: orangered;
+	border-color: orangered;
+}
+
+#forty .firstfont {
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 8em; 
+}
+
+#forty .tgif {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+#forty .tgifone {
+	color: white;
+	-ms-transform: skewY(-10deg); /* IE 9 */
+    -webkit-transform: skewY(-10deg); /* Safari */
+    transform: skewY(-10deg); /* Standard syntax */
+}
+
+@keyframes tgiffade {
+    from { opacity: 0; }
+    to   { opacity: .8; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes tgiffade {
+    from { opacity: 0; }
+    to   { opacity: .8; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes tgiffade {
+    from { opacity: 0; }
+    to   { opacity: .8; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes tgiffade {
+    from { opacity: 0; }
+    to   { opacity: .8; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes tgiffade {
+    from { opacity: 0; }
+    to   { opacity: .8; }
+}
+
+
+.tgifone > *:nth-child(1) {
+  -webkit-animation: tgiffade .25s linear .10s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .10s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .10s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .10s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .10s both;
+}
+
+.tgifone > *:nth-child(2) {
+   -webkit-animation: tgiffade .25s linear .20s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .20s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .20s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .20s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .20s both;
+}
+
+.tgifone > *:nth-child(3) {
+  -webkit-animation: tgiffade .25s linear .30s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .30s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .30s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .30s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .30s both;
+}
+
+.tgifone > *:nth-child(4) {
+  -webkit-animation: tgiffade .25s linear .40s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .40s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .40s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .40s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .40s both;
+}
+
+#forty .tgiftwo {
+	-ms-transform: skewY(10deg); /* IE 9 */
+    -webkit-transform: skewY(10deg); /* Safari */
+    transform: skewY(10deg); /* Standard syntax */
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tgiftwo > *:nth-child(1) {
+  color: orangered;
+  opacity: .8;
+  -webkit-animation: tgiffade .25s linear .10s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .10s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .10s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .10s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .10s both;
+}
+
+.tgiftwo > *:nth-child(2) {
+  color: #7DC89C;
+  opacity: .8;
+   -webkit-animation: tgiffade .25s linear .20s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .20s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .20s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .20s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .20s both;
+}
+
+.tgiftwo > *:nth-child(3) {
+  color: #DEEF4C;
+  opacity: .8;
+  -webkit-animation: tgiffade .25s linear .30s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .30s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .30s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .30s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .30s both;
+}
+
+.tgiftwo > *:nth-child(4) {
+  color: #3C7276;
+  opacity: .8;
+  -webkit-animation: tgiffade .25s linear .40s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: tgiffade .25s linear .40s both; /* Firefox < 16 */
+  -ms-animation: tgiffade .25s linear .40s both; /* Internet Explorer */
+  -o-animation: tgiffade .25s linear .40s both; /* Opera < 12.1 */
+  animation: tgiffade .25s linear .40s both;
+}
+
+#forty .secondfont {
+	font-family: 'josefin slab', serif;
+	color: orangered;
+	font-size: 1.5em;
+ margin-top: 75px;
+}
+
+#forty .fridays {
+	background-color: white; 
+	padding: 5px 10px;
+	-webkit-animation: fadein .5s linear .5s both; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein .5s linear .5s both; /* Firefox < 16 */
+  -ms-animation: fadein .5s linear .5s both; /* Internet Explorer */
+  -o-animation: fadein .5s linear .5s both; /* Opera < 12.1 */
+  animation: fadein .5s linear .5s both;
+}
+
+/*-----Media Query------*/
+@media only screen and (min-width : 480px) {
+#forty .firstfont {
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 12em; 
+}
+
+#forty .tgif {
+	position: relative;
+	margin-bottom: 100px;
+}
+
+#forty .tgiftwo {
+    position: absolute;
+    top: 67px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forty .secondfont {
+ margin-top: 125px;
+}
+
+	}
+
+@media only screen and (min-width : 768px) {
+#forty .firstfont {
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 17em; 
+}
+
+#forty .tgif {
+	position: relative;
+	margin-bottom: 100px;
+}
+
+#forty .tgiftwo {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forty .secondfont {
+ margin-top: 150px;
+}
+
+	}
+
+/*-----End Media Query------*/
+
+#forty .colophon {
+	font-family: Montserrat, sans-serif;
+	color: white;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#forty a {
+	color: orangered;
+}
+
+#forty a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
