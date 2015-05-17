@@ -5196,7 +5196,6 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 #forty .secondfont {
  margin-top: 150px;
 }
-
 	}
 
 /*-----End Media Query------*/
@@ -5220,3 +5219,245 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 	color: slategrey;
 }
 
+/*--------Day 41------*/
+#fortyone .content {
+	background-color: #F2EEEB;
+	padding: 15rem 0 12rem 0;
+}
+
+#fortyone .recap {
+	width: 100%;
+	margin: 75px 0 auto 0;
+	padding: 0;
+	position: relative;
+	height: 500px;
+}
+
+#fortyone .row {
+	width: 300px;
+	margin: 100px auto auto auto;
+}
+
+#fortyone .picking {
+	position: relative;
+	z-index: 2;
+}
+
+#fortyone .firstfont {
+	font-family: 'Prata', serif; 
+	font-size: 1.2em;
+	line-height: 1.75em; 
+}
+
+#fortyone .secondfont {
+	font-family: 'Francois One', sans-serif;
+	color: #151515;
+	font-size: 3.5em;
+ margin-top: 75px;
+}
+
+#fortyone .thirdfont {
+	font-family: 'Francois One', sans-serif;
+	color: #151515;
+	font-size: 4.5em;
+	line-height: 1.05em;
+}
+
+#fortyone .cherry {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border-width: 25px;
+	border-style: solid;
+	position: absolute;
+}
+
+.cherry:nth-of-type(1) {
+	border-color: orangered;
+	opacity: .75;
+	top: 0px;
+	left: 25%;
+}
+
+.cherry:nth-of-type(2) {
+	border-color: #F4B194;
+	opacity: .8;
+	top: 200px;
+	left: 2%;
+	z-index: 2;
+}
+
+.cherry:nth-of-type(3) {
+	border-color: #F7E253;
+	background-color: #F7E253;
+	opacity: .75;
+	top: 275px;
+	left: 8%;
+	z-index: 1;
+}
+
+.cherry:nth-of-type(4) {
+	border-color: #BBB;
+	opacity: .2;
+	top: 100px;
+	left: 70%;
+
+}
+
+.cherry:nth-of-type(5) {
+	border-color: #BD5C88;
+	background-color: #BD5C88;
+	opacity: .9;
+	top: 350px;
+	left: 80%;
+}
+
+.cherry:nth-of-type(6) {
+	border-color: #3F3A58;
+	opacity: .75;
+	top: 500px;
+	left: 60%;
+}
+
+.cherry:nth-of-type(7) {
+	border-color: orangered;
+	background-color: orangered;
+	opacity: .65;
+	top: 600px;
+	left: 40%;
+}
+
+.cherry:nth-of-type(8) {
+	border-color: #F7E253;
+	opacity: .80;
+	top: 700px;
+	left: 30%;
+}
+
+
+
+/*-----Media Query------*/
+@media only screen and (min-width : 480px) {
+	}
+
+@media only screen and (min-width : 768px) {
+#fortyone .recap {
+	width: 100%;
+	margin: 75px 0 auto 0;
+	padding: 0;
+	position: relative;
+	height: 850px;
+}
+
+#fortyone .row {
+	width: 400px;
+	margin: auto;
+}
+
+#fortyone .picking {
+	position: relative;
+	z-index: 2;
+}
+
+#fortyone .thirdfont {
+	margin-left: 50px;
+}
+
+#fortyone .cherry {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border-width: 45px;
+	border-style: solid;
+	position: absolute;
+}
+
+.cherry:nth-of-type(1) {
+	border-color: orangered;
+	opacity: .75;
+	top: 0px;
+	left: 25%;
+}
+
+.cherry:nth-of-type(2) {
+	border-color: #F4B194;
+	opacity: .8;
+	top: 200px;
+	left: 2%;
+	z-index: 2;
+}
+
+.cherry:nth-of-type(3) {
+	border-color: #F7E253;
+	background-color: #F7E253;
+	opacity: .75;
+	top: 275px;
+	left: 8%;
+	z-index: 1;
+}
+
+.cherry:nth-of-type(4) {
+	border-color: #BBB;
+	opacity: .2;
+	top: 100px;
+	left: 70%;
+
+}
+
+.cherry:nth-of-type(5) {
+	border-color: #BD5C88;
+	background-color: #BD5C88;
+	opacity: .9;
+	top: 350px;
+	left: 80%;
+}
+
+.cherry:nth-of-type(6) {
+	border-color: #3F3A58;
+	opacity: .75;
+	top: 500px;
+	left: 60%;
+}
+
+.cherry:nth-of-type(7) {
+	border-color: orangered;
+	background-color: orangered;
+	opacity: .65;
+	top: 600px;
+	left: 40%;
+}
+
+.cherry:nth-of-type(8) {
+	border-color: #F7E253;
+	opacity: .80;
+	top: 700px;
+	left: 30%;
+}
+
+#fortyone .lowpoint {
+	margin-top: 250px;
+}
+	}
+
+/*-----End Media Query------*/
+
+#fortyone .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortyone a {
+	color: #151515;
+}
+
+#fortyone a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
