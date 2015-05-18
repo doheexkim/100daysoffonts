@@ -5461,3 +5461,254 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 	text-decoration: none;
 	color: slategrey;
 }
+
+/*--------Day 42------*/
+
+
+#fortytwo .content {
+	background-color: #eaece9;
+	padding: 15rem 0 12rem 0;
+	overflow: hidden;
+	position: relative;
+}
+
+#fortytwo .day {
+	position: relative;
+	z-index: 2;
+}
+
+#fortytwo .content:before { 
+  content: '';
+  position: absolute;
+  left: -20%;
+  width: 200%; 
+  height: 100%; 
+  background-color: rgb(255, 255, 255); /* fallback */
+  background-color: rgba(255, 255, 255, 0.5);
+  top: -500px;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+#fortytwo .row {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fortytwo .businesscard {
+	width: 300px;
+	height: 205px;
+background-color: #fffefe;
+background-image: url(../images/natural-paper.png);
+	margin: auto;
+	border-radius: 2px;
+	padding-left: 5px;
+	margin-bottom: 50px;
+	padding-top:20px;
+	box-shadow: 5px 5px 10px rgba(15, 15, 15, .075);
+}
+
+#fortytwo .firstfont {
+	font-family: 'montserrat', sans-serif; 
+	color: gainsboro;
+	letter-spacing: 7px;
+	font-size: .75em;
+	line-height: 2.4em; 
+}
+
+#fortytwo .secondfont {
+	font-family: 'montserrat', sans-serif; 
+	color: #151515;
+	letter-spacing: 5px;
+	font-size: .5em;
+	line-height: 2em;
+}
+
+#fortytwo .thirdfont {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: #151515;
+}
+
+#fortytwo .cardcontent {
+	margin-top: 15px;
+}
+
+#fortytwo .businessemail {
+	margin-top: 25px;
+	color: gainsboro;
+}
+
+#fortytwo .commentary {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border-top: 3px solid #151515;
+	padding-top: 20px;
+	font-family: 'Playfair display';
+	line-height: 1.75em;
+
+}
+
+
+
+/*-----Media Query------*/
+@media only screen and (min-width : 480px) {
+#fortytwo .row {
+	margin-top: 100px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fortytwo .businesscard {
+	width: 400px;
+	height: 250px;
+background-color: #fffefe;
+background-image: url(../images/natural-paper.png);
+	margin: auto;
+	border-radius: 2px;
+	margin-bottom: 50px;
+	padding-left: 8px;
+	padding-top: 8px;
+	box-shadow: 5px 5px 10px rgba(15, 15, 15, .075);
+}
+
+#fortytwo .firstfont {
+	font-family: 'montserrat', sans-serif; 
+	color: gainsboro;
+	letter-spacing: 10px;
+	font-size: 1em;
+	line-height: 2.4em; 
+}
+
+#fortytwo .secondfont {
+	font-family: 'montserrat', sans-serif; 
+	color: #151515;
+	letter-spacing: 5px;
+	font-size: .75em;
+	line-height: 2em;
+}
+
+#fortytwo .thirdfont {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: #151515;
+}
+
+#fortytwo .cardcontent {
+	margin-top: 25px;
+}
+
+#fortytwo .businessemail {
+	margin-top: 40px;
+	color: gainsboro;
+}
+
+#fortytwo .commentary {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border-top: 3px solid #151515;
+	padding-top: 20px;
+	font-family: 'Playfair display';
+	line-height: 1.75em;
+
+}
+
+	}
+
+@media only screen and (min-width : 992px) {
+
+#fortytwo .row {
+	margin-top: 100px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fortytwo .businesscard {
+	width: 400px;
+	height: 250px;
+background-color: #fffefe;
+background-image: url(../images/natural-paper.png);
+	margin: auto;
+	border-radius: 2px;
+	margin-bottom: 50px;
+	padding-left: 8px;
+	padding-top: 8px;
+	box-shadow: 5px 5px 10px rgba(15, 15, 15, .075);
+}
+
+#fortytwo .firstfont {
+	font-family: 'montserrat', sans-serif; 
+	color: gainsboro;
+	letter-spacing: 10px;
+	font-size: 1em;
+	line-height: 2.4em; 
+}
+
+#fortytwo .secondfont {
+	font-family: 'montserrat', sans-serif; 
+	color: #151515;
+	letter-spacing: 5px;
+	font-size: .75em;
+	line-height: 2em;
+}
+
+#fortytwo .thirdfont {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: #151515;
+}
+
+#fortytwo .cardcontent {
+	margin-top: 25px;
+}
+
+#fortytwo .businessemail {
+	margin-top: 40px;
+	color: gainsboro;
+}
+
+#fortytwo .commentary {
+	width: 200px;
+	margin-top: 440px;
+	border-top: 3px solid #151515;
+	padding-top: 20px;
+	font-family: 'Playfair display';
+	line-height: 1.75em;
+}
+
+	}
+
+/*-----End Media Query------*/
+
+#fortytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: slategrey;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortytwo a {
+	color: #151515;
+}
+
+#fortytwo a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
