@@ -17,6 +17,8 @@
 
 .nav {
 	padding-top: 15px;
+	position: relative;
+	z-index: 10;
 }
 
 .navbar {
@@ -5709,6 +5711,155 @@ background-image: url(../images/natural-paper.png);
 }
 
 #fortytwo a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
+/*--------Day 43------*/
+
+
+#fortythree .content {
+	background-color: #D6CA34;
+	padding: 15rem 0 12rem 0;
+	overflow: hidden;
+	position: relative;
+}
+
+#fortythree .row {
+	margin-top: 100px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fortythree .subtitle {
+	margin-bottom: 50px;
+}
+
+#fortythree .podcast {
+	margin-bottom: 50px;
+}
+
+#fortythree .firstfont {
+	font-family: 'Francois One', sans-serif; 
+	color: #151515;
+	letter-spacing: 3px;
+	font-size: 1.25em;
+	line-height: 2.4em; 
+	padding-bottom: 15px;
+border-bottom: 2px solid snow;
+	width: 90%;
+	margin: auto auto 25px auto;
+/*border-radius: 10px;*/
+
+}
+
+#fortythree .secondfont {
+	font-family: 'EB Garamond', serif; 
+	color: #151515;
+	letter-spacing: 1px;
+	font-size: 3.75em;
+	line-height: 2em;
+}
+
+#fortythree .thirdfont {
+	font-family: 'EB Garamond', serif; 
+	color: #151515;
+	font-size: 1.4em;
+	line-height: 1.75em;
+}
+
+#fortythree .number {
+	font-family: 'francois one', sans-serif; 
+	color: snow;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid snow;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin: auto;
+	padding-top: 2px;
+}
+
+/*#fortythree .podcast {
+	margin-bottom: 50px;
+}*/
+
+
+
+/*-----Media Query------*/
+@media only screen and (min-width : 480px) {
+#fortythree .row {
+	margin-top: 100px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fortythree .firstfont {
+	font-family: 'Francois One', sans-serif; 
+	color: #151515;
+	letter-spacing: 3px;
+	font-size: 1.25em;
+	line-height: 2.4em; 
+	padding-bottom: 15px;
+border-bottom: 2px solid snow;
+	width: 450px;
+	margin: auto auto 25px auto;
+/*border-radius: 10px;*/
+
+}
+	}
+
+@media only screen and (min-width : 992px) {
+#fortythree .row {
+	margin-top: 100px;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.podcastone {
+	margin-top: 75px;
+}
+
+.podcasttwo {
+	margin-top: 200px;
+}
+
+.podcastfour {
+	margin-top: 175px;
+}
+
+#fortythree .subtitle {
+	margin-bottom: auto;
+}
+
+#fortythree .podcast {
+	margin-bottom: auto;
+}
+	}
+
+/*-----End Media Query------*/
+
+#fortythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortythree a {
+	color: snow;
+}
+
+#fortythree a:hover {
 	text-decoration: none;
 	color: slategrey;
 }
