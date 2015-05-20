@@ -5863,3 +5863,170 @@ border-bottom: 2px solid snow;
 	text-decoration: none;
 	color: slategrey;
 }
+
+
+/*--------Day 44------*/
+
+
+#fortyfour .content {
+	background-color: #9995BA;
+	padding: 15rem 0 12rem 0;
+}
+
+#fortyfour .row {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#fortyfour .tuesday {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+#fortyfour .firstfont {
+	font-family: 'Righteous', sans-serif; 
+	color: snow;
+	font-size: 8em;
+	line-height: 1.25em; 
+
+}
+
+#fortyfour .secondfont {
+	font-family: 'Josefin Slab', serif; 
+	color: #151515;
+	font-size: .13em;
+	line-height: 2em;
+	text-transform: none;
+}
+
+#fortyfour .dayspan {
+	letter-spacing: 20px;
+}
+
+#fortyfour hr {
+	border-width: 15px;
+	border-style: solid;
+	margin-left: 0;
+}
+
+#fortyfour .tueline {
+	border-color: hotpink;
+	opacity: .75;
+	position: absolute;
+	top: 50px;
+	width: 300px;
+}
+
+#fortyfour .sline {
+	border-color: orangered;
+	opacity: .75;
+	position: absolute;
+	top: 225px;
+	width: 50px;
+}
+
+#fortyfour .dayline {
+	border-color: mintcream;
+	opacity: .75;
+	position: absolute;
+	top: 325px;
+	width: 300px;
+}
+
+#fortyfour .commentary {
+	width: 220px;
+	position: absolute;
+	top: 230px;
+	left: 100px;
+
+}
+
+/*-----Media Query------*/
+@media only screen and (min-width : 480px) {
+#fortyfour .tuesday {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+#fortyfour .firstfont {
+	font-family: 'Righteous', sans-serif; 
+	color: snow;
+	font-size: 10em;
+	line-height: 1.25em; 
+
+}
+
+#fortyfour hr {
+	border-width: 15px;
+	border-style: solid;
+	margin-left: 0;
+}
+
+#fortyfour .tueline {
+	border-color: hotpink;
+	opacity: .75;
+	position: absolute;
+	top: 75px;
+	width: 315px;
+}
+
+#fortyfour .sline {
+	border-color: orangered;
+	opacity: .75;
+	position: absolute;
+	top: 300px;
+	width: 50px;
+}
+
+#fortyfour .dayline {
+	border-color: mintcream;
+	opacity: .75;
+	position: absolute;
+	top: 400px;
+	width: 315px;
+}
+
+#fortyfour .commentary {
+	width: 230px;
+	position: absolute;
+	top: 275px;
+	left: 150px;
+
+}
+	}
+
+@media only screen and (min-width : 992px) {
+	}
+
+/*-----End Media Query------*/
+
+#fortyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortyfour a {
+	color: snow;
+}
+
+#fortyfour a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
