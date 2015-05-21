@@ -6004,10 +6004,6 @@ border-bottom: 2px solid snow;
 
 }
 	}
-
-@media only screen and (min-width : 992px) {
-	}
-
 /*-----End Media Query------*/
 
 #fortyfour .colophon {
@@ -6029,4 +6025,147 @@ border-bottom: 2px solid snow;
 #fortyfour a:hover {
 	text-decoration: none;
 	color: slategrey;
+}
+
+/*--------Day 45------*/
+
+
+#fortyfive .content {
+	background-color: gainsboro;
+	padding: 15rem 0 12rem 0;
+}
+
+#fortyfive .firstfont {
+	font-family: 'oswald', sans-serif; 
+	color: orangered;
+	opacity: 75%;
+	font-size: 20vw;
+	line-height: 1.5em; 
+	width: 75vw;
+	text-align: left;
+	margin-left: 15vw;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+#fortyfive .secondfont {
+	font-family: 'Lora', serif; 
+	color: #151515;
+	font-size: 1.1em;
+	line-height: 2em;
+}
+
+#fortyfive .commentary{
+	-webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200; /* Firefox */
+    column-width: 200px;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    margin: auto;
+} 
+
+#fortyfive .thirdfont {
+	font-family: 'Cutive Mono', monospace; 
+	color: #151515;
+	font-size: .85em;
+	line-height: 1.5em;
+	text-transform: none; 
+
+}
+
+#fortyfive .note {
+	width: 150px;
+	text-align: left;
+	margin-top: 75px;
+		margin-left: 50vw;
+}
+
+#fortyfive .weekend {
+	position: relative;
+	margin-top: 15vh;
+}
+
+#fortyfive .hangin {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 20px;
+	margin-top: 100px;
+}
+
+#fortyfive .square {
+	width: 70vw;
+	height: 70vw;
+	max-width: 700px;
+	min-width: 320px;
+	background-color: mintcream;
+	opacity: .50;
+	margin-left: 25vw;
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+}
+
+/*-----Media Query------*/
+@media only screen and (min-width : 480px) {
+#fortyfive .firstfont {
+	font-family: 'oswald', sans-serif; 
+	color: tomato;
+	opacity: 75%;
+	font-size: 12vw;
+	line-height: 1.5em; 
+	width: 40vw;
+	text-align: left;
+	margin-left: 15vw;
+	margin-bottom: 50px;
+
+}
+
+#fortyfive .secondfont {
+	font-family: 'Lora', serif; 
+	color: #151515;
+	font-size: 1.25em;
+	line-height: 2em;
+}
+
+#fortyfive .note {
+	width: 150px;
+	text-align: left;
+	margin-top: 75px;
+		margin-left: 65vw;
+}
+
+	}
+
+
+
+/*-----End Media Query------*/
+
+#fortyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 12rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortyfive a {
+	color: tomato;
+}
+
+#fortyfive a:hover {
+	text-decoration: none;
+	color: snow;
 }
