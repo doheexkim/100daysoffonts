@@ -6145,8 +6145,6 @@ border-bottom: 2px solid snow;
 
 	}
 
-
-
 /*-----End Media Query------*/
 
 #fortyfive .colophon {
@@ -6168,4 +6166,266 @@ border-bottom: 2px solid snow;
 #fortyfive a:hover {
 	text-decoration: none;
 	color: snow;
+}
+
+/*--------Day 46------*/
+
+#fortysix .content {
+	background-color: #2B324F;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#fortysix .day {
+	border-color: #FFFDE6;
+	color: #FFFDE6;
+
+}
+
+#fortysix .firstfont {
+	font-family: 'open sans condensed', sans-serif; 
+	color: #FFFDE6;
+	opacity: 75%;
+	font-size: 2.4em;
+	line-height: 2.75em;
+	letter-spacing: 7px; 
+	width: 300px;
+	min-height: 400px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+	margin-top: 125px;
+	border: 1px solid #FFFDE6;
+		-ms-transform: skewY(10deg); /* IE 9 */
+    -webkit-transform: skewY(10deg); /* Safari */
+    transform: skewY(10deg); /* Standard syntax */
+}
+
+/*#fortysix .eyes {
+	width: 320px;
+	margin: auto;
+	background-color: red;
+}*/
+
+#fortysix .secondfont {
+	font-family: Cabin, sans-serif; 
+	color: gold;
+	font-size: .75em;
+	letter-spacing: 5px;
+	line-height: 3em;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+  -ms-transform: skewY(10deg); /* IE 9 */
+  -webkit-transform: skewY(10deg); /* Safari */
+  transform: skewY(10deg); /* Standard syntax */
+
+  }
+
+#fortysix .line div {
+	background-color: mintcream;
+	position: absolute;
+}
+
+#fortysix .line div:nth-child(1) {
+  width: 3vh;
+  height: 1vh;
+  opacity: .75;
+  top: 20%vh;
+  left: 10%;
+ }
+
+#fortysix .line div:nth-child(2) {
+  width: 5vh;
+  height: 1.25vh;
+  opacity: .25;
+    top: 40%;
+  left: 20%;
+ }
+
+#fortysix .line div:nth-child(3) {
+  width: 6vh;
+  height: 1.5vh;
+  opacity: .5;
+  left: 72%;
+  top: 72%;
+ }
+
+ #fortysix .line div:nth-child(4) {
+  width: 3vh;
+  height: .5vh;
+  opacity: .5;
+   top:50%;
+  left: 25%;
+  background-color: gold;
+ }
+
+#fortysix .line div:nth-child(5) {
+  width: 2vh;
+  height: .5vh;
+  opacity: .25;
+  top: 15%;
+  left: 60%;
+    background-color: gold;
+ }
+
+#fortysix .line div:nth-child(6) {
+  width: 4vh;
+  height: 1.5vh;
+  opacity: .6;
+    top: 45%;
+  left: 70%;
+ }
+
+#fortysix .line div:nth-child(7) {
+  width: 4vh;
+  height: .5vh;
+  opacity: .5;
+  top: 60%;
+  left: 80%;
+
+ }
+
+ #fortysix .line div:nth-child(8) {
+  width: 2.5vh;
+  height: .5vh;
+  opacity: .5;
+   top: 70%;
+  left: 20%;
+
+ }
+
+ #fortysix .line div:nth-child(9) {
+  width: 2.5vh;
+  height: .5vh;
+  opacity: .5;
+   top: 80%;
+  left: 60%;
+
+ }
+
+  #fortysix .line div:nth-child(10) {
+  width: 2.5vh;
+  height: .5vh;
+  opacity: .5;
+   top: 10%;
+  left: 10%;
+  background-color: gold;
+ }
+
+ #fortysix .line div:nth-child(11) {
+ width: 3.5vh;
+ height: .8vh;
+ opacity: .25;
+ top: 18%;
+left: 23%;
+ }
+
+ #fortysix .line div:nth-child(12) {
+ width: 4vh;
+ height: .75vh;
+ opacity: .25;
+ top: 24%;
+left: 68%;
+ }
+
+ #fortysix .line div:nth-child(13) {
+ width: 2vh;
+ height: .55vh;
+ opacity: .35;
+ top: 35%;
+left: 89%;
+background-color: gold;
+ }
+
+ #fortysix .line div:nth-child(14) {
+ width: 5.5vh;
+ height: .70vh;
+ opacity: .8;
+ top: 36%;
+left: 10%;
+ }
+
+ #fortysix .line div:nth-child(15) {
+ width: 4.2vh;
+ height: .70vh;
+ opacity: .25;
+ top: 24%;
+left: 5%;
+ }
+
+ #fortysix .line div:nth-child(16) {
+ width: 3.2vh;
+ height: .5vh;
+ opacity: .6;
+ top: 55%;
+left: 90%;
+ }
+
+ #fortysix .line div:nth-child(17) {
+ width: 5.2vh;
+ height: .5vh;
+ opacity: .6;
+ top: 65%;
+left: 42%;
+ }
+
+ #fortysix .line div:nth-child(18) {
+ width: 7.2vh;
+ height: .25vh;
+ opacity: .5;
+ top: 75%;
+left: 32%;
+  background-color: gold;
+ }
+
+ #fortysix .line div:nth-child(19) {
+ width: 6.2vh;
+ height: .4vh;
+ opacity: .25;
+ top: 58%;
+left: 7%;
+ }
+
+ #fortysix .line div:nth-child(20) {
+ width: 4vh;
+ height: .4vh;
+ opacity: .7;
+ top: 82%;
+left: 92%;
+ }
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+#fortysix .line {
+	visibility: hidden;}
+
+	}
+
+/*-----End Media Query------*/
+
+#fortysix .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 20rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortysix a {
+	color: slategrey;
+}
+
+#fortysix a:hover {
+	text-decoration: none;
+	color: #FFFDE6;
 }
