@@ -6429,3 +6429,214 @@ left: 92%;
 	text-decoration: none;
 	color: #FFFDE6;
 }
+
+/*--------Day 47------*/
+
+#fortyseven .content {
+	background-color: #E9EDE1;
+	padding: 15rem 0 12rem 0;
+	background-image: url('../images/natural-paper-blue.png');
+}
+
+#fortyseven .row {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+
+#fortyseven .titlebox {
+	width: 225px;
+	float: right;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+
+#fortyseven .digitalnumber {
+	padding-top: 20px;
+	border-top: 5px solid white;
+	width: 100%;
+	margin-top: 75px;
+}
+
+#fortyseven .test {
+	clear: both;
+}
+
+#fortyseven .firstfont {
+	font-family: 'Old Standard TT', serif;
+	color: #4B7EC5;
+	font-size: 25vw;
+	line-height: 1em;
+	letter-spacing: 2px; 
+}
+
+#fortyseven .secondfont {
+	font-family: 'PT Sans Narrow', sans-serif; 
+	color: #4B7EC5;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+  }
+
+#fortyseven .title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1.75em;
+	letter-spacing: 4px;
+	text-align: right;
+	margin-top: 0px;
+	color: #151515;
+		/*border-bottom: 4px solid white;*/
+}
+
+#fortyseven .commentary {
+	margin-top: 50px;
+	text-align: left;
+	margin-left: 4vw;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 2.5em;
+	letter-spacing: 4px;
+	margin-top: 75px;
+	color: #151515;
+	width: 225px;
+
+}
+#fortyseven .numberlabel {
+	margin-top: 15px;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+#fortyseven .numberlabel a {
+	color: #151515;
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #151515;
+}
+
+#fortyseven .numberlabel a:hover {
+	color: white;
+	padding-bottom: 5px;
+	border-bottom: 3px solid white;
+}
+
+
+/*-----Media Query------*/
+@media only screen and (min-width : 768px) {
+#fortyseven .row {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+#fortyseven .titlebox {
+	width: 225px;
+	float: right;
+	margin-right: 2%;
+	margin-bottom: auto;
+}
+
+#fortyseven .digitalnumber {
+	padding-top: 20px;
+	border-top: 5px solid white;
+	width: 90%;
+	margin-top: auto;
+}
+
+#fortyseven .test {
+	clear: both;
+}
+
+#fortyseven .firstfont {
+	/*font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;*/
+	font-family: 'Old Standard TT', serif;
+	color: #4B7EC5;
+	font-size: 5vw;
+	line-height: 1em;
+	letter-spacing: 2px; 
+}
+
+#fortyseven .secondfont {
+	font-family: 'PT Sans Narrow', sans-serif; 
+	color: #4B7EC5;
+	font-size: 1.25em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+  }
+
+#fortyseven .title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1.75em;
+	letter-spacing: 4px;
+	text-align: right;
+	margin-top: 0px;
+	color: #151515;
+		/*border-bottom: 4px solid white;*/
+}
+
+#fortyseven .commentary {
+	margin-top: 50px;
+	text-align: left;
+	margin-left: 2%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 2.5em;
+	letter-spacing: 4px;
+	margin-top: 0px;
+	color: #151515;
+	width: 225px;
+
+}
+#fortyseven .numberlabel {
+	margin-top: 15px;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+#fortyseven .col2 {
+	margin-top: 100px;
+}
+
+#fortyseven .col3 {
+	margin-top: 200px;
+}
+
+#fortyseven .col4 {
+	margin-top: 300px;
+	margin-bottom: 50px;
+}
+
+
+	}
+
+/*-----End Media Query------*/
+
+#fortyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortyseven a {
+	color: #4B7EC5;
+}
+
+#fortyseven a:hover {
+	text-decoration: none;
+	color: #151515;
+}
