@@ -6619,7 +6619,7 @@ left: 92%;
 
 /*-----End Media Query------*/
 
-#fortyseven .colophon {
+`{
 	font-family: Montserrat, sans-serif;
 	color: #151515;
 	font-size: .75em;
@@ -6636,6 +6636,184 @@ left: 92%;
 }
 
 #fortyseven a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+/*--------Day 48------*/
+
+#fortyeight .content {
+	background-color: #DECCC8;
+	padding: 15rem 0 12rem 0;
+	background-image: url('../images/gridwhiteedit-01.png');
+	background-position: center center;
+}
+
+#fortyeight .row {
+margin-top: 100px;
+}
+
+
+#fortyeight .box{
+  width:500px; height:100px;  
+  border:solid 1px #F2EEE6;
+  border-color:#202319 transparent transparent transparent;
+  border-radius: 75%/100px 100px 0 0;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#fortyeight .bebrave {
+	margin-top: -34px;
+}
+
+#fortyeight .firstfont {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #202319;
+	font-weight: bold;
+	font-size: 7em;
+	line-height: 1em;
+	letter-spacing: 10px; 
+}
+
+#fortyeight .dreams {
+	width: 450px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+	text-align: left;
+	    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    
+}
+
+#fortyeight .secondfont {
+	font-family: 'playfair display', serif; 
+	font-size: 1em;
+	line-height: 2em;
+  }
+
+ #fortyeight .bebrave span:nth-child(1){
+ 	-ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+  display: inline-block;
+  vertical-align: 12px;
+ }
+
+ #fortyeight .bebrave span:nth-child(2){
+ 	 -ms-transform: rotate(6deg); /* IE 9 */
+  -webkit-transform: rotate(6deg); /* Chrome, Safari, Opera */
+  transform: rotate(6deg);
+  display: inline-block;
+  vertical-align: 4px;
+ }
+
+ #fortyeight .bebrave span:nth-child(3){
+  -ms-transform: rotate(4deg); /* IE 9 */
+  -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+  transform: rotate(4deg);
+  display: inline-block;
+  vertical-align: -4px;
+ }
+
+ #fortyeight .bebrave span:nth-child(4){
+ 	vertical-align: -4px;
+ }
+
+ #fortyeight .bebrave span:nth-child(5){
+ 	-ms-transform: rotate(-4deg); /* IE 9 */
+  -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+  transform: rotate(-4deg);
+  display: inline-block;
+  vertical-align: -2px;
+ }
+
+ #fortyeight .bebrave span:nth-child(6){
+  -ms-transform: rotate(-6deg); /* IE 9 */
+  -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+  transform: rotate(-6deg);
+  display: inline-block;
+  vertical-align: 3px;
+ }
+
+ #fortyeight .bebrave span:nth-child(7){
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+  display: inline-block;
+  vertical-align: 10px;
+ }
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+#fortyeight .content {
+	background-size: 50%;
+}
+
+#fortyeight .row {
+margin-top: 50px;
+}
+
+#fortyeight .box{
+  width: 320px; height:100px; 
+    border-radius: 90%/100px 100px 0 0; 
+}
+
+#fortyeight .firstfont {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #202319;
+	font-weight: bold;
+	font-size: 4em;
+	line-height: 1em;
+	letter-spacing: 10px; 
+}
+
+#fortyeight .bebrave {
+	margin-top: -25px;
+}
+
+#fortyeight .dreams {
+	width: 280px;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    margin-top: 50px;
+}
+
+#fortyeight .secondfont {
+	text-align: center;
+}
+
+	}
+
+/*-----End Media Query------*/
+
+#fortyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortyeight a {
+	color: slategrey;
+}
+
+#fortyeight a:hover {
 	text-decoration: none;
 	color: #151515;
 }
