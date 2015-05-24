@@ -6079,7 +6079,6 @@ border-bottom: 2px solid snow;
 	font-size: .85em;
 	line-height: 1.5em;
 	text-transform: none; 
-
 }
 
 #fortyfive .note {
@@ -6091,7 +6090,7 @@ border-bottom: 2px solid snow;
 
 #fortyfive .weekend {
 	position: relative;
-	margin-top: 15vh;
+	margin-top: 100px;
 }
 
 #fortyfive .hangin {
@@ -6140,7 +6139,7 @@ border-bottom: 2px solid snow;
 	width: 150px;
 	text-align: left;
 	margin-top: 75px;
-		margin-left: 65vw;
+	margin-left: 65vw;
 }
 
 	}
