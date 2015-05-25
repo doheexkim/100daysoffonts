@@ -6817,3 +6817,139 @@ margin-top: 50px;
 	text-decoration: none;
 	color: #151515;
 }
+
+/*--------Day 49------*/
+
+#fortynine .content {
+	background-color: #e8efe8;
+	padding: 15rem 0 12rem 0;
+}
+
+#fortynine .row {
+margin-top: 125px;
+width: 475px;
+padding-left: 45px;
+padding-top: 50px;
+padding-right: 25px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+padding-bottom: 125px;
+
+border: 10px solid #8391ae;
+	/*background-image: url('../images/dotedit2-01.png');
+		background-position: center center;*/
+}
+
+#fortynine .firstfont {
+	font-family: Lora, serif;
+	color: #3D3936;
+	font-size: 5em;
+	line-height: 1.2em;
+	letter-spacing: 3px; 
+	text-align: left;
+}
+
+#fortynine .choose {
+	width: 125px;
+	position: absolute;
+	top: 240px;
+	right: 40px;
+}
+
+#fortynine .secondfont {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #3D3936;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-align: left;
+  }
+
+ #fortynine .dotcircle {
+ 	width: 200px;
+ 	height: 200px;
+ 	border-radius: 50%;
+ 	background-image: url('../images/dotgrid-01.png');
+ 	background-position: center center;
+ 	margin-right: auto;
+ 	margin-left: 60%;
+ 	margin-top: -65px;
+ }
+
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+
+#fortynine .row {
+margin-top: 125px;
+width: 310px;
+padding-left: 20px;
+padding-top: 20px;
+padding-right: 25px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+padding-bottom: 125px;
+
+border: 10px solid #8391ae;
+}
+
+#fortynine .firstfont {
+	font-family: Lora, serif;
+	color: #3D3936;
+	font-size: 2.75em;
+	line-height: 1.5em;
+	letter-spacing: 3px; 
+	text-align: left;
+}
+
+#fortynine .choose {
+	width: 125px;
+	position: absolute;
+	top: 150px;
+	right: 0px;
+}
+
+#fortynine .secondfont {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #3D3936;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: left;
+  }
+
+ #fortynine .dotcircle {
+ 	width: 125px;
+ 	height: 125px;
+ 	border-radius: 50%;
+ 	background-image: url('../images/dotgrid-01.png');
+ 	background-position: center center;
+ 	margin-right: auto;
+ 	margin-left: 70%;
+ 	margin-top: -50px;
+ }
+
+	}
+
+/*-----End Media Query------*/
+
+#fortynine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 15rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fortynine a {
+	color: #8e4e1e;
+}
+
+#fortynine a:hover {
+	text-decoration: none;
+	color: #151515;
+}
