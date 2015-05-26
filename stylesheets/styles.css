@@ -6953,3 +6953,130 @@ border: 10px solid #8391ae;
 	text-decoration: none;
 	color: #151515;
 }
+
+/*--------Day 50------*/
+
+#fifty .content {
+	background-color: #1F2227;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/binding-dark.png);
+}
+
+#fifty .day {
+	color: snow;
+	border-color: snow;
+}
+
+#fifty .row {
+margin-top: 50px;
+width: 480px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 100px;
+padding-bottom: 100px;
+position: relative;
+}
+
+#fifty .leftarrow {
+	position: absolute;
+	top: 140px;
+	left: 210px;
+	opacity: .75;
+}
+
+#fifty .rightarrow {
+	position: absolute;
+	top: 260px;
+	left: 140px;
+	opacity: .75;
+}
+
+#fifty .firstfont {
+	font-family: 'Vidaloka', serif;
+	color: #8e4e1e;
+	font-size: 7em;
+	line-height: 1.25em;
+	letter-spacing: 1px; 
+	text-align: left;
+	position: relative;
+}
+
+#fifty .secondfont {
+	font-family: 'Quicksand', sans-serif; 
+	color: snow;
+	font-size: 2em;
+	line-height: 1.5em;
+	letter-spacing: 10px;
+	text-align: left;
+	padding-bottom: 10px;
+	border-bottom: 3px solid snow;
+	vertical-align: 20px;
+	width: 80%;
+
+
+  }
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+
+#fifty .row {
+margin-top: 50px;
+width: 90%;
+padding-top: 75px;
+padding-bottom: 50px;
+}
+
+#fifty .leftarrow {
+	top: 90px;
+	left: 37%;
+	opacity: .75;
+}
+
+#fifty .rightarrow {
+	top: 175px;
+	left: 30%;
+	opacity: .75;
+}
+
+#fifty .firstfont {
+	font-size: 5em;
+	line-height: 1.25em;
+	letter-spacing: 1px; 
+	text-align: left;
+	position: relative;
+}
+
+#fifty .secondfont {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	letter-spacing: 10px;
+	text-align: left;
+	padding-bottom: 10px;
+	border-bottom: 3px solid snow;
+	vertical-align: 20px;
+	width: 80%;
+	}
+}
+
+/*-----End Media Query------*/
+
+#fifty .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fifty a {
+	color: snow;
+}
+
+#fifty a:hover {
+	text-decoration: none;
+	color: #8e4e1e;
+}
