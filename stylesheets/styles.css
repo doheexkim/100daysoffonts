@@ -7080,3 +7080,73 @@ padding-bottom: 50px;
 	text-decoration: none;
 	color: #8e4e1e;
 }
+
+/*--------Day 51------*/
+
+#fiftyone .content {
+	background-color: #EACCB2;
+	padding: 15rem 0 12rem 0;
+}
+
+#fiftyone .row {
+margin-top: 75px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 50px;
+padding-bottom: 100px;
+position: relative;
+}
+
+.dialogue p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#fiftyone .firstfont {
+	font-family: 'cutive mono', monospace;
+	color: snow;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	text-align: left;
+	position: relative;
+	padding-bottom: 25px;
+	border-bottom: 3px solid snow;
+}
+
+#fiftyone .secondfont {
+	font-family: 'archivo black', sans-serif; 
+	color: snow;
+	font-size: 1.6em;
+	line-height: 1.5em;
+	letter-spacing: 9px;
+	text-align: center;
+	margin-top: 20px;
+  }
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+}
+
+/*-----End Media Query------*/
+
+#fiftyone .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fiftyone a {
+	color: snow;
+}
+
+#fiftyone a:hover {
+	text-decoration: none;
+	color: #151515;
+}
