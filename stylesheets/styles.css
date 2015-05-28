@@ -6487,7 +6487,6 @@ left: 92%;
 	text-align: right;
 	margin-top: 0px;
 	color: #151515;
-		/*border-bottom: 4px solid white;*/
 }
 
 #fortyseven .commentary {
@@ -6502,8 +6501,8 @@ left: 92%;
 	margin-top: 75px;
 	color: #151515;
 	width: 225px;
-
 }
+
 #fortyseven .numberlabel {
 	margin-top: 15px;
 	padding-left: 5px;
@@ -6552,8 +6551,6 @@ left: 92%;
 }
 
 #fortyseven .firstfont {
-	/*font-family: 'PT Sans Narrow', sans-serif;
-	font-weight: bold;*/
 	font-family: 'Old Standard TT', serif;
 	color: #4B7EC5;
 	font-size: 5vw;
@@ -6613,13 +6610,11 @@ left: 92%;
 	margin-top: 300px;
 	margin-bottom: 50px;
 }
-
-
 	}
 
 /*-----End Media Query------*/
 
-`{
+#fortyseven .colophon {
 	font-family: Montserrat, sans-serif;
 	color: #151515;
 	font-size: .75em;
@@ -7124,10 +7119,6 @@ position: relative;
 	margin-top: 20px;
   }
 
-/*-----Media Query------*/
-@media only screen and (max-width : 480px) {
-}
-
 /*-----End Media Query------*/
 
 #fiftyone .colophon {
@@ -7147,6 +7138,177 @@ position: relative;
 }
 
 #fiftyone a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+/*--------Day 52------*/
+
+#fiftytwo .content {
+	background-color: #F4F4F2;
+	padding: 15rem 0 12rem 0;
+}
+
+#fiftytwo .row {
+	width: 480px;
+	margin-left: 35%;
+	margin-right: auto;
+	margin-top: 125px;
+}
+
+#fiftytwo .firstfont {
+	font-family: 'oswald', sans-serif;
+	color: #181415;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: center;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+#fiftytwo .secondfont {
+	font-family: 'Petit Formal Script', serif; 
+	color: #181415;
+	font-size: 8em;
+	line-height: 1.5em;
+	text-align: center;
+	margin-top: 10px;
+  }
+
+ #fiftytwo .thirdfont {
+ 	font-family: 'Playfair display', serif;
+ 	font-size: 1.4em;
+ 	line-height: 2em;
+ 	text-align: left;
+ 	width: 68%;
+ 	padding-left: 20px;
+ 	position: relative;
+ 	z-index: 2;
+
+ }
+
+#fiftytwo .commentary {
+	width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: 250px;
+	padding-top: 50px;
+}
+
+ #fiftytwo .selena {
+ 	font-family: 'montserrat', sans-serif;
+	color: blue;
+	font-size: .75em;
+	line-height: 2em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: right;
+	position: absolute;
+	top: 260px;
+	left: 260px;
+	z-index: 2;
+ }
+
+ #fiftytwo .pinkline {
+ 	border-left: 5px dashed hotpink;
+ 	height: 300px;
+ 	-ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 0px;
+  left: 35%;
+
+ }
+
+@media only screen and (max-width : 480px) {
+	#fiftytwo .row {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+}
+
+#fiftytwo .secondfont {
+	font-family: 'Petit Formal Script', serif; 
+	color: #181415;
+	font-size: 7em;
+	line-height: 1.5em;
+	text-align: center;
+	margin-top: 10px;
+  }
+
+ #fiftytwo .thirdfont {
+ 	font-family: 'Playfair display', serif;
+ 	font-size: 1.4em;
+ 	line-height: 2em;
+ 	text-align: left;
+ 	width: 100%;
+ 	position: relative;
+ 	z-index: 2;
+ }
+
+#fiftytwo .commentary {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: 250px;
+	padding-top: 50px;
+}
+
+#fiftytwo .dash {
+	margin-left: 35px;
+	margin-right: 10px;
+}
+
+ #fiftytwo .selena {
+ 	font-family: 'montserrat', sans-serif;
+	color: blue;
+	font-size: .75em;
+	line-height: 2em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: right;
+	position: absolute;
+	top: 250px;
+	left: 180px;
+	z-index: 2;
+ }
+
+ #fiftytwo .pinkline {
+ 	border-left: 5px dashed hotpink;
+ 	height: 300px;
+ 	-ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 0px;
+  left: 35%;
+
+ }
+}
+
+/*-----End Media Query------*/
+
+#fiftytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fiftytwo a {
+	color: hotpink;
+}
+
+#fiftytwo a:hover {
 	text-decoration: none;
 	color: #151515;
 }
