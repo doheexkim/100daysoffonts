@@ -7145,7 +7145,7 @@ position: relative;
 /*--------Day 52------*/
 
 #fiftytwo .content {
-	background-color: #F4F4F2;
+	background-color: #EFE6E7;
 	padding: 15rem 0 12rem 0;
 }
 
@@ -7154,6 +7154,11 @@ position: relative;
 	margin-left: 35%;
 	margin-right: auto;
 	margin-top: 125px;
+}
+
+#fiftytwo .day {
+	color: hotpink;
+	border-color: hotpink;
 }
 
 #fiftytwo .firstfont {
@@ -7289,7 +7294,6 @@ position: relative;
 
  }
 }
-
 /*-----End Media Query------*/
 
 #fiftytwo .colophon {
@@ -7304,11 +7308,127 @@ position: relative;
 	z-index: 2;
 }
 
+
+
 #fiftytwo a {
 	color: hotpink;
 }
 
 #fiftytwo a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+
+/*--------Day 52------*/
+
+#fiftythree .content {
+	background-color: #F4F4F2;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#fiftythree .growing {
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	height: 500px;
+}
+
+#fiftythree .firstfont {
+	font-family: 'old standard tt', serif;
+	font-style: italic;
+	color: #181415;
+	font-size: 1.2em;
+	line-height: 2em;
+	text-align: center;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+#fiftythree .secondfont {
+	font-family: 'Archivo Black', serif; 
+	color: #181415;
+	font-size: 14em;
+	line-height: 1.5em;
+	text-align: center;
+	margin-top: 10px;
+	position: absolute;
+  }
+
+  #fiftythree .c {
+  	top: 0%;
+  	left: 30%;
+  }
+
+	#fiftythree .l {
+		top: 5%;
+		left: 70%;
+	}
+
+	#fiftythree .o {
+		top:30%;
+		right: 5%;
+	}
+
+	#fiftythree .s {
+		top: 25%;
+		left: 5%;
+
+	}
+
+	#fiftythree .e {
+	top: 40%;
+	left: 20%;
+}
+
+	#fiftythree .r {
+		top: 50%;
+	left: 60%;
+	}
+
+@media only screen and (max-width : 480px) {
+
+#fiftythree .growing {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	height: 350px;
+}
+
+#fiftythree .firstfont {
+	font-size: 1em;
+}
+
+
+#fiftythree .secondfont {
+	font-size: 7em;
+	margin-top: 30px;
+	position: absolute;
+  }
+
+}
+/*-----End Media Query------*/
+
+#fiftythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#fiftythree a {
+	color: orangered;
+}
+
+#fiftythree a:hover {
 	text-decoration: none;
 	color: #151515;
 }
