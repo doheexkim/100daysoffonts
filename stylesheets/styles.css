@@ -7402,13 +7402,11 @@ position: relative;
 	font-size: 1em;
 }
 
-
 #fiftythree .secondfont {
 	font-size: 7em;
 	margin-top: 30px;
 	position: absolute;
   }
-
 }
 /*-----End Media Query------*/
 
@@ -7429,6 +7427,165 @@ position: relative;
 }
 
 #fiftythree a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+/*--------Day 54------*/
+
+#fiftyfour .content {
+	background-color: #44569C;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#fiftyfour .day {
+	color: snow;
+	border-color: snow;
+}
+
+#fiftyfour .friday {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fiftyfour .firstfont {
+	font-family: 'Francois One', sans-serif;
+	font-weight: bold;
+	color: snow;
+	font-size: 8em;
+	line-height: 2em;
+	text-align: center;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#fiftyfour .secondfont {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: snow;
+	font-size: 1.25em;
+	line-height: 2em;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-left: 30px;
+  }
+
+#fiftyfour .idot {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: snow;
+	position: absolute;
+	top: 20px;
+	left: 35%;
+}
+
+#fiftyfour .wave {
+	color: mintcream;
+	font-size: 8em;
+	position: absolute;
+}
+
+#fiftyfour .friday > *:nth-child(2){
+	top: 5%;
+	left: 15%;
+}
+
+#fiftyfour .friday > *:nth-child(3){
+	top: 42%;
+	left: 40%;
+}
+
+#fiftyfour .friday > *:nth-child(4){
+	top: 20%;
+	left: 70%;
+}
+
+#fiftyfour .friday > *:nth-child(5){
+	top: 60%;
+	left: 2%;
+}
+
+#fiftyfour .friday > *:nth-child(6){
+	top: 85%;
+	left: 60%;
+}
+
+#fiftyfour .friday > *:nth-child(7){
+	top: 65%;
+	left: 90%;
+}
+  
+@media only screen and (max-width : 480px) {
+#fiftyfour .friday {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fiftyfour .firstfont {
+	font-size: 5em;
+	margin-bottom: 30px;
+}
+
+#fiftyfour .friday > *:nth-child(3){
+	top: 35%;
+	left: 40%;
+}
+
+#fiftyfour .secondfont {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: snow;
+	font-size: 1.25em;
+	line-height: 2em;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-left: 0px;
+  }
+
+#fiftyfour .idot {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: snow;
+	position: absolute;
+	top: 10px;
+	left: 35%;
+}
+
+#fiftyfour .wave {
+	color: mintcream;
+	font-size: 6em;
+	position: absolute;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#fiftyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#fiftyfour a {
+	color: snow;
+}
+
+#fiftyfour a:hover {
 	text-decoration: none;
 	color: #151515;
 }
