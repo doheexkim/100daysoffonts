@@ -7565,7 +7565,6 @@ position: relative;
 	font-size: 6em;
 	position: absolute;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -7586,6 +7585,161 @@ position: relative;
 }
 
 #fiftyfour a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+/*--------Day 55------*/
+
+#fiftyfive .content {
+	background-color: #F8D6C6;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#fiftyfive .firstfont {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #151515;
+	font-size: 1.25em;
+	line-height: 1.75em;
+	text-align: left;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+#fiftyfive .row {
+	position: relative;
+	height: 700px;
+}
+
+#fiftyfive .weare {
+	width: 350px;
+	margin-left: 10%;
+	margin-top: 100px;
+}
+
+#fiftyfive .eachother {
+	font-family: 'Playfair Display', serif;
+	font-size: 12em;
+	/*font-style: italic;*/
+	letter-spacing: 3px;
+}
+
+#fiftyfive .walk {
+	position: absolute;
+	top: 0px;
+	left: 60%;
+}
+
+#fiftyfive .ing {
+	position: absolute;
+	top: 225px;
+	left: -2%;
+}
+
+#fiftyfive .each {
+	position: absolute;
+	top: 225px;
+	left: 65%;
+}
+
+#fiftyfive .other {
+	position: absolute;
+	top: 450px;
+	left: -2%;
+}
+
+#fiftyfive .home {
+	position: absolute;
+	top: 450px;
+	left: 55%;
+}
+  
+@media only screen and (max-width : 768px) {
+
+#fiftyfive .firstfont {
+	font-size: 1em;
+	line-height: 1.75em;
+}
+
+#fiftyfive .eachother {
+	font-family: 'Playfair Display', serif;
+	font-size: 9em;
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+#fiftyfive .row {
+	height: 400px;
+}
+
+#fiftyfive .firstfont {
+	font-size: 1em;
+	line-height: 1.75em;
+}
+
+#fiftyfive .eachother {
+	font-family: 'Playfair Display', serif;
+	font-size: 4.5em;
+}
+
+#fiftyfive .weare {
+	margin-left: 5%;
+	margin-top: 100px;
+}
+
+#fiftyfive .walk {
+	top: 70px;
+	left: 60%;
+}
+
+#fiftyfive .ing {
+	position: absolute;
+	top: 175px;
+	left: -2%;
+}
+
+#fiftyfive .each {
+	position: absolute;
+	top: 175px;
+	left: 50%;
+}
+
+#fiftyfive .other {
+	position: absolute;
+	top: 300px;
+	left: -2%;
+}
+
+#fiftyfive .home {
+	position: absolute;
+	top: 300px;
+	left: 55%;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#fiftyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#fiftyfive a {
+	color: orangered;
+}
+
+#fiftyfive a:hover {
 	text-decoration: none;
 	color: #151515;
 }
