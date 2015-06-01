@@ -7719,7 +7719,6 @@ position: relative;
 	top: 300px;
 	left: 55%;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -7742,4 +7741,129 @@ position: relative;
 #fiftyfive a:hover {
 	text-decoration: none;
 	color: #151515;
+}
+
+/*--------Day 56------*/
+
+#fiftysix .content {
+	background-color: #D4C832;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+
+#fiftysix .row {
+	position: relative;
+	width: 385px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+#fiftysix .firstfont {
+	font-family: 'Quicksand', sans-serif;
+	color: #151515;
+	font-size: 4em;
+	line-height: 1.75em;
+	text-align: left;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+#fiftysix .arefor {
+	position: absolute;
+	top: 25px;
+	left: 325px;
+}
+
+#fiftysix .and {
+	position: absolute;
+	top: 230px;
+	left: 5px;
+}
+
+#fiftysix .denying {
+	padding-left: 60px;
+	letter-spacing: 9.5px;
+}
+
+#fiftysix .tomorrow {
+	letter-spacing: 5px;
+	font-size: 3.8em;
+}
+
+#fiftysix .bikerides {
+	letter-spacing: 7.25px;
+}
+
+#fiftysix .secondfont {
+	font-family: 'Cabin', sans-serif;
+	color: snow;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #151515;
+	width: 38px;
+}
+
+@media only screen and (max-width : 480px) {
+
+#fiftysix .row {
+	width: 300px;
+	margin-top: 75px;
+}
+
+#fiftysix .firstfont {
+	font-size: 3em;
+}
+
+#fiftysix .arefor {
+	position: absolute;
+	top: 15px;
+	left: 250px;
+}
+
+#fiftysix .and {
+	position: absolute;
+	top: 165px;
+	left: 5px;
+}
+
+#fiftysix .denying {
+	padding-left: 60px;
+	letter-spacing: 7px;
+}
+
+#fiftysix .tomorrow {
+	letter-spacing: 5px;
+	font-size: 2.9em;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#fiftysix .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#fiftysix a {
+	color: orangered;
+}
+
+#fiftysix a:hover {
+	text-decoration: none;
+	color: snow;
 }
