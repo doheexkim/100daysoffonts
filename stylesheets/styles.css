@@ -7843,7 +7843,6 @@ position: relative;
 	letter-spacing: 5px;
 	font-size: 2.9em;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -7864,6 +7863,121 @@ position: relative;
 }
 
 #fiftysix a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+
+/*--------Day 57------*/
+
+#fiftyseven .content {
+	background-color: #e6f2e9;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#fiftyseven .row {
+	position: relative;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+
+#fiftyseven .firstfont {
+	font-family: 'montserrat', sans-serif;
+	color: #151515;
+	font-size: 1em;
+	line-height: 1.85em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border: 2px solid #151515;
+	width: 67%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+#fiftyseven .onething {
+	    background:
+        -moz-radial-gradient(#D4C832 15%, transparent 16%),
+        -moz-radial-gradient(#D4C832 15%, transparent 16%),
+        transparent;
+    background:
+        -webkit-radial-gradient(#D4C832 15%, transparent 16%),
+        -webkit-radial-gradient(#D4C832 15%, transparent 16%),
+        transparent;
+    background-position: 0 0, 25px 25px;
+        -webkit-background-size:50px 50px;
+    -moz-background-size:50px 50px;
+    background-size:50px 50px;
+}
+
+
+#fiftyseven .secondfont {
+	font-family: 'Vast Shadow', sans-serif;
+	color: orangered;
+	font-size: 5em;
+	line-height: 1em;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#fiftyseven .cilantro {
+	font-size: .67em;
+}
+
+@media only screen and (max-width : 480px) {
+#fiftyseven .row {
+	width: 300px;
+	margin-top: 50px;
+}
+
+#fiftyseven .firstfont {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+#fiftyseven .secondfont {
+	font-size: 3.75em;
+	line-height: 1em;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+}
+
+/*-----End Media Query------*/
+
+#fiftyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#fiftyseven a {
+	color: orangered;
+}
+
+#fiftyseven a:hover {
 	text-decoration: none;
 	color: snow;
 }
