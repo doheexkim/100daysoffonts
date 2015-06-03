@@ -7956,8 +7956,6 @@ position: relative;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
-
 }
 
 /*-----End Media Query------*/
@@ -7978,6 +7976,111 @@ position: relative;
 }
 
 #fiftyseven a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+
+/*--------Day 58------*/
+
+#fiftyeight .content {
+	background-color: #3661A7;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+	background-image: url(../images/madeofstars5-01.png);
+	background-position: left;
+}
+
+#fiftyeight .row {
+	position: relative;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	overflow: visible;
+}
+
+#fiftyeight .firstfont {
+	font-family: 'righteous', sans-serif;
+	color: white;
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#fiftyeight .secondfont {
+	font-family: 'League Script', cursive;
+	color: #151515;
+	font-size: 10em;
+	line-height: 1.85em;
+	text-align: center;
+	text-transform: none;
+}
+
+#fiftyeight .all {
+	padding-top: 70px;
+}
+
+#fiftyeight .shine {
+	position: absolute;
+	top: -20px;
+}
+
+@media only screen and (max-width : 480px) {
+
+#fiftyeight .row {
+	position: relative;
+	width: 320px;
+}
+
+#fiftyeight .firstfont {
+	font-family: 'righteous', sans-serif;
+	color: white;
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#fiftyeight .secondfont {
+	font-family: 'League Script', cursive;
+	color: #151515;
+	font-size: 6em;
+	line-height: 1.85em;
+	text-align: center;
+	padding-left: 10px;
+}
+
+#fiftyeight .all {
+	padding-top: 70px;
+}
+
+#fiftyeight .shine {
+	position: absolute;
+	top: 0px;
+}
+}
+
+/*-----End Media Query------*/
+
+#fiftyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#fiftyeight a {
+	color: gainsboro;
+}
+
+#fiftyeight a:hover {
 	text-decoration: none;
 	color: snow;
 }
