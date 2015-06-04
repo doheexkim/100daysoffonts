@@ -8084,3 +8084,102 @@ position: relative;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 58------*/
+
+#fiftynine .content {
+	background-color: #F9F3EB;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+	background-image: url(../images/natural-paper.png);
+	background-position: left;
+}
+
+#fiftynine .row {
+	position: relative;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	overflow: visible;
+}
+
+#fiftynine .firstfont {
+	font-family: 'Fjalla One', sans-serif;
+	color: #151515;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#fiftynine .secondfont {
+	font-family: 'cutive mono', monospace;
+	color: #151515;
+	font-size: 1em;
+	line-height: 2.75em;
+	text-align: left;
+	text-transform: none;
+}
+
+#fiftynine .oneofthose {
+position: absolute; 
+width: 165px;
+top: 280px;
+left: 60%;
+
+}
+
+#fiftynine .rule {
+	width: 80%;
+	border-top: 6px solid #151515;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width : 480px) {
+
+#fiftynine .row {
+	position: relative;
+	width: 320px;
+}
+
+#fiftynine .rule {
+	width: 90%;
+}
+
+#fiftynine .oneofthose {
+	position: absolute; 
+	width: 165px;
+	top: 280px;
+	left: 50%;
+
+}
+
+}
+
+/*-----End Media Query------*/
+
+#fiftynine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#fiftynine a {
+	color: orangered;
+}
+
+#fiftynine a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
