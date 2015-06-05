@@ -8085,7 +8085,7 @@ position: relative;
 	color: snow;
 }
 
-/*--------Day 58------*/
+/*--------Day 59------*/
 
 #fiftynine .content {
 	background-color: #F9F3EB;
@@ -8159,7 +8159,6 @@ left: 60%;
 	left: 50%;
 
 }
-
 }
 
 /*-----End Media Query------*/
@@ -8182,4 +8181,87 @@ left: 60%;
 #fiftynine a:hover {
 	text-decoration: none;
 	color: slategrey;
+}
+
+/*--------Day 60------*/
+
+#sixty .content {
+	background-color: #C4BDAB;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#sixty .row {
+	position: relative;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+	margin-bottom: 100px;
+	overflow: visible;
+}
+
+#sixty .firstfont {
+	font-family: 'Archivo Black', sans-serif;
+	color: mintcream;
+	font-size: 2em;
+	line-height: 2em;
+	text-align: center;
+	letter-spacing: 5px;
+	position: relative;
+	z-index: 2;
+
+}
+
+#sixty .quotelabel {
+	font-size: .35em;
+	text-transform: uppercase;
+	color: #151515;
+}
+
+#sixty .secondfont {
+	font-family: 'Prata', serif;
+	color: mintcream;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-align: center;
+	text-transform: none;
+	margin-top: 50px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#sixty .quotation {
+	position: absolute;
+	top: -535px;
+	left: 0;
+	right: 0;
+	font-family: 'playfair display', serif;
+	color: #151515;
+	font-size: 40em;
+	line-height: 2.5em;
+	z-index: 0;
+}
+
+/*-----End Media Query------*/
+
+#sixty .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+#sixty a {
+	color: mintcream;
+}
+
+#sixty a:hover {
+	text-decoration: none;
+	color: orangered;
 }
