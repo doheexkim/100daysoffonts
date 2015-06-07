@@ -8389,8 +8389,6 @@ left: 60%;
 		left: 0;
 		right: 0;
 }
-
-
 }
 
 /*-----End Media Query------*/
@@ -8413,4 +8411,134 @@ left: 60%;
 #sixtyone a:hover {
 	text-decoration: none;
 	color: pink;
+}
+
+/*--------Day 62------*/
+
+#sixtytwo .content {
+	background-color: #90D4C5;
+	padding: 15rem 0 12rem 0;
+}
+
+
+#sixtytwo .row {
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	overflow: visible;
+}
+
+#sixtytwo .firstfont {
+	font-family: 'Londrina Outline', sans-serif;
+	color: green;
+	font-size: 10vw;
+	line-height: 1.25em;
+	text-align: center;
+	letter-spacing: 15px;
+	position: relative;
+	text-transform: uppercase;
+
+}
+
+#sixtytwo .secondfont {
+	font-family: 'anonymous pro', monospace;
+	color: mintcream;
+	font-size: 1.1em;
+	line-height: 2.5em;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 200px;
+}
+
+#sixtytwo .flip {
+	-ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+
+}
+
+#sixtytwo .firstline {
+	margin-left: -100px;
+}
+
+#sixtytwo .secondline {
+	margin-right: -100px;
+}
+
+#sixtytwo .ateabowl {
+position: absolute;
+top: 3vw;
+left: 60vw;
+}
+
+#sixtytwo .somanyregrets {
+position: absolute;
+top: 30vw;
+left: 20vw;
+}
+
+@media only screen and (max-width : 768px) {
+
+#sixtytwo .firstfont {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 6em;
+}
+
+#sixtytwo .secondfont {
+	font-family: 'anonymous pro', monospace;
+	color: mintcream;
+	font-size: .9em;
+	line-height: 2.25em;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sixtytwo .ateabowl {
+position: relative;
+left: 0;
+right: 0;
+margin-top: 50px;
+}
+
+#sixtytwo .somanyregrets {
+position: relative;
+left: 0;
+right: 0;
+margin-top: -80px;
+margin-bottom: 100px;
+}
+
+#sixtytwo .row {
+	position: relative;
+	margin-top: 75px;
+	margin-bottom: 100px;
+	overflow: visible;
+}
+}
+
+/*-----End Media Query------*/
+
+#sixtytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtytwo a {
+	color: mintcream;
+}
+
+#sixtytwo a:hover {
+	text-decoration: none;
+	color: orangered;
 }
