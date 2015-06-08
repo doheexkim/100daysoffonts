@@ -8452,7 +8452,7 @@ left: 60%;
 }
 
 #sixtytwo .flip {
-	-ms-transform: rotate(180deg); /* IE 9 */
+-ms-transform: rotate(180deg); /* IE 9 */
   -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
   transform: rotate(180deg);
 
@@ -8539,6 +8539,99 @@ margin-bottom: 100px;
 }
 
 #sixtytwo a:hover {
+	text-decoration: none;
+	color: orangered;
+}
+
+/*--------Day 63------*/
+
+#sixtythree .content {
+	background-color: #F0F1EC;
+	padding: 15rem 0 12rem 0;
+}
+
+
+#sixtythree .row {
+	position: relative;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	overflow: visible;
+}
+
+#sixtythree .firstfont {
+	font-family: 'Abril Fatface', serif;
+	color: #151515;
+	font-size: 6vw;
+	line-height: 1.3em;
+	text-align: left;
+	letter-spacing: 2px;
+	position: relative;
+	padding-bottom: 30px;
+	border-bottom: 5px solid #151515;
+}
+
+#sixtythree .secondfont {
+	font-family: 'montserrat', sans-serif;
+	color: #151515;
+	font-size: 1.25vw;
+	line-height: 2.75em;
+	letter-spacing: 3px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-left: 35%;
+	width: 65%;
+	margin-top: 50px;
+}
+
+#sixtythree .thirdfont {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	margin-top: 50px;
+	text-align: left;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 40%, #151515 40%, #151515 65%, transparent 65%, transparent 100%);
+}
+
+
+@media only screen and (max-width : 768px) {
+#sixtythree .row {
+	width: 70%;
+	margin-top: 75px;
+}
+
+#sixtythree .firstfont {
+	font-size: 10vw;
+}
+
+#sixtythree .secondfont {
+	font-size: 2.75vw;
+	margin-left: 25%;
+	width: 75%;
+	margin-top: 50px;
+}
+
+
+}
+
+/*-----End Media Query------*/
+
+#sixtythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtythree a {
+	color: slategrey;
+}
+
+#sixtythree a:hover {
 	text-decoration: none;
 	color: orangered;
 }
