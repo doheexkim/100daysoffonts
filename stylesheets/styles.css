@@ -8611,8 +8611,6 @@ margin-bottom: 100px;
 	width: 75%;
 	margin-top: 50px;
 }
-
-
 }
 
 /*-----End Media Query------*/
@@ -8634,4 +8632,79 @@ margin-bottom: 100px;
 #sixtythree a:hover {
 	text-decoration: none;
 	color: orangered;
+}
+
+/*--------Day 64-----*/
+
+#sixtyfour .content {
+	background-color: #FBFC7B;
+	padding: 15rem 0 12rem 0;
+}
+
+
+#sixtyfour .row {
+	position: relative;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: visible;
+}
+
+#sixtyfour .secondfont {
+	font-family: 'pt sans narrow', sans-serif;
+	color: orangered;
+	font-size: 7.5em;
+	line-height: 1.5em;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 0px;
+position: relative;
+z-index: 2;
+padding-left: 10px;}
+
+#sixtyfour .sun {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+}
+
+#sixtyfour .thirdfont {
+	font-family: 'Patrick hand sc', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+	margin-top: 100px;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media only screen and (max-width : 768px) {
+}
+
+/*-----End Media Query------*/
+
+#sixtyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtyfour a {
+	color: orangered;
+}
+
+#sixtyfour a:hover {
+	text-decoration: none;
+	color: snow;
 }
