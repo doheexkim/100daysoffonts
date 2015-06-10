@@ -8708,3 +8708,132 @@ padding-left: 10px;}
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 65-----*/
+
+#sixtyfive .content {
+	background-color: #ECE9E0;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+
+#sixtyfive .row {
+	position: relative;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: visible;
+}
+
+#sixtyfive .firstfont {
+	font-family: 'Fjalla one', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #151515;
+	font-size: 1.25em;
+	line-height: 1.15em;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#sixtyfive .ing {
+	letter-spacing: 32px;
+}
+
+
+#sixtyfive .secondfont {
+	font-family: 'Fjalla one', sans-serif;
+	font-weight: bold;
+	color: #151515;
+	font-size: 10em;
+	line-height: 1.15em;
+	letter-spacing: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 0px;
+}
+
+#sixtyfive .thirdfont {
+	font-family: 'archivo black', sans-serif;
+	color: #151515;
+	font-size: .85em;
+	line-height: 2em;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 0px;
+	width: 100px;
+}
+
+#sixtyfive .doitall {
+	position: absolute;
+	top: 42%;
+	right: 15%;
+	z-index: 2;
+}
+
+#sixtyfive .path {
+	position: absolute;
+	top: 44%;
+	left: 15%;
+	z-index: 2;
+}
+
+@media only screen and (max-width : 480px) {
+
+#sixtyfive .doitall {
+	color: orangered;
+}
+
+#sixtyfive .path {
+	color: orangered;
+}
+
+#sixtyfive .ing {
+	letter-spacing: 28px;
+}
+
+#sixtyfive .row {
+	position: relative;
+	width: 320px;
+margin-bottom: 100px;
+}
+
+#sixtyfive .secondfont {
+
+	font-size: 6em;
+	line-height: 1.15em;
+	letter-spacing: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 0px;
+}
+}
+
+/*-----End Media Query------*/
+
+#sixtyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtyfive a {
+	color: orangered;
+}
+
+#sixtyfive a:hover {
+	text-decoration: none;
+	color: snow;
+}
