@@ -194,7 +194,7 @@
 }
 
 #three .firstfont  {
-                
+				
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 1.25em;
 	letter-spacing: 8px;
@@ -294,7 +294,7 @@
 
 #four .firstfont h2{
   font-size: 10em;
-    }
+	}
 }
 
 
@@ -320,12 +320,12 @@
 } 
 
   #four .firstfont h2:nth-child(1) {
-    left: 0px; }
+	left: 0px; }
   #four .firstfont h2:nth-child(2) {
-    text-align: center;
+	text-align: center;
 		top: 160px; }
   #four .firstfont h2:nth-child(3) {
-    text-align: right;
+	text-align: right;
 		top: 318px;}
 
 
@@ -378,7 +378,7 @@
 }
 
 #five .firstfont  {
-               
+			   
 	padding: 50px;
 	width: 300px;
 	margin: auto;
@@ -506,7 +506,7 @@ margin-bottom: 20px;
 }
 
 #six .firstfont  {
-                
+				
 	font-family: 'Playfair Display', serif;
 	font-size: 1.8em;
 	letter-spacing: 10px;
@@ -542,7 +542,7 @@ margin-bottom: 20px;
 }
 
 #six .firstfont  {
-                
+				
 	font-family: 'Playfair Display', serif;
 	font-size: 3em;
 	letter-spacing: 10px;
@@ -640,7 +640,7 @@ margin-bottom: 20px;
 }
 
 #seven .firstfont  {
-                
+				
 	font-family: 'Merriweather', serif;
 	font-size: 10em;
 	font-style: italic;
@@ -656,7 +656,7 @@ margin-bottom: 20px;
 } 
 
 #seven .time  {
-                
+				
 	font-family: 'Merriweather', serif;
 	font-size: 2em;
 	letter-spacing: 10px;
@@ -696,7 +696,7 @@ margin-bottom: 20px;
 } 
 
 #seven .time  {
-                
+				
 	margin: 275px auto auto auto;
 	padding-top: 30px;
 } 
@@ -804,7 +804,7 @@ padding: 15rem 0 12rem 0;
 
 
 #eight .firstfont  {
-                
+				
 	font-family: 'Crimson Text', serif;
 	font-size: 2em;
 	font-style: italic;
@@ -931,7 +931,7 @@ padding: 15rem 0 12rem 0;
 }
 
 #nine .firstfont  {
-       
+	   
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	font-size: 6.75em;
@@ -2091,7 +2091,7 @@ margin: auto;
 0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 20% {
   text-shadow: 0 0 10px rgba(255,255,255,1),
-      0 0 20px rgba(255,255,255,0.4); 
+	  0 0 20px rgba(255,255,255,0.4); 
   }
 30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 40% { 
@@ -2106,7 +2106,7 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 20% {
   text-shadow: 0 0 10px rgba(255,255,255,1),
-      0 0 20px rgba(255,255,255,0.4); 
+	  0 0 20px rgba(255,255,255,0.4); 
   }
 30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 40% { 
@@ -2121,7 +2121,7 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 20% {
   text-shadow: 0 0 10px rgba(255,255,255,1),
-      0 0 20px rgba(255,255,255,0.4); 
+	  0 0 20px rgba(255,255,255,0.4); 
   }
 30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 40% { 
@@ -2136,7 +2136,7 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 20% {
   text-shadow: 0 0 10px rgba(255,255,255,1),
-      0 0 20px rgba(255,255,255,0.4); 
+	  0 0 20px rgba(255,255,255,0.4); 
   }
 30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
 40% { 
@@ -2248,31 +2248,31 @@ text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20
 }
 
 .receipt:after {
-    background: linear-gradient(-45deg, yellow 6px, transparent 0), linear-gradient(45deg, yellow 6px, transparent 0);
-    background-position: left-bottom;
-    background-repeat: repeat-x;
-    background-size: 12px 12px;
-    content: " ";
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 12px;
+	background: linear-gradient(-45deg, yellow 6px, transparent 0), linear-gradient(45deg, yellow 6px, transparent 0);
+	background-position: left-bottom;
+	background-repeat: repeat-x;
+	background-size: 12px 12px;
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 12px;
 }
 
 .receipt:before {
-    background: linear-gradient(-45deg, #fafafa 6px, transparent 0), linear-gradient(45deg, #fafafa 6px, transparent 0);
-    background-position: left-top;
-    background-repeat: repeat-x;
-    background-size: 12px 12px;
-    content: " ";
-    display: block;
-    position: absolute;
-    top: -10px;
-    left: 0px;
-    width: 100%;
-    height: 12px;
+	background: linear-gradient(-45deg, #fafafa 6px, transparent 0), linear-gradient(45deg, #fafafa 6px, transparent 0);
+	background-position: left-top;
+	background-repeat: repeat-x;
+	background-size: 12px 12px;
+	content: " ";
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	width: 100%;
+	height: 12px;
 }
 
 .creditcard {
@@ -2910,8 +2910,8 @@ margin-top: -100px;
 	z-index: 1;
 
 	-ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
 }
 
 
@@ -2959,8 +2959,8 @@ margin-top: -100px;
 	z-index: 1;
 
 	-ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
 }
 
 
@@ -3200,7 +3200,7 @@ margin-top: -100px;
 #twentyseven .content {
 	padding: 15rem 0 12rem 0;
 	height: 100%;
-    background: linear-gradient(90deg, #F2EBDF 50%, #CACFB8 50%);
+	background: linear-gradient(90deg, #F2EBDF 50%, #CACFB8 50%);
 }
 
 #twentyseven .firstfont {
@@ -3749,10 +3749,10 @@ margin-top: -100px;
 	color: #F07B52;
 	padding-top: 100px;
 	-webkit-transform: skewY(-7deg);
-    -o-transform:skewY(-7deg);
-    -moz-transform: skewY(-7deg);
-    -ms-transform: skewY(-7deg);
-    transform: skewY(-7deg);
+	-o-transform:skewY(-7deg);
+	-moz-transform: skewY(-7deg);
+	-ms-transform: skewY(-7deg);
+	transform: skewY(-7deg);
 	
 }
 
@@ -3760,11 +3760,11 @@ margin-top: -100px;
 	width: 160px;
 	height: 160px;
 	border-radius:80px;
-    text-align:center;
-    border: 2px dashed #151515;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+	text-align:center;
+	border: 2px dashed #151515;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 #thirtytwo .thirdfont {
@@ -3777,8 +3777,8 @@ margin-top: -100px;
 	letter-spacing: 10px;
 	padding-left: 8px;
 	-ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
 
 }
 
@@ -3817,11 +3817,11 @@ margin-top: -100px;
 	width: 160px;
 	height: 160px;
 	border-radius:80px;
-    text-align:center;
-    border: 2px dashed #151515;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+	text-align:center;
+	border: 2px dashed #151515;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 #thirtytwo .thirdfont {
@@ -3924,8 +3924,8 @@ margin-top: -100px;
 	background-repeat: no-repeat;
 	box-shadow: 5px 5px 8px rgba(15, 15, 15, .15);
 	-ms-transform: rotate(-6deg); /* IE 9 */
-    -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
-    transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+	transform: rotate(-6deg);
 }
 
 #thirtythree .staycation {
@@ -4197,7 +4197,7 @@ margin-top: -100px;
 	/*background-color: #343740;*/
 	padding: 15rem 0 12rem 0;
 	background:#343740 url(../images/stars.png) repeat top center;
-  	z-index:0;
+	z-index:0;
 }
 
 #thirtyfive .day {
@@ -4245,7 +4245,7 @@ margin-top: -100px;
 
 .darkness > *:nth-child(2) {
    margin-right: 10%;
-   	font-family: 'Playfair Display SC', serif;
+	font-family: 'Playfair Display SC', serif;
 	font-style: italic;
 	font-size: .75em;
 }
@@ -4264,7 +4264,7 @@ margin-top: -100px;
 
 .darkness > *:nth-child(5) {
    margin-right: 20%;
-      margin-top: 50px;
+	  margin-top: 50px;
    margin-bottom: 50px;
    font-weight: bold;
 
@@ -4272,7 +4272,7 @@ margin-top: -100px;
 
 .darkness > *:nth-child(6) {
    margin-left: 20%;
-      margin-top: 25px;
+	  margin-top: 25px;
    margin-bottom: 25px;
    font-family: 'Playfair Display SC', serif;
 	font-style: italic;
@@ -4327,20 +4327,20 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 ================================================================================================= */
 
 @keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
 }
 @-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
 }
 @-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
 }
 @-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
 }
 
 
@@ -4809,20 +4809,20 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 
 #thirtynine .day {
 	-webkit-animation: fadein .5s linear .5s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear .5s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear .5s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear .5s both; /* Opera < 12.1 */
-            animation: fadein .5s linear .5s both;
+	   -moz-animation: fadein .5s linear .5s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear .5s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear .5s both; /* Opera < 12.1 */
+			animation: fadein .5s linear .5s both;
 }
 
 #thirtynine .raintitle {
 	margin-top: 30px;
 	margin-bottom: 50px;
 		-webkit-animation: fadein .5s linear .75s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear .75s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear .75s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear .75s both; /* Opera < 12.1 */
-            animation: fadein .5s linear .75s both;
+	   -moz-animation: fadein .5s linear .75s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear .75s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear .75s both; /* Opera < 12.1 */
+			animation: fadein .5s linear .75s both;
 }
 
 #thirtynine .firstfont {
@@ -4851,101 +4851,101 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 	right: 100px;
 
 		-webkit-animation: fadein .5s linear 2.5s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 2.5s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 2.5s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 2.5s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 2.5s both;}
+	   -moz-animation: fadein .5s linear 2.5s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 2.5s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 2.5s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 2.5s both;}
 
 .raincircle:nth-of-type(2) {
 	position: absolute;
 	top: 200px;
 	left: 50px;
 		-webkit-animation: fadein .5s linear 3s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 3s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 3s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 3s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 3s both;}
+	   -moz-animation: fadein .5s linear 3s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 3s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 3s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 3s both;}
 
  .raincircle:nth-of-type(3) {
 	position: absolute;
 	top: 500px;
 	right: 50px;
 		-webkit-animation: fadein .5s linear 3.75s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 3.75s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 3.75s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 3.75s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 3.75s both;}
-         
+	   -moz-animation: fadein .5s linear 3.75s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 3.75s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 3.75s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 3.75s both;}
+		 
 
 
 
 #thirtynine .rainpone {
 		-webkit-animation: fadein .5s linear 1s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 1s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 1s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 1s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 1s both;
+	   -moz-animation: fadein .5s linear 1s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 1s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 1s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 1s both;
 }
 
 #thirtynine .rainptwo {
 		-webkit-animation: fadein .5s linear 1.25s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 1.25s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 1.25s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 1.25s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 1.25s both;
+	   -moz-animation: fadein .5s linear 1.25s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 1.25s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 1.25s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 1.25s both;
 }
 
 #thirtynine .rainpthree {
 		-webkit-animation: fadein .5s linear 1.5s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 1.5s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 1.5s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 1.5s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 1.5s both;
+	   -moz-animation: fadein .5s linear 1.5s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 1.5s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 1.5s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 1.5s both;
 }
 
 #thirtynine .rainpfour {
 		-webkit-animation: fadein .5s linear 1.75s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 1.75s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 1.75s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 1.75s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 1.75s both;
+	   -moz-animation: fadein .5s linear 1.75s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 1.75s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 1.75s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 1.75s both;
 }
 
 #thirtynine .rainpfive {
 		-webkit-animation: fadein .5s linear 2s both; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .5s linear 2s both; /* Firefox < 16 */
-        -ms-animation: fadein .5s linear 2s both; /* Internet Explorer */
-         -o-animation: fadein .5s linear 2s both; /* Opera < 12.1 */
-            animation: fadein .5s linear 2s both;
+	   -moz-animation: fadein .5s linear 2s both; /* Firefox < 16 */
+		-ms-animation: fadein .5s linear 2s both; /* Internet Explorer */
+		 -o-animation: fadein .5s linear 2s both; /* Opera < 12.1 */
+			animation: fadein .5s linear 2s both;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 
@@ -5013,37 +5013,37 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 #forty .tgifone {
 	color: white;
 	-ms-transform: skewY(-10deg); /* IE 9 */
-    -webkit-transform: skewY(-10deg); /* Safari */
-    transform: skewY(-10deg); /* Standard syntax */
+	-webkit-transform: skewY(-10deg); /* Safari */
+	transform: skewY(-10deg); /* Standard syntax */
 }
 
 @keyframes tgiffade {
-    from { opacity: 0; }
-    to   { opacity: .8; }
+	from { opacity: 0; }
+	to   { opacity: .8; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes tgiffade {
-    from { opacity: 0; }
-    to   { opacity: .8; }
+	from { opacity: 0; }
+	to   { opacity: .8; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes tgiffade {
-    from { opacity: 0; }
-    to   { opacity: .8; }
+	from { opacity: 0; }
+	to   { opacity: .8; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes tgiffade {
-    from { opacity: 0; }
-    to   { opacity: .8; }
+	from { opacity: 0; }
+	to   { opacity: .8; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes tgiffade {
-    from { opacity: 0; }
-    to   { opacity: .8; }
+	from { opacity: 0; }
+	to   { opacity: .8; }
 }
 
 
@@ -5081,14 +5081,14 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 
 #forty .tgiftwo {
 	-ms-transform: skewY(10deg); /* IE 9 */
-    -webkit-transform: skewY(10deg); /* Safari */
-    transform: skewY(10deg); /* Standard syntax */
-    position: absolute;
-    top: 45px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+	-webkit-transform: skewY(10deg); /* Safari */
+	transform: skewY(10deg); /* Standard syntax */
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .tgiftwo > *:nth-child(1) {
@@ -5161,12 +5161,12 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 
 #forty .tgiftwo {
-    position: absolute;
-    top: 67px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+	position: absolute;
+	top: 67px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #forty .secondfont {
@@ -5187,12 +5187,12 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 
 #forty .tgiftwo {
-    position: absolute;
-    top: 95px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+	position: absolute;
+	top: 95px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #forty .secondfont {
@@ -6057,20 +6057,20 @@ border-bottom: 2px solid snow;
 
 #fortyfive .commentary{
 	-webkit-column-width: 200px; /* Chrome, Safari, Opera */
-    -moz-column-width: 200; /* Firefox */
-    column-width: 200px;
+	-moz-column-width: 200; /* Firefox */
+	column-width: 200px;
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 40px; /* Firefox */
+	column-gap: 40px;
 
-    padding-left: 15vw;
-    padding-right: 15vw;
+	padding-left: 15vw;
+	padding-right: 15vw;
 
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    margin: auto;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	margin: auto;
 } 
 
 #fortyfive .thirdfont {
@@ -6200,8 +6200,8 @@ border-bottom: 2px solid snow;
 	margin-top: 125px;
 	border: 1px solid #FFFDE6;
 		-ms-transform: skewY(10deg); /* IE 9 */
-    -webkit-transform: skewY(10deg); /* Safari */
-    transform: skewY(10deg); /* Standard syntax */
+	-webkit-transform: skewY(10deg); /* Safari */
+	transform: skewY(10deg); /* Standard syntax */
 }
 
 /*#fortysix .eyes {
@@ -6216,10 +6216,10 @@ border-bottom: 2px solid snow;
 	font-size: .75em;
 	letter-spacing: 5px;
 	line-height: 3em;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
   -ms-transform: skewY(10deg); /* IE 9 */
   -webkit-transform: skewY(10deg); /* Safari */
   transform: skewY(10deg); /* Standard syntax */
@@ -6243,7 +6243,7 @@ border-bottom: 2px solid snow;
   width: 5vh;
   height: 1.25vh;
   opacity: .25;
-    top: 40%;
+	top: 40%;
   left: 20%;
  }
 
@@ -6270,14 +6270,14 @@ border-bottom: 2px solid snow;
   opacity: .25;
   top: 15%;
   left: 60%;
-    background-color: gold;
+	background-color: gold;
  }
 
 #fortysix .line div:nth-child(6) {
   width: 4vh;
   height: 1.5vh;
   opacity: .6;
-    top: 45%;
+	top: 45%;
   left: 70%;
  }
 
@@ -6678,16 +6678,16 @@ margin-top: 100px;
 #fortyeight .dreams {
 	width: 450px;
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 125px;
 	text-align: left;
-	    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
-    
+		-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 40px; /* Firefox */
+	column-gap: 40px;
+	
 }
 
 #fortyeight .secondfont {
@@ -6697,7 +6697,7 @@ margin-top: 100px;
   }
 
  #fortyeight .bebrave span:nth-child(1){
- 	-ms-transform: rotate(10deg); /* IE 9 */
+	-ms-transform: rotate(10deg); /* IE 9 */
   -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
   transform: rotate(10deg);
   display: inline-block;
@@ -6705,7 +6705,7 @@ margin-top: 100px;
  }
 
  #fortyeight .bebrave span:nth-child(2){
- 	 -ms-transform: rotate(6deg); /* IE 9 */
+	 -ms-transform: rotate(6deg); /* IE 9 */
   -webkit-transform: rotate(6deg); /* Chrome, Safari, Opera */
   transform: rotate(6deg);
   display: inline-block;
@@ -6721,11 +6721,11 @@ margin-top: 100px;
  }
 
  #fortyeight .bebrave span:nth-child(4){
- 	vertical-align: -4px;
+	vertical-align: -4px;
  }
 
  #fortyeight .bebrave span:nth-child(5){
- 	-ms-transform: rotate(-4deg); /* IE 9 */
+	-ms-transform: rotate(-4deg); /* IE 9 */
   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
   transform: rotate(-4deg);
   display: inline-block;
@@ -6760,7 +6760,7 @@ margin-top: 50px;
 
 #fortyeight .box{
   width: 320px; height:100px; 
-    border-radius: 90%/100px 100px 0 0; 
+	border-radius: 90%/100px 100px 0 0; 
 }
 
 #fortyeight .firstfont {
@@ -6779,9 +6779,9 @@ margin-top: 50px;
 #fortyeight .dreams {
 	width: 280px;
 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    margin-top: 50px;
+	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
+	margin-top: 50px;
 }
 
 #fortyeight .secondfont {
@@ -6861,14 +6861,14 @@ border: 10px solid #8391ae;
   }
 
  #fortynine .dotcircle {
- 	width: 200px;
- 	height: 200px;
- 	border-radius: 50%;
- 	background-image: url('../images/dotgrid-01.png');
- 	background-position: center center;
- 	margin-right: auto;
- 	margin-left: 60%;
- 	margin-top: -65px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url('../images/dotgrid-01.png');
+	background-position: center center;
+	margin-right: auto;
+	margin-left: 60%;
+	margin-top: -65px;
  }
 
 
@@ -6914,14 +6914,14 @@ border: 10px solid #8391ae;
   }
 
  #fortynine .dotcircle {
- 	width: 125px;
- 	height: 125px;
- 	border-radius: 50%;
- 	background-image: url('../images/dotgrid-01.png');
- 	background-position: center center;
- 	margin-right: auto;
- 	margin-left: 70%;
- 	margin-top: -50px;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	background-image: url('../images/dotgrid-01.png');
+	background-position: center center;
+	margin-right: auto;
+	margin-left: 70%;
+	margin-top: -50px;
  }
 
 	}
@@ -7181,14 +7181,14 @@ position: relative;
   }
 
  #fiftytwo .thirdfont {
- 	font-family: 'Playfair display', serif;
- 	font-size: 1.4em;
- 	line-height: 2em;
- 	text-align: left;
- 	width: 68%;
- 	padding-left: 20px;
- 	position: relative;
- 	z-index: 2;
+	font-family: 'Playfair display', serif;
+	font-size: 1.4em;
+	line-height: 2em;
+	text-align: left;
+	width: 68%;
+	padding-left: 20px;
+	position: relative;
+	z-index: 2;
 
  }
 
@@ -7202,7 +7202,7 @@ position: relative;
 }
 
  #fiftytwo .selena {
- 	font-family: 'montserrat', sans-serif;
+	font-family: 'montserrat', sans-serif;
 	color: blue;
 	font-size: .75em;
 	line-height: 2em;
@@ -7216,9 +7216,9 @@ position: relative;
  }
 
  #fiftytwo .pinkline {
- 	border-left: 5px dashed hotpink;
- 	height: 300px;
- 	-ms-transform: rotate(-30deg);
+	border-left: 5px dashed hotpink;
+	height: 300px;
+	-ms-transform: rotate(-30deg);
   -webkit-transform: rotate(-30deg);
   transform: rotate(-30deg);
   position: absolute;
@@ -7245,13 +7245,13 @@ position: relative;
   }
 
  #fiftytwo .thirdfont {
- 	font-family: 'Playfair display', serif;
- 	font-size: 1.4em;
- 	line-height: 2em;
- 	text-align: left;
- 	width: 100%;
- 	position: relative;
- 	z-index: 2;
+	font-family: 'Playfair display', serif;
+	font-size: 1.4em;
+	line-height: 2em;
+	text-align: left;
+	width: 100%;
+	position: relative;
+	z-index: 2;
  }
 
 #fiftytwo .commentary {
@@ -7269,7 +7269,7 @@ position: relative;
 }
 
  #fiftytwo .selena {
- 	font-family: 'montserrat', sans-serif;
+	font-family: 'montserrat', sans-serif;
 	color: blue;
 	font-size: .75em;
 	line-height: 2em;
@@ -7283,9 +7283,9 @@ position: relative;
  }
 
  #fiftytwo .pinkline {
- 	border-left: 5px dashed hotpink;
- 	height: 300px;
- 	-ms-transform: rotate(-30deg);
+	border-left: 5px dashed hotpink;
+	height: 300px;
+	-ms-transform: rotate(-30deg);
   -webkit-transform: rotate(-30deg);
   transform: rotate(-30deg);
   position: absolute;
@@ -7358,8 +7358,8 @@ position: relative;
   }
 
   #fiftythree .c {
-  	top: 0%;
-  	left: 30%;
+	top: 0%;
+	left: 30%;
   }
 
 	#fiftythree .l {
@@ -7903,18 +7903,18 @@ position: relative;
 }
 
 #fiftyseven .onething {
-	    background:
-        -moz-radial-gradient(#D4C832 15%, transparent 16%),
-        -moz-radial-gradient(#D4C832 15%, transparent 16%),
-        transparent;
-    background:
-        -webkit-radial-gradient(#D4C832 15%, transparent 16%),
-        -webkit-radial-gradient(#D4C832 15%, transparent 16%),
-        transparent;
-    background-position: 0 0, 25px 25px;
-        -webkit-background-size:50px 50px;
-    -moz-background-size:50px 50px;
-    background-size:50px 50px;
+		background:
+		-moz-radial-gradient(#D4C832 15%, transparent 16%),
+		-moz-radial-gradient(#D4C832 15%, transparent 16%),
+		transparent;
+	background:
+		-webkit-radial-gradient(#D4C832 15%, transparent 16%),
+		-webkit-radial-gradient(#D4C832 15%, transparent 16%),
+		transparent;
+	background-position: 0 0, 25px 25px;
+		-webkit-background-size:50px 50px;
+	-moz-background-size:50px 50px;
+	background-size:50px 50px;
 }
 
 
@@ -8836,4 +8836,84 @@ margin-bottom: 100px;
 #sixtyfive a:hover {
 	text-decoration: none;
 	color: snow;
+}
+
+/*--------Day 66-----*/
+
+#sixtysix .content {
+	background-color: #ededed;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#sixtysix .row {
+	position: relative;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: visible;
+}
+
+#sixtysix .firstfont {
+	font-family: 'Lato', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #292929;
+	font-size: 10em;
+	line-height: 1.25em;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+#sixtysix .secondfont {
+	font-family: 'josefin slab', serif;
+	color: #151515;
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: left;
+	margin-top: 50px;
+}
+
+
+@media only screen and (max-width : 480px) {
+#sixtysix .row {
+	width: 85%;
+}
+
+#sixtysix .firstfont {
+	font-family: 'Lato', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #292929;
+	font-size: 11.75vw;
+	line-height: 1.25em;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+
+}
+
+/*-----End Media Query------*/
+
+#sixtysix .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtysix a {
+	color: #6FC9BD;
+}
+
+#sixtysix a:hover {
+	text-decoration: none;
+	color: orangered;
 }
