@@ -8892,8 +8892,6 @@ margin-bottom: 100px;
 	letter-spacing: 1px;
 	text-align: left;
 }
-
-
 }
 
 /*-----End Media Query------*/
@@ -8914,6 +8912,100 @@ margin-bottom: 100px;
 }
 
 #sixtysix a:hover {
+	text-decoration: none;
+	color: orangered;
+}
+
+/*--------Day 67-----*/
+
+#sixtyseven .content {
+	background-color: #FFEBDF;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#sixtyseven .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: visible;
+}
+
+#sixtyseven .firstfont {
+	font-family: 'archivo black', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #F4F200;
+	font-size: 20vw;
+	line-height: 1.25em;
+	letter-spacing: 3.5vw;
+	text-align: center;
+
+}
+
+#sixtyseven .really {
+	letter-spacing: 3vw;
+}
+
+#sixtyseven .secondfont {
+	font-family: 'montserrat', serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 3em;
+	letter-spacing: 5px;	
+	text-align: center;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+#sixtyseven .commentary {
+	width: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #151515;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 25vw;
+}
+
+
+@media only screen and (max-width : 480px) {
+#sixtyseven .commentary {
+	top: 10vw;
+}
+}
+
+@media only screen and (min-width : 1200px) {
+#sixtyseven .commentary {
+	top: 30vw;
+}
+}
+
+/*-----End Media Query------*/
+
+#sixtyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtyseven a {
+	color: #6FC9BD;
+}
+
+#sixtyseven a:hover {
 	text-decoration: none;
 	color: orangered;
 }
