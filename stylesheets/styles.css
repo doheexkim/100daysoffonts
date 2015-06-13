@@ -9009,3 +9009,96 @@ margin-bottom: 100px;
 	text-decoration: none;
 	color: orangered;
 }
+
+/*--------Day 68-----*/
+
+#sixtyeight .content {
+	background-color: #23223F;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#sixtyeight .day {
+	color: snow;
+	border-color: snow;
+}
+#sixtyeight .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 100px;
+	overflow: visible;
+	width: 480px;
+}
+
+#sixtyeight .firstfont {
+	font-family: 'League Script', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #e2c5b7;
+	font-size: 6em;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+#sixtyeight .secondfont {
+	font-family: 'Josefin Sans', sans-serif;
+	color: snow;
+	font-size: 1.1em;
+	line-height: 2.25em;
+	letter-spacing: 2px;	
+	text-align: left;
+	margin-top: 50px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+#sixtyeight .row {
+width: 90%;
+}
+
+
+#sixtyeight .firstfont {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#sixtyeight .secondfont {
+	text-align: center;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#sixtyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: snow;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtyeight a {
+	color: #e2c5b7;
+}
+
+#sixtyeight a:hover {
+	text-decoration: none;
+	color: #6FC9BD;
+}
