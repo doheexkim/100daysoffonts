@@ -9102,3 +9102,84 @@ width: 90%;
 	text-decoration: none;
 	color: #6FC9BD;
 }
+
+/*--------Day 69-----*/
+
+#sixtynine .content {
+	background-color: #E8DDE0;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+#sixtynine .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 75px;
+	overflow: visible;
+	width: 40vw;
+}
+
+#sixtynine .firstfont {
+	font-family: 'quicksand', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: orangered;
+	font-size: 5vw;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 5vw;
+}
+
+#sixtynine .secondfont {
+	font-family: 'sacramento', cursive;
+	font-style: italic;
+	font-size: 1.25em;
+	text-transform: none;
+	margin-right: 2vw;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+	#sixtynine .row {
+	width: 90%;
+}
+
+#sixtynine .firstfont {
+	font-size: 12vw;
+	padding-left: 10vw;
+}
+
+#sixtynine .secondfont {
+	font-family: 'sacramento', cursive;
+	font-style: italic;
+	font-size: 1.25em;
+	text-transform: none;
+	margin-right: 4vw;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#sixtynine .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#sixtynine a {
+	color: slategrey;
+}
+
+#sixtynine a:hover {
+	text-decoration: none;
+	color: #6FC9BD;
+}
