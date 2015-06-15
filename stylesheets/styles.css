@@ -9159,7 +9159,6 @@ width: 90%;
 	text-transform: none;
 	margin-right: 4vw;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -9182,4 +9181,173 @@ width: 90%;
 #sixtynine a:hover {
 	text-decoration: none;
 	color: #6FC9BD;
+}
+
+/*--------Day 70-----*/
+
+#seventy .content {
+	background-color: #EFC8CE;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+}
+
+#seventy .day {
+	color: snow;
+	border-color: snow;
+}
+
+#seventy .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 75px;
+	overflow: visible;
+	width: 50vw;
+}
+
+#seventy .venn {
+	width: 50%;
+	height: 25vw;
+	border-radius: 50%;
+}
+
+#seventy .firstfont {
+	font-family: 'lato', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: snow;
+	font-size: 1vw;
+	line-height: 2.25em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+#seventy .you {
+	position: absolute;
+	padding-top: 22%;
+	left: 10%;
+	padding-right: 10%;
+	background-color: rgba(216, 205, 54, .75);
+}
+
+#seventy .me {
+	position: absolute;
+	padding-top: 22%;
+	left:40%;
+	padding-left: 10%;
+	background-color: rgba(166, 170, 120, .5);
+}
+
+#seventy .thegoodstuff {
+	position: absolute;
+	top: 15vw;
+	left: 0;
+	right: 0;
+	color: snow;
+}
+
+#seventy .commentary {
+	margin-top: 32vw;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#seventy .secondfont {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.45em;
+	line-height: 2em;
+	text-transform: none;
+	color: #151515;
+}
+
+@media only screen and (max-width : 768px) {
+#seventy .row {
+	width: 480px;
+}
+
+#seventy .venn {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#seventy .firstfont {
+	font-size: .75em;
+}
+
+#seventy .you {
+	padding-top: 20%;
+	left: 13%;
+	padding-right: 10%;
+}
+
+#seventy .me {
+	padding-top: 20%;
+	left: 42%;
+	padding-left: 10%;
+}
+
+#seventy .thegoodstuff {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	color: snow;
+}
+
+#seventy .commentary {
+	margin-top: 60%;
+	width: 80%;
+}
+
+#seventy .secondfont {
+	font-size: 1.25em;
+}
+}
+
+@media only screen and (max-width : 480px) {
+#seventy .row {
+	width: 320px;
+}
+
+#seventy .venn {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+#seventy .firstfont {
+	font-size: .65em;
+}
+
+#seventy .thegoodstuff {
+	top: 32%;
+	font-size: .5em;
+}
+	}
+
+/*-----End Media Query------*/
+
+#seventy .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventy a {
+	color: snow;
+}
+
+#seventy a:hover {
+	text-decoration: none;
+	color: orangered;
 }
