@@ -8463,7 +8463,7 @@ left: 60%;
 }
 
 #sixtytwo .secondline {
-	margin-right: -100px;
+	margin-right: 0px;
 }
 
 #sixtytwo .ateabowl {
@@ -9350,4 +9350,90 @@ width: 90%;
 #seventy a:hover {
 	text-decoration: none;
 	color: orangered;
+}
+
+/*--------Day 71-----*/
+
+#seventyone .content {
+	background-color: #F4F4F2;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+	background-image: url('../images/natural-paper-blue.png');
+}
+
+#seventyone .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: visible;
+	width: 700px;
+}
+
+#seventyone .firstfont {
+	font-family: 'Yeseva One', serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #151515;
+	font-size: 3.25vw;
+	line-height: 1.75em;
+	text-align: left;
+}
+
+#seventyone .secondfont {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 400px;
+	margin-bottom: 20px;
+	color: #151515;
+	font-size: 1.25vw;
+	line-height: 1.75em;
+	text-align: left;
+	margin-left: 20px;
+	padding-left: 20px;
+	width: 80%;
+	border-left: 3px solid blue;
+}
+
+@media only screen and (max-width : 992px) {
+#seventyone .row {
+	width: 320px;
+}
+
+#seventyone .firstfont {
+	font-size: 3em;
+}
+
+#seventyone .secondfont {
+	font-size: 1.25em;
+	line-height: 1.75em;
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 100%;
+	margin-top: 50px;
+	border-left: none;
+
+}
+}
+
+/*-----End Media Query------*/
+
+#seventyone .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventyone a {
+	color: slategrey;
+}
+
+#seventyone a:hover {
+	text-decoration: none;
+	color: blue;
 }
