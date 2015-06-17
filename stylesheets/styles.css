@@ -9437,3 +9437,76 @@ width: 90%;
 	text-decoration: none;
 	color: blue;
 }
+
+/*--------Day 72-----*/
+
+#seventytwo .content {
+	background-color: #47585F;
+	padding: 15rem 0 12rem 0;
+	position: relative;
+	background-image: url('../images/asfalt-light.png');
+}
+
+#seventytwo .day {
+	color: slategrey;
+	border-color: slategrey;
+}
+#seventytwo .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 75px;
+	overflow: hidden;
+	text-align: center;
+	width: 340px;
+}
+
+#seventytwo .firstfont {
+	font-family: 'Sacramento', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #96D294;
+	font-size: 3.5em;
+	line-height: 1.3em;
+	vertical-align: 20px;
+}
+
+#seventytwo .secondfont {
+	font-family: 'montserrat', sans-serif;
+	margin-bottom: 20px;
+	color: #96D294;
+	font-size: 6em;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+#seventytwo .get {
+	font-size: 6.7em;
+}
+
+@media only screen and (max-width : 992px) {
+}
+
+/*-----End Media Query------*/
+
+#seventytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventytwo a {
+	color: slategrey;
+}
+
+#seventytwo a:hover {
+	text-decoration: none;
+	color: snow;
+}
