@@ -9510,3 +9510,139 @@ width: 90%;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 73-----*/
+
+#seventythree .content {
+	background-color: #F3F2ED;
+	padding: 15rem 0 12rem 0;
+}
+
+#seventythree .day {
+	color: #B9A96D;
+	border-color: #B9A96D;
+}
+
+#seventythree .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 75px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#seventythree .firstfont {
+	font-family: 'Oswald', sans-serif;
+	color: #599EBB;
+	font-size: 7em;
+	line-height: 2em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: bold;
+	opacity: .5;
+	margin-left: 20%;
+}
+
+#seventythree .secondfont {
+	font-family: 'Old Standard TT', serif;
+	margin-bottom: 20px;
+	color: #B9A96D;
+	font-size: 1.25em;
+	line-height: 1.75em;
+}
+
+#seventythree .thirdfont {
+	font-family: 'lato', sans-serif;
+	color: #B9A96D;
+	font-size: .70em;
+	line-height: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: left;
+}
+
+#seventythree .commentary {
+	width: 525px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #B9A96D;
+	padding: 15px;
+	position: absolute;
+	left: 20%;
+	top: 260px;
+}
+
+#seventythree .note {
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 25%;
+	top: 525px;
+}
+
+#seventythree span {
+border-bottom: 5px solid #599EBB;
+}
+
+@media only screen and (max-width : 768px) {
+
+#seventythree .row {
+	padding-top: 50px;
+}
+
+	#seventythree .commentary {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #B9A96D;
+	padding: 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100px;
+}
+
+#seventythree .firstfont {
+	font-family: 'Oswald', sans-serif;
+	color: #599EBB;
+	font-size: 5em;
+	line-height: 2em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: bold;
+	opacity: .25;
+	margin-left: auto;
+}
+
+#seventythree .note {
+visibility: hidden;
+}
+
+
+}
+
+/*-----End Media Query------*/
+
+#seventythree .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+
+#seventythree a {
+	color: #599EBB;
+}
+
+#seventythree a:hover {
+	text-decoration: none;
+	color: snow;
+}
