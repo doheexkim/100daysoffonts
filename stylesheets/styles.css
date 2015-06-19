@@ -9050,13 +9050,13 @@ margin-bottom: 100px;
 	letter-spacing: 2px;	
 	text-align: left;
 	margin-top: 50px;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 40px; /* Firefox */
+	column-gap: 40px;
 }
 
 
@@ -9074,9 +9074,9 @@ width: 90%;
 
 #sixtyeight .secondfont {
 	text-align: center;
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
 }
 
 }
@@ -9645,4 +9645,80 @@ visibility: hidden;
 #seventythree a:hover {
 	text-decoration: none;
 	color: snow;
+}
+
+/*--------Day 74-----*/
+
+#seventyfour .content {
+	background-color: gainsboro;
+	padding: 15rem 0 12rem 0;
+}
+
+#seventyfour .day {
+	color: snow;
+	border-color: snow;
+}
+
+#seventyfour .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: hidden;
+	text-align: center;
+	width: 500px;
+}
+
+#seventyfour .firstfont {
+	font-family: 'Playfair Display SC', serif;
+	font-style: italic;
+	color: #B9A96D;
+	font-size: 12em;
+	line-height: 1.75em;
+	letter-spacing: -10px;
+}
+
+#seventyfour .secondfont {
+	font-family: 'josefin slab', sans-serif;
+	color: #151515;
+	font-size: .9em;
+	line-height: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+@media only screen and (max-width : 480px) {
+	#seventyfour .row {
+	width: 320px;
+}
+
+#seventyfour .firstfont {
+	font-size: 8em;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#seventyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+
+#seventyfour a {
+	color: snow;
+}
+
+#seventyfour a:hover {
+	text-decoration: none;
+	color: #151515;
 }
