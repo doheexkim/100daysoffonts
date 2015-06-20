@@ -9650,7 +9650,7 @@ visibility: hidden;
 /*--------Day 74-----*/
 
 #seventyfour .content {
-	background-color: gainsboro;
+	background-color: #EE6A5B;
 	padding: 15rem 0 12rem 0;
 }
 
@@ -9673,7 +9673,7 @@ visibility: hidden;
 #seventyfour .firstfont {
 	font-family: 'Playfair Display SC', serif;
 	font-style: italic;
-	color: #B9A96D;
+	color: snow;
 	font-size: 12em;
 	line-height: 1.75em;
 	letter-spacing: -10px;
@@ -9697,7 +9697,6 @@ visibility: hidden;
 #seventyfour .firstfont {
 	font-size: 8em;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -9713,7 +9712,6 @@ visibility: hidden;
 	letter-spacing: 3px;
 }
 
-
 #seventyfour a {
 	color: snow;
 }
@@ -9721,4 +9719,80 @@ visibility: hidden;
 #seventyfour a:hover {
 	text-decoration: none;
 	color: #151515;
+}
+
+/*--------Day 75-----*/
+
+#seventyfive .content {
+	background-color: #EF7668;
+	background-image: linear-gradient(to bottom, #F5EBE6 0%, #F5EBE6 35%, #DBDACB 35%, #DBDACB 100%);
+	padding: 15rem 0 12rem 0;
+}
+
+#seventyfive .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 50px;
+	overflow: hidden;
+	text-align: center;
+	width: 310px;
+}
+
+#seventyfive .firstfont {
+	font-family: 'Yanone Kaffeesatz', serif;
+	text-transform: uppercase;
+	padding-top: 55px;
+	color: #151515;
+	font-size: 3em;
+	line-height: 1.75em;
+	letter-spacing: 20px;
+}
+
+#seventyfive .secondfont {
+	font-family: 'Playfair Display SC', sans-serif;
+	font-style: italic;
+	color: #151515;
+	font-size: 1em;
+	line-height: 2.5em;
+	letter-spacing: 5px;
+	text-align: center;
+		margin-bottom: 45px;
+}
+
+#seventyfive .thirdfont {
+	font-family: 'Playfair Display', sans-serif;
+	color: #151515;
+	font-size: 1em;
+	line-height: 2.5em;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+@media only screen and (max-width : 480px) {
+}
+
+/*-----End Media Query------*/
+
+#seventyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventyfive a {
+	color: #151515;
+}
+
+#seventyfive a:hover {
+	text-decoration: none;
+	color: snow;
 }
