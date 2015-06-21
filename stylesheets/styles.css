@@ -9741,7 +9741,7 @@ visibility: hidden;
 }
 
 #seventyfive .firstfont {
-	font-family: 'Yanone Kaffeesatz', serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-transform: uppercase;
 	padding-top: 55px;
 	color: #151515;
@@ -9751,7 +9751,7 @@ visibility: hidden;
 }
 
 #seventyfive .secondfont {
-	font-family: 'Playfair Display SC', sans-serif;
+	font-family: 'Playfair Display SC', serif;
 	font-style: italic;
 	color: #151515;
 	font-size: 1em;
@@ -9762,17 +9762,13 @@ visibility: hidden;
 }
 
 #seventyfive .thirdfont {
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Playfair Display', serif;
 	color: #151515;
 	font-size: 1em;
 	line-height: 2.5em;
 	letter-spacing: 2px;
 	text-align: center;
 	margin-top: 50px;
-}
-
-
-@media only screen and (max-width : 480px) {
 }
 
 /*-----End Media Query------*/
@@ -9793,6 +9789,101 @@ visibility: hidden;
 }
 
 #seventyfive a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+/*--------Day 76-----*/
+
+#seventysix .content {
+	background-color: #D2D8DE;
+	padding: 15rem 0 12rem 0;
+}
+
+#seventysix .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-top: 100px;
+	overflow: hidden;
+	text-align: center;
+	width: 500px;
+}
+
+#seventysix .firstfont {
+	font-family: 'im fell english', serif;
+	text-transform: uppercase;
+	color: #151515;
+	font-size: 15em;
+	padding-top: 0px;
+	line-height: 1em;
+	letter-spacing: 20px;
+}
+
+#seventysix .secondfont {
+	font-family: 'josefin sans', sans-serif;
+	text-transform: uppercase;
+	color: #151515;
+	font-size: .8em;
+	line-height: 2.25em;
+	text-align: left;
+	padding-left: 30px;
+	width: 80%;
+	letter-spacing: 10px;
+	margin-top: -30px;
+
+}
+
+#seventysix .commentary {
+	font-family: 'IM Fell English', serif;
+	font-style: italic;
+	color: #151515;
+	font-size: 1.25em;
+	line-height: 2.5em;
+	letter-spacing: 2px;
+	text-align: left;
+	margin-top: 100px;
+}
+
+@media only screen and (max-width : 768px) {
+
+	#seventysix .row {
+		width: 80%;
+		margin-top: 50px;
+	}
+
+#seventysix .secondfont {
+text-align: center;
+padding-left: 0px;
+width: 100%;
+
+}
+
+#seventysix .commentary {
+	text-align: center;
+	margin-top: 50px;
+}
+}
+
+/*-----End Media Query------*/
+
+#seventysix .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventysix a {
+	color: slategrey;
+}
+
+#seventysix a:hover {
 	text-decoration: none;
 	color: snow;
 }
