@@ -9887,3 +9887,146 @@ width: 100%;
 	text-decoration: none;
 	color: snow;
 }
+
+
+/*--------Day 77-----*/
+
+#seventyseven .content {
+	background-color: #D7CDC4;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/natural-paper.png);
+}
+
+#seventyseven .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-top: 75px;
+	padding-top: 50px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#seventyseven .house {
+	position: relative;
+	padding-top: 89px;
+}
+
+#seventyseven .square {
+	width: 250px;
+	height: 180px;
+	background-color: hotpink;
+	background-image: url(../images/natural-paper.png);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#seventyseven .roof {
+	width: 177px;
+	height: 177px;
+	background-color: hotpink;
+	background-image: url(../images/natural-paper.png);
+	margin-left: auto;
+	margin-right: auto;
+	-ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 0px;
+}
+
+#seventyseven .firstfont {
+	font-family: 'archivo black', sans-serif;
+	text-transform: uppercase;
+	color: olive;
+	font-size: 1.25em;
+	line-height: 1em;
+	letter-spacing: 20px;
+}
+
+#seventyseven .secondfont {
+	font-family: 'im fell english', serif;
+	letter-spacing: 3px;
+	text-transform: none;
+	font-style: italic;
+	font-size: 1.75em;
+	color: snow;
+}
+
+#seventyseven #home {
+	position: absolute;
+	top: 30px;
+	left: 30%;
+}
+
+#seventyseven #is {
+	position: absolute;
+	top: 85px;
+	left: 50%;
+
+}
+
+#seventyseven #wherever {
+	position: absolute;
+	top: 140px;
+	left: 5%;
+}
+
+#seventyseven #im {
+	position: absolute;
+	top: 200px;
+	left: 25%;
+}
+
+#seventyseven #with {
+	position: absolute;
+	top: 220px;
+	left: 55%;
+}
+
+#seventyseven #you {
+	position: absolute;
+	top: 270px;
+	left: 40%;
+}
+
+@media only screen and (min-width : 480px) {
+
+	#seventyseven .row {
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+}
+
+#seventyseven #wherever {
+	position: absolute;
+	top: 140px;
+	left: 40%;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#seventyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	clear: both;
+	color: olive;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#seventyseven a {
+	color: #151515;
+}
+
+#seventyseven a:hover {
+	text-decoration: none;
+	color: snow;
+}
