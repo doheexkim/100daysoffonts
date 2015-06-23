@@ -10030,3 +10030,125 @@ width: 100%;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 78-----*/
+
+#seventyeight .content {
+	background-color: #0055A5;
+	padding: 15rem 0 12rem 0;
+}
+
+#seventyeight .day {
+	border-color: snow;
+	color: snow;
+}
+
+#seventyeight .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	padding-top: 50px;
+	overflow: visible;
+	text-align: center;
+}
+
+#seventyeight .firstfont {
+	font-family: 'oswald', sans-serif;
+	color: snow;
+	font-size: 12vw;
+	line-height: 1.7em;
+	letter-spacing: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+#seventyeight .secondfont {
+	font-family: 'quicksand', sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 3em;
+	color: snow;
+	position: relative;
+	z-index: 2;
+}
+
+#seventyeight .dot {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: hotpink;
+	background-image: url(../images/natural-paper.png);
+	position: absolute;
+	z-index: 1;
+}
+
+#seventyeight .row > *:nth-child(5) {
+  background-color: green;
+ left: 30%;
+ top: 30%;
+}
+
+#seventyeight .row > *:nth-child(6) {
+ left: 10%;
+ top: 0%;
+}
+
+#seventyeight .row > *:nth-child(7) {
+  background-color: gainsboro;
+ left: 75%;
+ top: 60%;
+}
+
+#seventyeight .row > *:nth-child(8) {
+ left: 25%;
+ top: 80%;
+}
+
+#seventyeight .row > *:nth-child(9) {
+ left: 80%;
+ top: -25%;
+}
+
+#seventyeight .row > *:nth-child(10) {
+  background-color: green;
+ left: 90%;
+ top: 90%;
+}
+
+#seventyeight .row > *:nth-child(11) {
+ left: 40%;
+ top: 110%;
+}
+
+@media only screen and (min-width : 480px) {
+	#seventyeight .dot {
+	width: 50px;
+	height: 50px;
+}
+}
+
+/*-----End Media Query------*/
+
+#seventyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: snow;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#seventyeight a {
+	color: #151515;
+}
+
+#seventyeight a:hover {
+	text-decoration: none;
+	color: snow;
+}
