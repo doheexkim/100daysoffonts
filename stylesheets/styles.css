@@ -10152,3 +10152,107 @@ width: 100%;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 79-----*/
+
+#seventynine .content {
+	background-color: #DFE0DB;
+	padding: 15rem 0 12rem 0;
+}
+
+#seventynine .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 75px;
+	overflow: visible;
+	width: 700px;
+}
+
+#seventynine h1 {
+	font-family: 'Playfair Display SC', serif;
+	color: #151515;
+	font-size: 1.75em;
+	line-height: 2em;
+	letter-spacing: 10px;
+	position: relative;
+	text-align: left;
+}
+
+#seventynine h2 {
+	font-family: 'archivo black', sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-size: .75em;
+	line-height: 3em;
+	text-align: left;
+	color: #151515;
+	position: relative;
+}
+
+#seventynine .firstfont {
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.1em;
+	line-height: 2em;
+	text-align: left;
+	color: #151515;
+	position: relative;
+	margin-top: 20px;
+}
+
+#seventynine .movielist {
+	list-style-type: none;
+	font-style: italic;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 165px;
+	font-family: 'Playfair Display SC', serif;
+	letter-spacing: 3px;
+	font-size: 1.15em;
+	line-height: 1.75em;
+}
+
+#seventynine li {
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+@media only screen and (max-width : 768px) {
+
+#seventynine .row {
+	width: 80%;
+		margin-bottom: 50px;
+}
+
+#seventynine .movielist {
+	padding-left: 0px;
+	margin-top: 30px;
+	padding-top: 10px;
+	border-top: 3px solid snow;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#seventynine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#seventynine a {
+	color: orangered;
+}
+
+#seventynine a:hover {
+	text-decoration: none;
+	color: snow;
+}
