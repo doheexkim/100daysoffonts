@@ -10256,3 +10256,94 @@ margin-bottom: 25px;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 80-----*/
+
+#eighty .content {
+	background-color: #A4CAD5;
+	padding: 15rem 0 12rem 0;
+}
+
+#eighty .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 75px;
+	width: 70%;
+	overflow: hidden;
+}
+
+#eighty .firstfont {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 13vw;
+	line-height: 1em;
+	text-align: left;
+	color: #030301;
+	position: relative;
+}
+
+#eighty	.seek {
+	margin-left: -5%;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 45%, #DCDCDC 45%, #DCDCDC 55%, transparent 55%, transparent 100%);
+}
+
+#eighty	.and {
+	text-align: right;
+	margin-right: -2.5%;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 45%, #DCDCDC 45%, #DCDCDC 55%, transparent 55%, transparent 100%);
+}
+
+#eighty	.ye {
+	text-align: center;
+	padding-right: 20%;
+}
+
+#eighty	.shall {
+	line-height: 1.75em;
+}
+
+#eighty	.find {
+	text-align: center;
+	padding-left: 35%;
+	background-image: linear-gradient(to bottom, transparent 0%, transparent 45%, #DCDCDC 45%, #DCDCDC 55%, transparent 55%, transparent 100%);
+} 
+
+#eighty .secondfont {
+	font-family: 'open sans condensed', sans-serif;
+	font-size: 2.5vw;
+	letter-spacing: 5px;
+	position: absolute;
+	bottom: 30%;
+	left: 70%;
+}
+
+@media only screen and (max-width : 480px) {
+#eighty .row {
+	width: 100%;
+}
+}
+
+/*-----End Media Query------*/
+
+#eighty .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#eighty a {
+	color: slategrey;
+}
+
+#eighty a:hover {
+	text-decoration: none;
+	color: snow;
+}
