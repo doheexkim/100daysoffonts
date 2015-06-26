@@ -10347,3 +10347,94 @@ margin-bottom: 25px;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 81-----*/
+
+#eightyone .content {
+	background-color: #383D43;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightyone .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	width: 320px;
+	overflow: visible;
+	text-align: left;
+}
+
+#eightyone .firstfont {
+	font-family: 'montserrat', sans-serif;
+		text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: .75em;
+	line-height: 1em;
+	text-align: left;
+	color: orangered;
+	position: relative;
+	z-index: 2;
+}
+
+#eightyone .secondfont {
+	font-family: 'cutive mono', monospace;
+	color: slategrey;
+	font-size: 1.15em;
+	line-height: 2em;
+	letter-spacing: 3px;
+		position: relative;
+	z-index: 2;
+}
+
+#eightyone .talk {
+	margin: 40px 0 40px 0;
+}
+
+#eightyone .commentary {
+	text-align: right;
+	padding-top: 50px;
+	border-top: 3px solid slategrey;
+	font-size: .9em;
+	position: relative;
+	z-index: 2;
+}
+
+#eightyone .bangs {
+	position: absolute;
+	top: 30px;
+	font-family: 'League Script', cursive;
+	font-size: 8em;
+	line-height: 1.25em;
+	color: #01040D;
+	z-index: 1;
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+/*-----End Media Query------*/
+
+#eightyone .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#eightyone a {
+	color: slategrey;
+}
+
+#eightyone a:hover {
+	text-decoration: none;
+	color: orangered;
+}
