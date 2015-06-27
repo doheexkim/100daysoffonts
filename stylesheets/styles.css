@@ -10412,10 +10412,6 @@ margin-bottom: 25px;
 
 }
 
-@media only screen and (max-width : 480px) {
-
-}
-
 /*-----End Media Query------*/
 
 #eightyone .colophon {
@@ -10437,4 +10433,78 @@ margin-bottom: 25px;
 #eightyone a:hover {
 	text-decoration: none;
 	color: orangered;
+}
+
+/*--------Day 82-----*/
+
+#eightytwo .content {
+	background-color: gainsboro;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightytwo .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 350px;
+	overflow: visible;
+	text-align: justify;
+}
+
+#eightytwo .firstfont {
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	color: black;
+}
+
+#eightytwo .subtitle {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: center;
+	color: black;
+	margin: 30px auto;
+}
+
+#eightytwo .secondfont {
+	font-family: 'Vollkorn', serif;
+	color: black;
+	font-size: 1.1em;
+	line-height: 1.75em;
+}
+
+@media only screen and (max-width : 480px) {
+#eightytwo .row {
+	width: 75%;
+}
+
+/*-----End Media Query------*/
+
+#eightytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 2;
+}
+
+#eightytwo a {
+	color: #151515;
+}
+
+#eightytwo a:hover {
+	text-decoration: none;
+	color: slategrey;
 }
