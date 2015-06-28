@@ -10485,7 +10485,7 @@ margin-bottom: 25px;
 #eightytwo .row {
 	width: 75%;
 }
-
+}
 /*-----End Media Query------*/
 
 #eightytwo .colophon {
@@ -10496,8 +10496,6 @@ margin-bottom: 25px;
 	margin: 10rem 0 0 0;
 	padding: 0 5rem 0 5rem;
 	letter-spacing: 3px;
-	position: relative;
-	z-index: 2;
 }
 
 #eightytwo a {
@@ -10508,3 +10506,115 @@ margin-bottom: 25px;
 	text-decoration: none;
 	color: slategrey;
 }
+
+/*--------Day 83-----*/
+
+#eightythree .content {
+	background-color: #fff3eb;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightythree .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 75px;
+}
+
+#eightythree .firstfont {
+	font-family: 'Londrina Outline', serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 12vw;
+	line-height: 1.65em;
+	text-align: center;
+	color: #fadcdc;
+}
+
+#eightythree .firstfont div:nth-child(1) {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-size: 18vw;
+	top: 25%;
+	left: 0;
+	right: 0;
+	color: #fadcdc;
+	z-index: 1;}
+
+#eightythree .firstfont span:nth-child(2) {
+color: #ff79b6;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(3) {
+color: #8a94af;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(4) {
+color: #f46c56;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(5) {
+color: #ff79b6;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(6) {
+color: yellow;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(7) {
+margin-left: -15px;
+color: #f46c56;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(8) {
+color: #ff79b6;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(9) {
+color: #8a94af;
+position: relative;
+z-index: 2;}
+
+#eightythree .firstfont span:nth-child(10) {
+color: #ff79b6;
+position: relative;
+z-index: 2;}
+
+@media only screen and (max-width : 480px) {
+	#eightythree .firstfont {
+	font-size: 24vw;
+}
+
+#eightythree .firstfont div:nth-child(1) {
+	font-size: 38vw;}
+}
+
+/*-----End Media Query------*/
+
+#eightythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#eightythree a {
+	color: #151515;
+}
+
+#eightythree a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+
