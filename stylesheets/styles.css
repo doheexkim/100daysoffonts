@@ -10618,3 +10618,100 @@ z-index: 2;}
 	color: slategrey;
 }
 
+
+/*--------Day 83-----*/
+
+#eightyfour .content {
+	background-color: #ED9768;
+	padding: 15rem 0 12rem 0;
+	background-image: url('../images/inspiration-geometry-red.png');
+}
+
+#eightyfour .day {
+	color: #fadcdc;
+	border-color: #fadcdc;
+}
+
+#eightyfour .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+#eightyfour .firstfont {
+	font-family: 'six caps', sans-serif;
+	letter-spacing: 3px;
+	font-size: 25vw;
+	line-height: 1.2em;
+	text-align: center;
+	color: #fadcdc;
+}
+
+#eightyfour .secondfont {
+	font-family: 'montserrat', sans-serif;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	font-size: 1.25vw;
+	line-height: 3em;
+	text-align: center;
+	color: blue;
+	position: absolute;
+	top: 53%;
+	left: 0;
+	right: 0;
+}
+
+#eightyfour .cheers span:nth-child(1) {
+	vertical-align: 20px;}
+
+#eightyfour .cheers span:nth-child(3) {
+	vertical-align: 20px;}
+
+#eightyfour .cheers span:nth-child(5) {
+	vertical-align: 20px;}
+
+#eightyfour .cheers span:nth-child(7) {
+	vertical-align: 20px;}
+
+
+@media only screen and (max-width : 768px) {
+
+#eightyfour .firstfont {
+	font-size: 35vw;
+}
+
+#eightyfour .secondfont {
+	font-size: 3vw;
+	line-height: 2em;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 45%;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#eightyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+
+#eightyfour a {
+	color: #fadcdc;
+}
+
+#eightyfour a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
