@@ -10618,8 +10618,7 @@ z-index: 2;}
 	color: slategrey;
 }
 
-
-/*--------Day 83-----*/
+/*--------Day 84-----*/
 
 #eightyfour .content {
 	background-color: #ED9768;
@@ -10691,7 +10690,6 @@ z-index: 2;}
 	margin-right: auto;
 	top: 45%;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -10715,3 +10713,85 @@ z-index: 2;}
 	color: #151515;
 }
 
+/*--------Day 85-----*/
+
+#eightyfive .content {
+	background-color: #E8DDE0;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightyfive .day {
+	color: #ED9768;
+	border-color: #ED9768;
+}
+
+#eightyfive .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 340px;
+}
+
+#eightyfive .firstfont {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	letter-spacing: 6px;
+	font-size: 1.75em;
+	line-height: 1.2em;
+	text-align: center;
+	color: #856C72;
+}
+
+#eightyfive .subtitle {
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+	font-size: 1.05em;
+	line-height: 3em;
+	text-align: center;
+	color: #856C72;
+}
+
+#eightyfive .secondfont {
+	font-family: 'cutive mono', monospace;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 3em;
+	text-align: center;
+	color: #856C72;
+	margin-top: 20px;
+}
+
+
+@media only screen and (max-width : 480px) {
+
+#eightyfive .row {
+	width: 300px;
+}
+
+#eightyfive .secondfont {
+	font-size: 1.1em;
+}
+}
+
+/*-----End Media Query------*/
+
+#eightyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #856C72;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+		padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+#eightyfive a {
+	color: #ED9768;
+}
+
+#eightyfive a:hover {
+	text-decoration: none;
+	color: #856C72;
+}
