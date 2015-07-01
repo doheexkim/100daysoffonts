@@ -10762,7 +10762,6 @@ z-index: 2;}
 	margin-top: 20px;
 }
 
-
 @media only screen and (max-width : 480px) {
 
 #eightyfive .row {
@@ -10794,4 +10793,90 @@ z-index: 2;}
 #eightyfive a:hover {
 	text-decoration: none;
 	color: #856C72;
+}
+
+/*--------Day 86-----*/
+
+#eightysix .content {
+	background-color: #BDD6D3;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightysix .day {
+	color: snow;
+	border-color: snow;
+}
+
+#eightysix .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 550px;
+}
+
+#eightysix .firstfont {
+	font-family: 'Abril Fatface', serif;
+	letter-spacing: 3px;
+	font-size: 6.5em;
+	line-height: 1.2em;
+	text-align: left;
+	padding-bottom: 75px;
+	color: snow;
+		background-image: url(../images/yelloblob-01.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+
+}
+
+#eightysix .secondfont {
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1.2em;
+	line-height: 2.75em;
+	text-align: left;
+	color: #34869E;
+	margin-top: -70px;
+	width: 150px;
+	float: right;
+}
+
+@media only screen and (max-width : 768px) {
+
+	#eightysix .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 80%;
+}
+
+#eightysix .firstfont {
+	font-size: 6em;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#eightysix .colophon {
+	font-family: Montserrat, sans-serif;
+	color: snow;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+		padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+#eightysix a {
+	color: #34869E;
+}
+
+#eightysix a:hover {
+	text-decoration: none;
+	color: #ED9768;
 }
