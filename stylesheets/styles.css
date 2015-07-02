@@ -10880,3 +10880,140 @@ z-index: 2;}
 	text-decoration: none;
 	color: #ED9768;
 }
+
+/*--------Day 87-----*/
+
+#eightyseven .content {
+	background-color: #DCC634;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightyseven .day {
+	color: snow;
+	border-color: snow;
+}
+
+#eightyseven .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#eightyseven .firstfont {
+	font-family: 'Righteous', sans-serif;
+	letter-spacing: 3px;
+	font-size: 8em;
+	line-height: 1.2em;
+	text-align: left;
+	padding-bottom: 75px;
+	color: #FF51A5;
+	position: absolute;
+}
+
+#eightyseven .secondfont {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: center;
+	color: snow;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 2;
+
+}
+
+#eightyseven span:nth-child(1) {
+	top:-10vw;
+left: 5%;}
+
+#eightyseven span:nth-child(2) {
+	top:-5vw;
+left:30%;}
+
+#eightyseven span:nth-child(3) {
+	top:-7vw;
+	left:70%;}
+
+#eightyseven span:nth-child(4) {
+	top:1vw;
+	left:90%;}
+
+#eightyseven span:nth-child(5) {
+	top:20vw;
+	left:10%;}
+
+#eightyseven span:nth-child(6) {
+	top:35vw;
+	left:40%;}
+
+#eightyseven span:nth-child(7) {
+	top:22vw;
+	left:65%;}
+
+	#eightyseven span:nth-child(8) {
+	top:18vw;
+	left:80%;}
+
+@media only screen and (max-width : 480px) {
+	#eightyseven span:nth-child(1) {
+	top:-50vw;
+left: 5%;}
+
+#eightyseven span:nth-child(2) {
+	top:-5vw;
+left:30%;}
+
+#eightyseven span:nth-child(3) {
+	top:-20vw;
+	left:70%;}
+
+#eightyseven span:nth-child(4) {
+	top:1vw;
+	left:90%;}
+
+#eightyseven span:nth-child(5) {
+	top:20vw;
+	left:10%;}
+
+#eightyseven span:nth-child(6) {
+	top:40vw;
+	left:40%;}
+
+#eightyseven span:nth-child(7) {
+	top:60vw;
+	left:65%;}
+
+	#eightyseven span:nth-child(8) {
+	top:30vw;
+	left:80%;}
+}
+
+/*-----End Media Query------*/
+
+#eightyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: snow;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+		padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#eightyseven a {
+	color: #151515;
+}
+
+#eightyseven a:hover {
+	text-decoration: none;
+	color: orangered;
+}
