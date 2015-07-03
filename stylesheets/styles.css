@@ -11017,3 +11017,105 @@ left:30%;}
 	text-decoration: none;
 	color: orangered;
 }
+
+/*--------Day 88-----*/
+
+#eightyeight .content {
+	background-color: #FAF6F2;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightyeight .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 60%;
+}
+
+#eightyeight .firstfont {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 9vw;
+	line-height: .75em;
+	padding-bottom: 75px;
+	color: #cbdbd0;
+	opacity: .75;
+}
+
+#eightyeight .underrated {
+	text-align: left;
+}
+
+#eightyeight .hashtags {
+	text-align: right;
+}
+
+#eightyeight .secondfont {
+	font-family: 'open sans condensed', sans-serif;
+	font-size: 1.75em;
+	line-height: 2em;
+	text-align: left;
+	letter-spacing: 5px;
+	color: #151515;
+	width: 320px;
+}
+
+#eightyeight .hashtagitems {
+position: absolute;
+left: 0%;
+top: 25%;
+}
+
+@media only screen and (max-width : 768px) {
+
+	#eightyeight .row {
+	width: 85%;
+}
+
+#eightyeight .firstfont {
+	font-size: 12vw;
+}
+
+#eightyeight .secondfont {
+	font-family: 'open sans condensed', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	width: auto;
+}
+
+#eightyeight .hashtagitems {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 8%;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#eightyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+		padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#eightyeight a {
+	color: orangered;
+}
+
+#eightyeight a:hover {
+	text-decoration: none;
+	color: #151515;
+}
