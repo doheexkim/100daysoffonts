@@ -11093,7 +11093,6 @@ left: 0px;
 right: 0px;
 top: 8%;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -11118,4 +11117,148 @@ top: 8%;
 #eightyeight a:hover {
 	text-decoration: none;
 	color: #151515;
+}
+
+/*--------Day 89-----*/
+
+#eightynine .content {
+	background-color: snow;
+	padding: 15rem 0 12rem 0;
+}
+
+#eightynine .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 75%;
+}
+
+#eightynine .firstfont {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 6em;
+	line-height: .75em;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	color: #151515;
+	position: relative;
+	z-index: 2;
+}
+
+#eightynine .secondfont {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: .75em;
+	line-height: 2.25em;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #151515;
+	width: 250px;
+	margin: 20px auto;
+	position: relative;
+	z-index: 2;
+}
+
+#eightynine .dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0);
+	background-image: url(../images/goldtexture.jpg);
+	position: absolute;
+	z-index: 1;
+}
+
+#eightynine .row > *:nth-child(6) {
+ left: 10%;
+ top: 0%;
+}
+
+#eightynine .row > *:nth-child(7) {
+ left: 75%;
+ top: 60%;
+}
+
+#eightynine .row > *:nth-child(8) {
+ left: 25%;
+ top: 80%;
+}
+
+#eightynine .row > *:nth-child(9) {
+ left: 80%;
+ top: -25%;
+}
+
+#eightynine .row > *:nth-child(10) {
+ left: 90%;
+ top: 90%;
+}
+
+#eightynine .row > *:nth-child(11) {
+ left: 40%;
+ top: 110%;
+}
+
+#eightynine .row > *:nth-child(12) {
+ left: 30%;
+ top: 45%;
+}
+
+#eightynine .row > *:nth-child(13) {
+ left: 95%;
+ top: 15%;
+}
+
+#eightynine .row > *:nth-child(14) {
+ left: 0%;
+ top: 35%;
+}
+
+#eightynine .row > *:nth-child(15) {
+ left: 5%;
+ top: -20%;
+}
+
+#eightynine .row > *:nth-child(16) {
+ left: 70%;
+ top: 10%;
+}
+
+
+@media only screen and (max-width : 768px) {
+#eightynine .firstfont {
+	font-size: 4em;
+}
+
+#eightynine .dot {
+	width: 7px;
+	height: 7px;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#eightynine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#eightynine a {
+	color: #151515;
+}
+
+#eightynine a:hover {
+	text-decoration: none;
+	color: slategrey;
 }
