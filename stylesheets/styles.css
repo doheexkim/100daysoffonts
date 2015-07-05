@@ -4286,17 +4286,6 @@ margin-top: -100px;
 }
 
 
-
-/*---------Media Query-------*/
-@media only screen and (min-width : 480px) {
-
-}
-
-@media only screen and (min-width : 768px) {
-
-}
-
-
 #thirtyfive .colophon {
 	font-family: Montserrat, sans-serif;
 	color: #151515;
@@ -11261,4 +11250,97 @@ top: 8%;
 #eightynine a:hover {
 	text-decoration: none;
 	color: slategrey;
+}
+
+
+/*--------Day 90-----*/
+
+#ninety .content {
+	background-color: #23223f;
+	padding: 15rem 0 12rem 0;
+}
+
+#ninety .day {
+	color: gainsboro;
+	border-color: gainsboro;
+}
+
+#ninety .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 75px;
+	width: 400px;
+}
+
+#ninety .firstfont {
+	font-family: 'codystar', sans-serif;
+	font-size: 2.5em;
+	line-height: 1.75em;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+	margin-top: 50px;
+	color: gainsboro;
+	opacity: .25;
+	-ms-transform: skewY(10deg); /* IE 9 */
+	-webkit-transform: skewY(10deg); /* Safari */
+	transform: skewY(10deg); /* Standard syntax */
+}
+
+#ninety .secondfont {
+	font-family: 'Josefin Slab', serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 2.25em;
+	text-align: center;
+	letter-spacing: 5px;
+	color: gainsboro;
+	opacity: .25;
+	-ms-transform: skewY(10deg); /* IE 9 */
+	-webkit-transform: skewY(10deg); /* Safari */
+	transform: skewY(10deg); /* Standard syntax */
+}
+
+@media only screen and (max-width : 480px) {
+#ninety .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 300px;
+}
+
+#ninety .firstfont {
+	font-family: 'codystar', sans-serif;
+	font-size: 2em;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#ninety .colophon {
+	font-family: Montserrat, sans-serif;
+	color: gainsboro;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninety a {
+	color: gainsboro;
+}
+
+#ninety a:hover {
+	text-decoration: none;
+	color: snow;
 }
