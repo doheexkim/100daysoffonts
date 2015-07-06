@@ -11318,7 +11318,6 @@ top: 8%;
 	font-family: 'codystar', sans-serif;
 	font-size: 2em;
 }
-
 }
 
 /*-----End Media Query------*/
@@ -11343,4 +11342,107 @@ top: 8%;
 #ninety a:hover {
 	text-decoration: none;
 	color: snow;
+}
+
+/*--------Day 91-----*/
+
+#ninetyone .content {
+	background-color: mintcream;
+	padding: 15rem 0 12rem 0;
+}
+
+#ninetyone .day {
+	color: #B9C782;
+	border-color: #B9C782;
+}
+
+#ninetyone .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 80%;
+}
+
+#ninetyone .firstfont {
+	font-family: 'Paytone One', sans-serif;
+	font-size: 12vw;
+	line-height: 1em;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+	margin-top:25px;
+	color: #B9C782;
+	opacity: .50;
+}
+
+#ninetyone .secondfont {
+	font-family: 'EB Garamond', serif;
+	text-transform: uppercase;
+	border-bottom: 2px solid #151515;
+	font-size: 2vw;
+	line-height: 2.25em;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #151515;
+	width: 25%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ninetyone .foodgroups {
+	position: absolute;
+	top: 15%;
+	left: 0px;
+	right: 0px;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+#ninetyone .row {
+	width: 90%;
+}
+
+#ninetyone .firstfont {
+	font-size: 20vw;
+}
+
+#ninetyone .secondfont {
+	font-size: 3.5vw;
+	width: 50%;
+}
+
+#ninetyone .foodgroups {
+	position: absolute;
+	top: 15%;
+	left: 0px;
+	right: 0px;
+}
+}
+
+/*-----End Media Query------*/
+
+#ninetyone .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #B9C782;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetyone a {
+	color: orange;
+}
+
+#ninetyone a:hover {
+	text-decoration: none;
+	color: #B9C782;
 }
