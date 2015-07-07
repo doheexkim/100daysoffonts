@@ -11446,3 +11446,90 @@ top: 8%;
 	text-decoration: none;
 	color: #B9C782;
 }
+
+/*--------Day 92-----*/
+
+#ninetytwo .content {
+	background-color: #EBE8DF;
+	padding: 15rem 0 12rem 0;
+	background-image: url('../images/moonbackground.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#ninetytwo .day {
+	color: #295066;
+	border-color: #295066;
+}
+
+#ninetytwo .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 90px;
+	width: 300px;
+
+}
+
+#ninetytwo .firstfont {
+	font-family: 'Reenie Beanie', sans-serif;
+	font-size: 3em;
+	line-height: 1.35em;
+	margin-bottom: 30px;
+	margin-top:25px;
+	color: #295066;
+	width: 300px;
+	margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#ninetytwo .secondfont {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: .85em;
+	line-height: 1.75em;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #295066;
+	width: 75px;
+	margin-top: 75px;
+	padding-top: 30px;
+	padding-left: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 3px solid #295066;}
+
+
+@media only screen and (max-width : 480px) {
+#ninetytwo .content {
+	background-image: url(../images/mini-moonbackground.jpg);
+}
+}
+/*-----End Media Query------*/
+
+#ninetytwo .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #295066;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetytwo a {
+	color: #295066;
+}
+
+#ninetytwo a:hover {
+	text-decoration: none;
+	color: orange;
+}
