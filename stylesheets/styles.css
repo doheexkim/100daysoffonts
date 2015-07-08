@@ -11533,3 +11533,102 @@ text-align: center;
 	text-decoration: none;
 	color: orange;
 }
+
+/*--------Day 93-----*/
+
+#ninetythree .content {
+	background-color: #fafafa;
+	padding: 15rem 0 12rem 0;
+}
+
+#ninetythree .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 90%;
+
+}
+
+#ninetythree .firstfont {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.25em;
+	line-height: 2em;
+	margin-bottom: 30px;
+	margin-top:25px;
+	color: #151515;
+	margin-left: auto;
+margin-right: auto;
+text-align: left;
+width: 200px;
+}
+
+#ninetythree .questionone {
+	position: absolute;
+left: 25%;
+top:0%;
+z-index: 2;
+}
+
+#ninetythree .questiontwo {
+	position: absolute;
+left: 50%;
+top: 60%;
+z-index: 2;
+}
+
+#ninetythree .secondfont {
+	font-family: 'Righteous', sans-serif;
+	text-transform: uppercase;
+	font-size: 13vw;
+	line-height: 1em;
+	text-align: left;
+	letter-spacing: 5px;
+	color: yellow;
+	margin-top: 100px;
+padding-left: 5%;}
+
+@media only screen and (max-width : 480px) {
+
+	#ninetythree .noodles {
+		text-align: right;
+	}
+
+#ninetythree .secondfont {
+	font-size: 25vw;
+	margin-top: 50px;
+}
+
+#ninetythree .questiontwo {
+	position: absolute;
+left: 25%;
+top: 60%;
+z-index: 2;
+}
+}
+
+/*-----End Media Query------*/
+
+#ninetythree .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetythree a {
+	color: orangered;
+}
+
+#ninetythree a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
