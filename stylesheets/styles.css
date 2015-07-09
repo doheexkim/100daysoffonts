@@ -11632,3 +11632,83 @@ z-index: 2;
 	text-decoration: none;
 	color: #cccccc;
 }
+
+/*--------Day 94-----*/
+
+#ninetyfour .content {
+	background-color: #373B3E;
+	padding: 15rem 0 12rem 0;
+}
+
+#ninetyfour .day {
+	color: white;
+	border-color: white;
+}
+
+#ninetyfour .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	width: 70%;
+
+}
+
+#ninetyfour .firstfont {
+	font-family: 'Cutive Mono', serif;
+	font-size: 5vw;
+	letter-spacing: 5px;
+	line-height: 2em;
+	margin-bottom: 30px;
+	margin-top:25px;
+	color: #151515;
+	margin-left: auto;
+margin-right: auto;
+text-align: left;
+width: 50%;
+	-ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  position: absolute;
+  top: 35%;
+  right: 0%;
+
+}
+
+#ninetyfour .secondfont {
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 11vw;
+	line-height: 1.75em;
+	text-align: justify;
+	letter-spacing: 6vw;
+	color: white;}
+
+@media only screen and (max-width : 480px) {
+}
+
+/*-----End Media Query------*/
+
+#ninetyfour .colophon {
+	font-family: Montserrat, sans-serif;
+	color: white;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetyfour a {
+	color: slategrey;
+}
+
+#ninetyfour a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
