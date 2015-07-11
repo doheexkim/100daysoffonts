@@ -11803,3 +11803,135 @@ opacity: .4;
 	text-decoration: none;
 	color: #cccccc;
 }
+
+/*--------Day 96-----*/
+
+#ninetysix .content {
+	background-color: #EDE3DE;
+	padding: 15rem 0 12rem 0;
+	background: linear-gradient(90deg, #252628 50%, #EDE3DE 50%);
+}
+
+#ninetysix .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-top: 75px;
+}
+
+#ninetysix .day {
+	color: rosybrown;
+	border-color: rosybrown;
+}
+
+#ninetysix .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-size: 7vw;
+	line-height: 1.25em;
+	color: #ccc;
+	margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#ninetysix .line {
+	height: 60px;
+	border-bottom: 3px solid #ccc;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#ninetysix .secondfont {
+	font-family: 'Vollkorn', serif;
+	font-size: 1.8vw;
+	line-height: 1.75em;
+	text-align: left;
+	color: #252628;
+	padding-top: 6%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ninetysix p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width : 768px) {
+
+#ninetysix .content {
+	background-color: #EDE3DE;
+	padding: 15rem 0 12rem 0;
+	background: linear-gradient(90deg, #EDE3DE 50%, #EDE3DE 50%);
+}
+
+#ninetysix .row {
+	width: 80%;
+}
+
+#ninetysix .day {
+	color: #252628;
+	border-color: #252628;
+}
+
+#ninetysix .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-size: 10vw;
+	line-height: 1.25em;
+	color: #252628;
+	margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+#ninetysix .line {
+	height: 60px;
+	border-bottom: 3px solid #252628;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#ninetysix .secondfont {
+	font-family: 'Vollkorn', serif;
+	font-size: 3.5vw;
+	line-height: 1.75em;
+	text-align: left;
+	color: #252628;
+	padding-top: 6%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+}
+
+
+/*-----End Media Query------*/
+
+#ninetysix .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetysix a {
+	color: rosybrown;
+}
+
+#ninetysix a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
