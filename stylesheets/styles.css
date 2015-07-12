@@ -11907,8 +11907,6 @@ text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
 }
 
 
@@ -11934,4 +11932,109 @@ text-align: left;
 #ninetysix a:hover {
 	text-decoration: none;
 	color: #ccc;
+}
+
+/*--------Day 97-----*/
+
+#ninetyseven .content {
+	background-color: #F4F2F3;
+	padding: 15rem 0 12rem 0;
+	background-image: url(../images/natural-paper.png);
+}
+
+#ninetyseven .day {
+	color: #FF491A;
+	border-color: #FF491A;
+}
+
+#ninetyseven .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 40%;
+}
+
+#ninetyseven .firstfont {
+	font-family: 'Lora', serif;
+	font-size: 9vw;
+	line-height: 1.25em;
+	color: #FF491A;
+	margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#ninetyseven .secondfont {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8vw;
+	line-height: 1.75em;
+	text-align: center;
+	color: #FF491A;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 2px;
+}
+
+#ninetyseven .no {
+vertical-align: 5px;
+border-bottom: 2px solid #FF491A;
+}
+
+#ninetyseven .thirdfont {
+	font-family: 'Roboto', sans-serif;
+	font-size: 5vw;
+	line-height: 1.75em;
+	text-align: center;
+	color: #FF491A;
+	padding-top: 6%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width : 768px) {
+
+	#ninetyseven .row {
+	width: 75%;
+}
+
+#ninetyseven .firstfont {
+	font-size: 14vw;
+}
+
+#ninetyseven .secondfont {
+	font-size: 3.5vw;
+}
+
+#ninetyseven .thirdfont {
+	font-size: 9vw;
+}
+
+}
+
+
+/*-----End Media Query------*/
+
+#ninetyseven .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetyseven a {
+	color: #FF491A;
+}
+
+#ninetyseven a:hover {
+	text-decoration: none;
+	color: snow;
 }
