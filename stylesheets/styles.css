@@ -12011,7 +12011,6 @@ border-bottom: 2px solid #FF491A;
 #ninetyseven .thirdfont {
 	font-size: 9vw;
 }
-
 }
 
 
@@ -12035,6 +12034,123 @@ border-bottom: 2px solid #FF491A;
 }
 
 #ninetyseven a:hover {
+	text-decoration: none;
+	color: snow;
+}
+
+/*--------Day 98-----*/
+
+#ninetyeight .content {
+	background-color: #EEBB22;
+	padding: 15rem 0 12rem 0;
+}
+
+#ninetyeight .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#ninetyeight .firstfont {
+	font-family: 'Yeseva One', serif;
+	font-size: 17vw;
+	line-height: 1.2em;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+
+#ninetyeight .secondfont {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.75vw;
+	line-height: 2em;
+	text-align: center;
+	color: snow;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 4px;
+	width: 20vw;
+	border-left: 4px solid snow;
+	border-right: 4px solid snow;
+}
+
+#ninetyeight .bestfriend {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+#ninetyeight .bros {
+	position: absolute;
+	top: 40%;
+	right: 15%;
+}
+
+#ninetyeight .doubt {
+	position: absolute;
+	top: 73%;
+	left: 25%;
+}
+
+@media only screen and (max-width : 480px) {
+	#ninetyeight .firstfont {
+	font-family: 'Yeseva One', serif;
+	font-size: 25vw;
+}
+
+
+#ninetyeight .secondfont {
+	font-size: 3vw;
+	width: 40vw;
+}
+
+#ninetyeight .bestfriend {
+	position: absolute;
+	top: 5%;
+	left: 20%;
+}
+
+#ninetyeight .bros {
+	position: absolute;
+	top: 40%;
+	right: 12%;
+}
+
+#ninetyeight .doubt {
+	position: absolute;
+	top: 80%;
+	left: 10%;
+}
+}
+
+/*-----End Media Query------*/
+
+#ninetyeight .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetyeight a {
+	color: #FF491A;
+}
+
+#ninetyeight a:hover {
 	text-decoration: none;
 	color: snow;
 }
