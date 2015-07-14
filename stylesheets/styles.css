@@ -12154,3 +12154,110 @@ border-bottom: 2px solid #FF491A;
 	text-decoration: none;
 	color: snow;
 }
+
+/*--------Day 99-----*/
+
+#ninetynine .content {
+	background-color: #D1CEE9;
+	padding: 15rem 0 12rem 0;
+	position:relative;
+}
+
+#ninetynine .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 75px;
+	width: 300px;
+}
+#ninetynine .grow {
+	position: absolute;
+	color: white;
+	font-size: 5vw;
+}
+
+#ninetynine .g {
+	top: 10%;
+	left: 3%;
+}
+
+#ninetynine .r {
+	top: 10%;
+	right: 3%;
+}
+
+#ninetynine .o {
+	bottom: 3%;
+	left: 3%;
+}
+
+#ninetynine .w {
+	bottom: 3%;
+	right: 3%;
+}
+
+
+#ninetynine .firstfont {
+	font-family: 'carrois gothic sc', cursive;
+	font-size: 2vw;
+	line-height: 3em;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	letter-spacing: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 24%;
+}
+
+
+#ninetynine .secondfont {
+	font-family: 'Cardo', serif;
+	font-size: 7vw;
+	line-height: 1.5em;
+	text-align: center;
+	color: snow;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 4px;
+}
+
+@media only screen and (max-width : 768px) {
+#ninetynine .firstfont {
+	font-size: 4vw;
+	top: 30%;
+}
+
+
+#ninetynine .secondfont {
+	font-size: 18vw;
+}
+}
+
+/*-----End Media Query------*/
+
+#ninetynine .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetynine a {
+	color: olive;
+}
+
+#ninetynine a:hover {
+	text-decoration: none;
+	color: white;
+}
