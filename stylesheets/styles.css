@@ -12261,3 +12261,193 @@ border-bottom: 2px solid #FF491A;
 	text-decoration: none;
 	color: white;
 }
+
+/*--------Day 100-----*/
+
+#hundred .content {
+	background-color: #F4F2F3;
+	padding: 15rem 0 12rem 0;
+	position:relative;
+}
+
+#hundred .day {
+	font-size: .65em;
+	height: 30px;
+	padding-top: 7px;
+}
+
+#hundred .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 75px;
+	width: 80%
+}
+
+#hundred .firstfont {
+	font-family: 'Just Me Again Down Here', cursive;
+	text-transform: uppercase;
+	font-size: 8.5vw;
+	line-height: 1.25em;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	text-justify: inter-word;
+	letter-spacing: 15px;
+}
+
+#hundred .answer {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.05vw;
+	line-height: 2em;
+	text-align: left;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#hundred .question {
+	font-family: 'cabin', serif;
+	font-size: 1.4vw;
+	line-height: 1.75em;
+	text-align: left;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#hundred .qa {
+	text-align: left;
+	padding: 20px;
+	margin-top: 15px;
+}
+
+#hundred .social {
+	font-size: 2vw;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: -5px;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+#hundred .row {
+	width: 85%
+}
+
+	#hundred .firstfont {
+
+	font-size: 10.5vw;
+	line-height: 1.5em;
+	text-align: left;
+	text-justify: inter-word;
+	letter-spacing: 15px;
+
+}
+
+#hundred .answer {
+	font-size: 2.5vw;
+}
+
+
+#hundred .question {
+	font-family: 'cabin', serif;
+	font-size: 3vw;
+	line-height: 1.75em;
+	text-align: left;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#hundred .qa {
+	text-align: left;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+#hundred .social {
+	font-size: 4vw;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: -5px;
+}
+
+}
+@media only screen and (max-width : 480px) {
+
+#hundred .row {
+	width: 85%
+}
+
+	#hundred .firstfont {
+
+	font-size: 10.5vw;
+	line-height: 1.5em;
+	text-align: left;
+	text-justify: inter-word;
+	letter-spacing: 15px;
+
+}
+
+#hundred .answer {
+	font-size: 4.5vw;
+}
+
+
+#hundred .question {
+	font-family: 'cabin', serif;
+	font-size: 5vw;
+	line-height: 1.75em;
+	text-align: left;
+	color: #151515;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#hundred .qa {
+	text-align: left;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+#hundred .social {
+	font-size: 8vw;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: -5px;
+}
+
+}
+
+/*-----End Media Query------*/
+
+#hundred .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 8rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#hundred a {
+	color: orangered;
+}
+
+#hundred a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
